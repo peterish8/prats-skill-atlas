@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/508_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="508 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/509_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="509 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-b9c2cc?style=flat-square&labelColor=0b1017" alt="MIT license"></a>
@@ -36,10 +36,10 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 377 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 277 | Codex-compatible skill packages |
-| [`.agents/skills`](.agents/skills) | 332 | Shared agent skill packages |
-| **Unique skill names** | **508** | Deduplicated collection across all trees |
+| [`.claude/skills`](.claude/skills) | 378 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 278 | Codex-compatible skill packages |
+| [`.agents/skills`](.agents/skills) | 333 | Shared agent skill packages |
+| **Unique skill names** | **509** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
@@ -50,7 +50,7 @@ Every package keeps its own `SKILL.md`, references, scripts, and practical asset
 - `backend/apis-and-platforms`
 - `design/visual-and-motion`
 - `agent-workflows/coordination`
-- `security/appsec-and-privacy`
+- `security/{appsec-and-privacy,reverse-engineering}`
 - `testing/qa-and-verification`
 - `devops/delivery-and-tooling`
 - `docs/writing-and-specs`
@@ -82,6 +82,12 @@ product-growth/
 It covers the complete loop from user evidence and acquisition intent through activation, trustworthy A/B tests, pricing and paywalls, retention, referral, instrumentation, decisions, privacy, accessibility, and dark-pattern prevention. Start with [`product-growth-experimentation`](.agents/skills/product-growth/orchestration/product-growth-experimentation/SKILL.md) for an end-to-end problem or choose a narrower package directly.
 
 A minimal cross-runtime manifest is available at [`examples/product-growth-selection.example.json`](examples/product-growth-selection.example.json).
+
+## Guarded reverse-security router
+
+[`reverse-skill-router`](.agents/skills/security/reverse-engineering/reverse-skill-router/SKILL.md) adapts the upstream [`zhaoxuya520/reverse-skill`](https://github.com/zhaoxuya520/reverse-skill) router for authorized reverse engineering, CTF, malware analysis, and defensive security work. Its explicit R0–R3 command policy allows passive and bounded local work while requiring a clear yes/no permission immediately before risky commands, network activity, tool installation, dynamic execution, device changes, exploitation, or destructive actions.
+
+The Atlas carries the lightweight guarded adapter and upstream provenance, not three copies of the upstream executable and payload corpus. A pinned shared checkout can serve Claude, Codex, and Agents without silently executing its bootstrap scripts. Use the [`reverse-skill` selection example](examples/reverse-skill-selection.example.json) to install only this adapter.
 
 ## Install the atlas
 

@@ -32,6 +32,8 @@ function Get-SkillPlacement {
         return [pscustomobject]@{ Category = 'product-growth'; Subcategory = $productGrowthPlacements[$Name] }
     }
 
+    if ($Name -eq 'reverse-skill-router') { return [pscustomobject]@{ Category = 'security'; Subcategory = 'reverse-engineering' } }
+
     if ($Name -match '^gsd-') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gsd' } }
     if ($Name -match '^gstack') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gstack' } }
     if ($Name -match 'agent|grill|grilling|interrogate|handoff|swarm|parallelizing|routing|recovering|verifying|adaptive|classifying|decomposing|executing|context-|summarize-context|principle-|full-output|figure-it-out|^(bro|how|why|recall|reflect|unslop|poteto)$') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'coordination' } }

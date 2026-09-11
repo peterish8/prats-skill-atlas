@@ -39,6 +39,8 @@ Ask these 12 questions. The user may answer with short phrases or `skip` where a
 
 Use the answers and project evidence in this order. For end-to-end acquisition, activation, monetization, retention, or experimentation work, consider `product-growth-experimentation` first and let it route only the focused product-growth skills that are actually needed:
 
+Select `reverse-skill-router` only for authorized reverse engineering, CTF, offline-sample, malware-analysis, or defensive-security work. Tell the user that it is a guarded adapter to a separate upstream checkout: passive R0 and bounded-local R1 actions can proceed within the approved task, while R2 and R3 commands require a clear yes/no permission immediately before the exact command is run. Never install or execute the upstream toolchain merely because this adapter was selected.
+
 1. Exact task fit. A skill must help with the work the user is doing now.
 2. Stack fit. Prefer skills that name the user's language, framework, platform, or workflow.
 3. Runtime fit. Prefer packages available in the user's selected runtime tree.

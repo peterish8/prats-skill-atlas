@@ -44,7 +44,7 @@ foreach ($rootName in $roots.Keys) {
     }
 }
 
-$skills = @($records.Values | Sort-Object category, name | ForEach-Object {
+$skills = @($records.Values | Sort-Object { $_['category'] }, { $_['name'] } | ForEach-Object {
     $record = $_
     [pscustomobject]@{
         name = [string]$record['name']
