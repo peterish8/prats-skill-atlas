@@ -10,11 +10,11 @@ copy_tree() {
   local target="$3"
   mkdir -p "$target"
   local count=0
-  for skill_dir in "$source"/*; do
-    [[ -d "$skill_dir" && -f "$skill_dir/SKILL.md" ]] || continue
+  while IFS= read -r -d '' skill_file; do
+    skill_dir="${skill_file%/SKILL.md}"
     cp -R "$skill_dir" "$target/"
     count=$((count + 1))
-  done
+  done < <(find "$source" -mindepth 4 -maxdepth 4 -type f -name SKILL.md -print0)
   printf '%s: installed %s skill packages into %s\n' "$name" "$count" "$target"
 }
 

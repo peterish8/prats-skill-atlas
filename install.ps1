@@ -8,6 +8,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
+. (Join-Path $repoRoot 'scripts\runtime-layout.ps1')
 
 if (-not ($All -or $Claude -or $Codex -or $Agents)) {
     $All = $true
@@ -20,10 +21,10 @@ if ($All -or $Agents) { $targets += @{ Name = 'Agents'; Source = Join-Path $repo
 
 foreach ($entry in $targets) {
     New-Item -ItemType Directory -Force -Path $entry.Target | Out-Null
-    $skills = @(Get-ChildItem -Directory -LiteralPath $entry.Source | Where-Object { Test-Path -LiteralPath (Join-Path $_.FullName 'SKILL.md') })
-    foreach ($skill in $skills) {
-        $destination = Join-Path $entry.Target $skill.Name
-        Copy-Item -LiteralPath $skill.FullName -Destination $destination -Recurse -Force
+    $skills = @(Get-RuntimeSkillDirectories -Root $entry.Source)
+    foreach ($skillEntry in $skills) {
+        $destination = Join-Path $entry.Target $skillEntry.Directory.Name
+        Copy-Item -LiteralPath $skillEntry.Directory.FullName -Destination $destination -Recurse -Force
     }
     Write-Host ("{0}: installed {1} skill packages into {2}" -f $entry.Name, $skills.Count, $entry.Target)
 }

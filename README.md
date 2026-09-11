@@ -2,15 +2,15 @@
 
 An organized, cloneable collection of global skills mirrored from Claude and Codex environments.
 
-This repository keeps the three runtime-compatible trees intact:
+This repository keeps the three skill collections separated by category:
 
 ```text
-.claude/skills/<skill-name>/SKILL.md
-.codex/skills/<skill-name>/SKILL.md
-.agents/skills/<skill-name>/SKILL.md
+.claude/skills/<category>/<subcategory>/<skill-name>/SKILL.md
+.codex/skills/<category>/<subcategory>/<skill-name>/SKILL.md
+.agents/skills/<category>/<subcategory>/<skill-name>/SKILL.md
 ```
 
-The runtime trees stay flat because Claude and Codex discover skills directly under `skills/<skill-name>`. For browsing, the generated catalog groups every unique skill into practical categories such as frontend, backend, mobile, security, testing, design, documentation, integrations, and agent workflows.
+The repository is organized for people to browse. The installers flatten each categorized package into the runtime `skills/<skill-name>` directory that Claude and Codex discover.
 
 ## Install
 
@@ -19,7 +19,7 @@ Clone the repository, then run the installer for the roots you want:
 ### Windows PowerShell
 
 ```powershell
-git clone https://github.com/<GITHUB_USER>/prats-skill-forge.git
+git clone https://github.com/peterish8/prats-skill-forge.git
 cd prats-skill-forge
 .\install.ps1 -All
 ```
@@ -35,7 +35,7 @@ You can install only one runtime tree:
 ### macOS/Linux/WSL
 
 ```bash
-git clone https://github.com/<GITHUB_USER>/prats-skill-forge.git
+git clone https://github.com/peterish8/prats-skill-forge.git
 cd prats-skill-forge
 ./install.sh all
 ```
@@ -53,6 +53,12 @@ Regenerate the catalog after adding or removing skills:
 
 ```powershell
 .\scripts\build-catalog.ps1
+```
+
+Organize new flat packages into the category tree:
+
+```powershell
+.\scripts\organize-runtime-trees.ps1
 ```
 
 Validate all three runtime trees:
@@ -74,4 +80,4 @@ Individual skill packages may have their own authorship and license terms. See [
 3. Run `scripts/validate.ps1`.
 4. Review the diff and secret-scan results before pushing.
 
-The repository intentionally does not delete destination-only skills during synchronization.
+The repository intentionally does not delete destination-only skills during synchronization. Re-run the category organizer when new flat packages are added.
