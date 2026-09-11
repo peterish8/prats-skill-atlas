@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Skill Atlas network</title>
+  <desc id="desc">Connected category nodes representing planning, frontend, backend, architecture, design, security, and agent workflows.</desc>
+  <defs>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0" stop-color="#36d9ff" stop-opacity="0.1"/>
+      <stop offset="0.5" stop-color="#36d9ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#f4b860" stop-opacity="0.1"/>
+    </linearGradient>
+    <style>
+      text { font-family: monospace; font-size: 13px; letter-spacing: 2px; fill: #b6c4d1; }
+      .node { fill: #36d9ff; }
+      .warm { fill: #f4b860; }
+      @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="24" fill="#0b1017"/>
+  <path d="M85 150H1115" stroke="url(#line)" stroke-width="2"/>
+  <path d="M200 150L330 76L475 150L620 76L765 150L910 76L1030 150" fill="none" stroke="#b8c7d9" stroke-opacity="0.18"/>
+  <g class="motion">
+    <circle cx="85" cy="150" r="5" class="warm"><animate attributeName="r" values="4;9;4" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="150" r="5" class="node"><animate attributeName="r" values="4;8;4" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="330" cy="76" r="5" class="warm"><animate attributeName="r" values="4;8;4" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="475" cy="150" r="5" class="node"><animate attributeName="r" values="4;8;4" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="76" r="7" class="warm"><animate attributeName="r" values="6;12;6" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="765" cy="150" r="5" class="node"><animate attributeName="r" values="4;8;4" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="910" cy="76" r="5" class="warm"><animate attributeName="r" values="4;8;4" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="150" r="5" class="node"><animate attributeName="r" values="4;8;4" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1115" cy="150" r="5" class="warm"><animate attributeName="r" values="4;9;4" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
+  <g text-anchor="middle">
+    <text x="85" y="194">PLANNING</text>
+    <text x="200" y="116">FRONTEND</text>
+    <text x="330" y="47">BACKEND</text>
+    <text x="475" y="194">ARCHITECTURE</text>
+    <text x="620" y="47" class="warm">AGENT WORKFLOWS</text>
+    <text x="765" y="194">DESIGN</text>
+    <text x="910" y="47">SECURITY</text>
+    <text x="1030" y="194">TESTING</text>
+    <text x="1115" y="116">DEVOPS</text>
+  </g>
+</svg>

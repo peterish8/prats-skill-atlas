@@ -46,7 +46,7 @@ $skills = @($records.Values | Sort-Object category, name | ForEach-Object {
 })
 
 $json = [ordered]@{
-    repository = 'prats-skill-forge'
+    repository = 'prats-skill-atlas'
     runtimeRoots = @('.claude/skills', '.codex/skills', '.agents/skills')
     skillCount = $skills.Count
     skills = $skills

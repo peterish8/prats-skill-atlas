@@ -1,4 +1,4 @@
-# Skill catalog
+# Prats Skill Atlas catalog
 
 `skills.json` and `skills.md` are generated from the three runtime trees by `scripts/build-catalog.ps1`.
 

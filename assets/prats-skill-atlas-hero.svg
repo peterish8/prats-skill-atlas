@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 680" role="img" aria-labelledby="title desc">
+  <title id="title">Prats Skill Atlas</title>
+  <desc id="desc">A cinematic midnight atlas with orbiting skill nodes for Claude, Codex, and shared agents.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a0f"/>
+      <stop offset="0.58" stop-color="#101822"/>
+      <stop offset="1" stop-color="#17130f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="70%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#36d9ff" stop-opacity="0.22"/>
+      <stop offset="0.48" stop-color="#36d9ff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#36d9ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse">
+      <path d="M52 0H0V52" fill="none" stroke="#b8c7d9" stroke-opacity="0.07"/>
+    </pattern>
+    <filter id="soft" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <style>
+      .title { font: 700 70px Arial, sans-serif; letter-spacing: 9px; fill: #f2f7fb; }
+      .kicker { font: 600 15px monospace; letter-spacing: 5px; fill: #36d9ff; }
+      .sub { font: 400 19px Arial, sans-serif; letter-spacing: 1px; fill: #b6c4d1; }
+      .micro { font: 600 12px monospace; letter-spacing: 2px; fill: #f4b860; }
+      @media (prefers-reduced-motion: reduce) { .motion { display: none; } }
+    </style>
+  </defs>
+  <rect width="1600" height="680" rx="28" fill="url(#sky)"/>
+  <rect width="1600" height="680" rx="28" fill="url(#glow)"/>
+  <rect x="34" y="34" width="1532" height="612" rx="20" fill="url(#grid)" stroke="#b8c7d9" stroke-opacity="0.14"/>
+  <path d="M0 550C250 500 430 610 700 548S1170 420 1600 520" fill="none" stroke="#36d9ff" stroke-opacity="0.14"/>
+  <path d="M0 580C300 525 450 650 800 570S1260 470 1600 550" fill="none" stroke="#f4b860" stroke-opacity="0.1"/>
+  <g class="motion" opacity="0.65">
+    <circle cx="1230" cy="320" r="180" fill="none" stroke="#36d9ff" stroke-opacity="0.18" stroke-width="1"/>
+    <circle cx="1230" cy="320" r="120" fill="none" stroke="#f4b860" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="3 12">
+      <animateTransform attributeName="transform" type="rotate" from="0 1230 320" to="360 1230 320" dur="24s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1230" cy="320" r="54" fill="#36d9ff" opacity="0.09" filter="url(#soft)"/>
+    <circle cx="1230" cy="320" r="6" fill="#36d9ff">
+      <animate attributeName="r" values="5;9;5" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="#36d9ff">
+      <circle cx="1050" cy="320" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="1230" cy="140" r="4"><animate attributeName="opacity" values="1;0.3;1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="1410" cy="320" r="4"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/></circle>
+      <circle cx="1230" cy="500" r="4"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <g transform="translate(122 136)">
+    <text class="kicker" y="0">PRATS / GLOBAL SKILL LIBRARY</text>
+    <text class="title" y="104">SKILL ATLAS</text>
+    <text class="sub" y="150">One navigable constellation for Claude, Codex, and shared agents.</text>
+    <text class="micro" y="218">483 UNIQUE SKILLS  ·  3 RUNTIME TREES  ·  1 CLONEABLE REPO</text>
+    <path d="M0 252H620" stroke="#36d9ff" stroke-opacity="0.55"/>
+    <path d="M0 264H260" stroke="#f4b860" stroke-opacity="0.7"/>
+  </g>
+  <g class="motion" transform="translate(1370 95)" fill="#f4b860" opacity="0.7">
+    <path d="M0 0h90v1H0z"/>
+    <path d="M0 10h52v1H0z"/>
+    <path d="M0 20h72v1H0z"/>
+  </g>
+</svg>
