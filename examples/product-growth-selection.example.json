@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "product-growth-experiment",
+  "targets": ["Claude", "Codex", "Agents"],
+  "answers": {
+    "projectType": "subscription product",
+    "phase": "experimentation",
+    "goal": "improve activation and paid conversion without harming retention or trust"
+  },
+  "skills": [
+    {
+      "name": "product-growth-experimentation",
+      "reason": "Orchestrates the end-to-end evidence and decision workflow",
+      "targets": ["Claude", "Codex", "Agents"]
+    },
+    {
+      "name": "ab-test-planning",
+      "reason": "Creates the assignment, exposure, metrics, power, and stopping contract",
+      "targets": ["Claude", "Codex", "Agents"]
+    },
+    {
+      "name": "dark-pattern-prevention",
+      "reason": "Protects informed choice while onboarding and monetization change",
+      "targets": ["Claude", "Codex", "Agents"]
+    }
+  ]
+}

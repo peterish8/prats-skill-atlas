@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/483_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="483 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/508_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="508 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-b9c2cc?style=flat-square&labelColor=0b1017" alt="MIT license"></a>
@@ -36,14 +36,15 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 352 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 252 | Codex-compatible skill packages |
-| [`.agents/skills`](.agents/skills) | 307 | Shared agent skill packages |
-| **Unique skill names** | **483** | Deduplicated collection across all trees |
+| [`.claude/skills`](.claude/skills) | 377 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 277 | Codex-compatible skill packages |
+| [`.agents/skills`](.agents/skills) | 332 | Shared agent skill packages |
+| **Unique skill names** | **508** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
 - `planning/project-planning`
+- `product-growth/{user-research,funnel-and-activation,experimentation,monetization,retention-and-referral,measurement-and-ops,ethical-growth,orchestration}`
 - `architecture/system-design`
 - `frontend/web-ui`
 - `backend/apis-and-platforms`
@@ -60,6 +61,27 @@ Every package keeps its own `SKILL.md`, references, scripts, and practical asset
 - `tools-utilities/general-purpose`
 
 See the complete map in [`catalog/skills.md`](catalog/skills.md).
+
+## Product Growth system
+
+The Atlas includes a source-backed Product Growth system with 25 independently installable skills. The orchestrator selects only the focused skills needed for the current decision:
+
+```text
+product-growth/
+|-- user-research/                 3 skills
+|-- funnel-and-activation/         3 skills
+|-- experimentation/               4 skills
+|-- monetization/                  4 skills
+|-- retention-and-referral/        3 skills
+|-- measurement-and-ops/           4 skills
+|-- ethical-growth/                 3 skills
+`-- orchestration/
+    `-- product-growth-experimentation
+```
+
+It covers the complete loop from user evidence and acquisition intent through activation, trustworthy A/B tests, pricing and paywalls, retention, referral, instrumentation, decisions, privacy, accessibility, and dark-pattern prevention. Start with [`product-growth-experimentation`](.agents/skills/product-growth/orchestration/product-growth-experimentation/SKILL.md) for an end-to-end problem or choose a narrower package directly.
+
+A minimal cross-runtime manifest is available at [`examples/product-growth-selection.example.json`](examples/product-growth-selection.example.json).
 
 ## Install the atlas
 

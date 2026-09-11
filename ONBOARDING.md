@@ -37,7 +37,7 @@ Ask these 12 questions. The user may answer with short phrases or `skip` where a
 
 ## How to choose packages
 
-Use the answers and project evidence in this order:
+Use the answers and project evidence in this order. For end-to-end acquisition, activation, monetization, retention, or experimentation work, consider `product-growth-experimentation` first and let it route only the focused product-growth skills that are actually needed:
 
 1. Exact task fit. A skill must help with the work the user is doing now.
 2. Stack fit. Prefer skills that name the user's language, framework, platform, or workflow.

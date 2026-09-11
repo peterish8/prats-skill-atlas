@@ -7,6 +7,7 @@ The catalog is the discovery layer used during onboarding. Agents should inspect
 ## Categories
 
 - `planning/project-planning` — plans, milestones, project execution, and launch workflows
+- `product-growth/{user-research,funnel-and-activation,experimentation,monetization,retention-and-referral,measurement-and-ops,ethical-growth,orchestration}` — evidence-led research, activation, monetization, retention, experimentation, and growth operations
 - `frontend/web-ui` — web UI, React, Next.js, CSS, browser, and interaction surfaces
 - `backend/apis-and-platforms` — APIs, databases, server runtimes, cloud platforms, and typed backend work
 - `architecture/system-design` — architecture, domain modeling, codebase boundaries, and system structure

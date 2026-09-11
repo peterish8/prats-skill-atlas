@@ -1,6 +1,37 @@
 function Get-SkillPlacement {
     param([Parameter(Mandatory)][string]$Name)
 
+    $productGrowthPlacements = @{
+        'jobs-to-be-done' = 'user-research'
+        'user-interview-analysis' = 'user-research'
+        'market-and-competitor-research' = 'user-research'
+        'acquisition-to-onboarding' = 'funnel-and-activation'
+        'onboarding-personalization' = 'funnel-and-activation'
+        'activation-design' = 'funnel-and-activation'
+        'hypothesis-design' = 'experimentation'
+        'ab-test-planning' = 'experimentation'
+        'experiment-analysis' = 'experimentation'
+        'guardrail-metrics' = 'experimentation'
+        'paywall-optimization' = 'monetization'
+        'pricing-and-packaging' = 'monetization'
+        'trial-strategy' = 'monetization'
+        'billing-compliance' = 'monetization'
+        'retention-loops' = 'retention-and-referral'
+        'lifecycle-messaging' = 'retention-and-referral'
+        'viral-sharing' = 'retention-and-referral'
+        'product-instrumentation' = 'measurement-and-ops'
+        'growth-dashboard-design' = 'measurement-and-ops'
+        'experiment-log' = 'measurement-and-ops'
+        'growth-decision-making' = 'measurement-and-ops'
+        'privacy-and-consent' = 'ethical-growth'
+        'accessibility-growth' = 'ethical-growth'
+        'dark-pattern-prevention' = 'ethical-growth'
+        'product-growth-experimentation' = 'orchestration'
+    }
+    if ($productGrowthPlacements.ContainsKey($Name)) {
+        return [pscustomobject]@{ Category = 'product-growth'; Subcategory = $productGrowthPlacements[$Name] }
+    }
+
     if ($Name -match '^gsd-') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gsd' } }
     if ($Name -match '^gstack') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gstack' } }
     if ($Name -match 'agent|grill|grilling|interrogate|handoff|swarm|parallelizing|routing|recovering|verifying|adaptive|classifying|decomposing|executing|context-|summarize-context|principle-|full-output|figure-it-out|^(bro|how|why|recall|reflect|unslop|poteto)$') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'coordination' } }
