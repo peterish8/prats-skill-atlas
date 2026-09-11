@@ -2,6 +2,8 @@
 
 `skills.json` and `skills.md` are generated from the three runtime trees by `scripts/build-catalog.ps1`.
 
+The catalog is the discovery layer used during onboarding. Agents should inspect its names, categories, runtime availability, and descriptions first, then read full `SKILL.md` files only for approved candidates.
+
 ## Categories
 
 - `planning/project-planning` — plans, milestones, project execution, and launch workflows

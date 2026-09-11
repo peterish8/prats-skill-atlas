@@ -10,6 +10,14 @@ New-Item -ItemType Directory -Force -Path $categoryDir | Out-Null
 . (Join-Path $PSScriptRoot 'runtime-layout.ps1')
 . (Join-Path $PSScriptRoot 'category-rules.ps1')
 
+function Get-SkillDescription {
+    param([Parameter(Mandatory)][string]$SkillFile)
+
+    $descriptionLine = Get-Content -LiteralPath $SkillFile | Where-Object { $_ -match '^description:\s*' } | Select-Object -First 1
+    if (-not $descriptionLine) { return '' }
+    return (($descriptionLine -replace '^description:\s*', '').Trim().Trim('"', "'"))
+}
+
 $roots = [ordered]@{
     Claude = Join-Path $repoRoot '.claude\skills'
     Codex = Join-Path $repoRoot '.codex\skills'
@@ -26,6 +34,7 @@ foreach ($rootName in $roots.Keys) {
                 name = $skillDir.Name
                 category = $entry.Category
                 subcategory = $entry.Subcategory
+                description = (Get-SkillDescription -SkillFile $skillFile)
                 presentIn = @()
                 paths = [ordered]@{}
             }
@@ -36,12 +45,14 @@ foreach ($rootName in $roots.Keys) {
 }
 
 $skills = @($records.Values | Sort-Object category, name | ForEach-Object {
+    $record = $_
     [pscustomobject]@{
-        name = $_.name
-        category = $_.category
-        subcategory = $_.subcategory
-        presentIn = @($_.presentIn | Sort-Object)
-        paths = $_.paths
+        name = [string]$record['name']
+        category = [string]$record['category']
+        subcategory = [string]$record['subcategory']
+        description = [string]$record['description']
+        presentIn = @($record['presentIn'] | Sort-Object)
+        paths = $record['paths']
     }
 })
 
@@ -60,13 +71,16 @@ foreach ($group in ($skills | Group-Object category, subcategory | Sort-Object N
     $lines += ''
     foreach ($skill in $group.Group) {
         $rootsText = ($skill.presentIn -join ', ')
-        $lines += "- `$($skill.name)` — $rootsText"
+        $description = (($skill.description -replace '\s+', ' ').Trim() -replace '\|', '\\|')
+        $suffix = if ($description) { " | $description" } else { '' }
+        $lines += ('- ' + [char]96 + $skill.name + [char]96 + ' - ' + $rootsText + $suffix)
     }
     $lines += ''
 
-    $categoryLines = @("# $title", '', "Skills in this category: $($group.Count)", '', '| Skill | Available in |', '| --- | --- |')
+    $categoryLines = @("# $title", '', "Skills in this category: $($group.Count)", '', '| Skill | Available in | Description |', '| --- | --- | --- |')
     foreach ($skill in $group.Group) {
-        $categoryLines += "| `$($skill.name)` | $($skill.presentIn -join ', ') |"
+        $description = (($skill.description -replace '\s+', ' ').Trim() -replace '\|', '\\|')
+        $categoryLines += ('| ' + [char]96 + $skill.name + [char]96 + ' | ' + ($skill.presentIn -join ', ') + ' | ' + $description + ' |')
     }
     $safeFile = ($title -replace '/', '--') + '.md'
     Set-Content -LiteralPath (Join-Path $categoryDir $safeFile) -Value ($categoryLines -join [Environment]::NewLine) -Encoding utf8

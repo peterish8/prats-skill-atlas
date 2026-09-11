@@ -26,6 +26,12 @@ Skill collections grow like galaxies: useful stars arrive from different systems
 
 This public repository packages the global skill trees from Claude, Codex, and shared agents into one cloneable home. The source layout is organized for humans. The installers flatten it back to the runtime layout each tool expects.
 
+## First-time setup
+
+Hand this repository to Claude or Codex and the root agent instructions will route the conversation through [`ONBOARDING.md`](ONBOARDING.md). The agent inventories your project, asks 12 focused questions, proposes a small skill plan, shows what it is leaving out, and waits for approval before installing anything.
+
+The default is selective setup. Your friend does not need to explain this workflow manually, and no one gets the full atlas unless they explicitly choose it.
+
 ## What is inside
 
 | Runtime tree | Packages | Purpose |
@@ -108,12 +114,19 @@ prats-skill-atlas/
 
 The category folders are the browsing layer. `install.ps1` and `install.sh` intentionally flatten packages into the user runtime roots, so Claude and Codex continue to discover skills by package name.
 
+For an approved selection, the agent creates a reviewable `.prats/selection.json` manifest and installs only those exact package names:
+
+```powershell
+.\install.ps1 -Manifest .\.prats\selection.json
+```
+
 ## Catalog and maintenance
 
 - [`catalog/skills.md`](catalog/skills.md): human-readable index of every package
 - [`catalog/skills.json`](catalog/skills.json): machine-readable package metadata
 - [`catalog/categories/`](catalog/categories/): focused pages for each category
 - [`catalog/README.md`](catalog/README.md): category rules and source notes
+- [`ONBOARDING.md`](ONBOARDING.md): the 12-question interview and selection contract
 
 After adding or syncing packages:
 

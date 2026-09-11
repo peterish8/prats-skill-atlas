@@ -2,16 +2,16 @@
 
 Skills in this category: 11
 
-| Skill | Available in |
-| --- | --- |
-| $(@{name=google-javascript-style; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Claude, Codex |
-| $(@{name=google-python-style; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Claude, Codex |
-| $(@{name=obsidian-vault; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents |
-| $(@{name=figma; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents, Claude |
-| $(@{name=sora; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Codex |
-| $(@{name=defuddle; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents, Claude |
-| $(@{name=google-html-css-style; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Claude, Codex |
-| $(@{name=obsidian-cli; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents, Claude |
-| $(@{name=connect-apps; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents, Claude |
-| $(@{name=mcp-builder; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents, Claude |
-| $(@{name=obsidian-bases; category=integrations; subcategory=platform-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) | Agents, Claude |
+| Skill | Available in | Description |
+| --- | --- | --- |
+| `sora` | Codex | Use when the user asks to generate, edit, extend, poll, list, download, or delete Sora videos, create reusable non-human Sora character references, or run local multi-video queues via the bundled CLI (`scripts/sora.py`); includes requests like: (i) generate AI video, (ii) edit this Sora clip, (iii) extend this video, (iv) create a character reference, (v) download video/thumbnail/spritesheet, and (vi) Sora batch planning; requires `OPENAI_API_KEY` and Sora API access. |
+| `figma` | Agents, Claude | Use when a Toolcraft task includes a Figma URL, node ID, or design-to-code requirement. |
+| `google-html-css-style` | Claude, Codex | Apply the Google HTML/CSS Style Guide when writing, editing, reviewing, or refactoring raw HTML, CSS, Sass, or GSS. Use for semantic markup, accessibility, selectors, declarations, formatting, and stylesheet maintainability. |
+| `obsidian-vault` | Agents | Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian. |
+| `google-python-style` | Claude, Codex | Apply the Google Python Style Guide when writing, editing, reviewing, or refactoring Python. Use for imports, exceptions, resource management, type annotations, docstrings, naming, formatting, testing, and safe Python language features. |
+| `obsidian-cli` | Agents, Claude | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, run JavaScript, capture errors, take screenshots, and inspect the DOM. Use when the user asks to interact with their Obsidian vault, manage notes, search vault content, perform vault operations from the command line, or develop and debug Obsidian plugins and themes. |
+| `mcp-builder` | Agents, Claude | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). |
+| `defuddle` | Agents, Claude | Extract clean markdown content from web pages using Defuddle CLI, removing clutter and navigation to save tokens. Use instead of WebFetch when the user provides a URL to read or analyze, for online documentation, articles, blog posts, or any standard web page. Do NOT use for URLs ending in .md — those are already markdown, use WebFetch directly. |
+| `obsidian-bases` | Agents, Claude | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, table views, card views, filters, or formulas in Obsidian. |
+| `connect-apps` | Agents, Claude | Connect Claude to external apps like Gmail, Slack, GitHub. Use this skill when the user wants to send emails, create issues, post messages, or take actions in external services. |
+| `google-javascript-style` | Claude, Codex | Apply the Google JavaScript Style Guide when writing, editing, reviewing, or refactoring JavaScript. Use for ES modules, Closure-compatible JavaScript, JSDoc, formatting, naming, classes, functions, and safe language-feature choices. |

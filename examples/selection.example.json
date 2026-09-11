@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "example-web-product",
+  "targets": ["Claude", "Codex"],
+  "answers": {
+    "projectType": "web product",
+    "phase": "implementation",
+    "stack": ["TypeScript", "React"],
+    "excluded": ["mobile", "native desktop", "game development"]
+  },
+  "skills": [
+    {
+      "name": "design-taste-frontend",
+      "reason": "Example web interface design workflow",
+      "targets": ["Claude"]
+    },
+    {
+      "name": "fullstack-developer",
+      "reason": "Example frontend implementation workflow",
+      "targets": ["Codex"]
+    }
+  ]
+}
