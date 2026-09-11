@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 680" role="img" aria-labelledby="title desc">
   <title id="title">Prats Skill Atlas</title>
-  <desc id="desc">A cinematic midnight atlas with orbiting skill nodes for Claude, Codex, and shared agents.</desc>
+  <desc id="desc">A cinematic midnight atlas with orbiting skill nodes for Claude, Codex, Grok, and shared agents.</desc>
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#070a0f"/>
@@ -51,8 +51,8 @@
   <g transform="translate(122 136)">
     <text class="kicker" y="0">PRATS / GLOBAL SKILL LIBRARY</text>
     <text class="title" y="104">SKILL ATLAS</text>
-    <text class="sub" y="150">One navigable constellation for Claude, Codex, and shared agents.</text>
-    <text class="micro" y="218">509 UNIQUE SKILLS  ·  3 RUNTIME TREES  ·  1 CLONEABLE REPO</text>
+    <text class="sub" y="150">One constellation for Claude, Codex, Grok, and shared agents.</text>
+    <text class="micro" y="218">510 UNIQUE SKILLS  ·  4 RUNTIME TREES  ·  1 CLONEABLE REPO</text>
     <path d="M0 252H620" stroke="#36d9ff" stroke-opacity="0.55"/>
     <path d="M0 264H260" stroke="#f4b860" stroke-opacity="0.7"/>
   </g>

@@ -21,6 +21,7 @@ function Get-SkillDescription {
 $roots = [ordered]@{
     Claude = Join-Path $repoRoot '.claude\skills'
     Codex = Join-Path $repoRoot '.codex\skills'
+    Grok = Join-Path $repoRoot '.grok\skills'
     Agents = Join-Path $repoRoot '.agents\skills'
 }
 
@@ -58,7 +59,7 @@ $skills = @($records.Values | Sort-Object { $_['category'] }, { $_['name'] } | F
 
 $json = [ordered]@{
     repository = 'prats-skill-atlas'
-    runtimeRoots = @('.claude/skills', '.codex/skills', '.agents/skills')
+    runtimeRoots = @('.claude/skills', '.codex/skills', '.grok/skills', '.agents/skills')
     skillCount = $skills.Count
     skills = $skills
 } | ConvertTo-Json -Depth 8

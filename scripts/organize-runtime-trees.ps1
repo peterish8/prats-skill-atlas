@@ -5,7 +5,7 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
 . (Join-Path $PSScriptRoot 'category-rules.ps1')
 
-$roots = @('.claude\skills', '.codex\skills', '.agents\skills')
+$roots = @('.claude\skills', '.codex\skills', '.grok\skills', '.agents\skills')
 $moved = 0
 
 foreach ($relativeRoot in $roots) {

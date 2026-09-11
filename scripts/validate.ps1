@@ -3,7 +3,7 @@ param()
 
 $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$rootNames = @('.claude\skills', '.codex\skills', '.agents\skills')
+$rootNames = @('.claude\skills', '.codex\skills', '.grok\skills', '.agents\skills')
 . (Join-Path $PSScriptRoot 'runtime-layout.ps1')
 $total = 0
 

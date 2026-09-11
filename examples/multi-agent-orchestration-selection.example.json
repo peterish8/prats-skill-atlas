@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "adaptive-multi-agent-engineering",
+  "targets": ["Claude", "Codex", "Grok", "Agents"],
+  "answers": {
+    "projectType": "substantial software engineering",
+    "phase": "implementation and verification",
+    "goal": "coordinate available agents without fixed vendor roles"
+  },
+  "skills": [
+    {
+      "name": "orchestrating-engineering-loops",
+      "reason": "Discovers the user's agent roster and runs a finite contract-and-evidence engineering loop",
+      "targets": ["Claude", "Codex", "Grok", "Agents"]
+    }
+  ]
+}

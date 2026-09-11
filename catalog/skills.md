@@ -1,6 +1,6 @@
 # Skill index
 
-Unique skill packages: 509
+Unique skill packages: 510
 
 ## agent-workflows/coordination
 
@@ -208,6 +208,10 @@ Unique skill packages: 509
 - `gstack-sync-gbrain` - Claude, Codex | Keep gbrain current with this repo's code and refresh agent search guidance in CLAUDE.md. Wraps the gstack-gbrain-sync orchestrator with state (gstack)
 - `gstack-unfreeze` - Claude, Codex | Clear the freeze boundary set by /freeze, allowing edits to all directories again. (gstack)
 - `gstack-upgrade` - Claude, Codex | Upgrade gstack to the latest version.
+
+## agent-workflows/orchestration
+
+- `orchestrating-engineering-loops` - Agents, Claude, Codex, Grok | Use when substantial software-engineering work may benefit from multiple agents, independent parallel tasks, extended implementation or debugging, benchmarking, or separate implementation and evaluation. Skip for trivial changes where delegation overhead exceeds its value.
 
 ## architecture/system-design
 

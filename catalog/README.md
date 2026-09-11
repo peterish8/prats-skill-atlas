@@ -1,6 +1,6 @@
 # Prats Skill Atlas catalog
 
-`skills.json` and `skills.md` are generated from the three runtime trees by `scripts/build-catalog.ps1`.
+`skills.json` and `skills.md` are generated from the four runtime trees by `scripts/build-catalog.ps1`.
 
 The catalog is the discovery layer used during onboarding. Agents should inspect its names, categories, runtime availability, and descriptions first, then read full `SKILL.md` files only for approved candidates.
 
@@ -20,7 +20,7 @@ The catalog is the discovery layer used during onboarding. Agents should inspect
 - `research-data/research-seo-and-content` — research, SEO, analytics, editorial, and data workflows
 - `docs/writing-and-specs` — documentation, plans, specifications, PRDs, and writing workflows
 - `integrations/platform-tools` — MCP, Figma, Google, Canva, Obsidian, and external tools
-- `agent-workflows/{gsd,gstack,coordination}` — agent coordination, context, principles, GSD, and GStack workflows
+- `agent-workflows/{gsd,gstack,coordination,orchestration}` — agent coordination, multi-agent engineering loops, context, principles, GSD, and GStack workflows
 - `specialists/domain-workflows` — legal, product, sales, education, and other domain-specific packages
 - `tools-utilities/general-purpose` — general-purpose helpers and packages without a stronger category
 

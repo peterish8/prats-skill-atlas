@@ -3,9 +3,10 @@
   "runtimeRoots": [
     ".claude/skills",
     ".codex/skills",
+    ".grok/skills",
     ".agents/skills"
   ],
-  "skillCount": 509,
+  "skillCount": 510,
   "skills": [
     {
       "name": "adaptive-agent-workflow",
@@ -2329,6 +2330,24 @@
       ],
       "paths": {
         "Codex": ".codex/skills/agent-workflows/coordination/interrogate/SKILL.md"
+      }
+    },
+    {
+      "name": "orchestrating-engineering-loops",
+      "category": "agent-workflows",
+      "subcategory": "orchestration",
+      "description": "Use when substantial software-engineering work may benefit from multiple agents, independent parallel tasks, extended implementation or debugging, benchmarking, or separate implementation and evaluation. Skip for trivial changes where delegation overhead exceeds its value.",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
+        "Codex": ".codex/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
+        "Grok": ".grok/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
+        "Agents": ".agents/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md"
       }
     },
     {
