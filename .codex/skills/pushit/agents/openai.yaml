@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pushit"
+  short_description: "Commit and push clean, reviewable changes"
+  default_prompt: "Use $pushit to commit and push this completed change with the appropriate main-or-feature-branch workflow."

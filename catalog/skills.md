@@ -1,0 +1,519 @@
+# Skill index
+
+Unique skill packages: 483
+
+## agent-workflows
+
+- $(@{name=gsd-ui-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-office-hours; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-workspace; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=grill-me; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-pause-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-settings; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-capture; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-join-discord; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-analyze-dependencies; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-skillify; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-workstreams; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-add-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=classifying-agent-tasks; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=principle-sequence-verifiable-units; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-build-the-lever; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-complete-milestone; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-sync-gbrain; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-spec-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-note; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-session-report; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-ship; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-forensics; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=principle-model-the-domain; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-canary; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-next; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-browse; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-ns-ideate; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=parallelizing-agent-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=gstack-ios-clean; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-autonomous; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-inbox; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=recall; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-secure-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-ns-context; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=interrogate; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-debug; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=agent-reach; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=swarm; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-plan-eng-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=how; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-map-codebase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-document-release; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-set-profile; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-connect-chrome; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=gsd-thread; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=handoff; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-upgrade; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-undo; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-ns-workflow; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=reflect; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-guard; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-milestone-summary; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-eval-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-context-save; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-pair-agent; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-ai-integration-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-plan-ceo-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-design-html; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-import; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-add-todo; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-benchmark-models; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=principle-minimize-reader-load; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=poteto-mode; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-design-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-ns-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=principle-encode-lessons-in-structure; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=grill-with-docs; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-investigate; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=figure-it-out; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-scrape; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=summarize-context; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=bro; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-manager; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-profile-user; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-plan-devex-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=why; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-freeze; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-ios-qa; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-plan-review-convergence; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-code-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-explore; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-check-todos; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-cleanup; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-ios-sync; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=routing-agent-tools; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=grill-me-codex; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=principle-guard-the-context-window; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-ns-manage; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=principle-migrate-callers-then-delete-legacy-apis; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-type-system-discipline; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-execute-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-setup-gbrain; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-audit-milestone; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-audit-uat; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=executing-agent-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=gsd-graphify; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-quick; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-ios-design-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-new-milestone; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=full-output-enforcement; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-surface; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-setup-browser-cookies; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-land-and-deploy; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=principle-subtract-before-you-add; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-fix-root-causes; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=grill-with-docs-codex; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=adaptive-agent-workflow; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=gstack-qa-only; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=recovering-agent-failures; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=gsd-list-workspaces; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-experience-first; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-update; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-document-generate; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-ui-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-config; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-help; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-claude; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-prove-it-works; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-ultraplan-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-discuss-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-autoplan; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-new-workspace; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-context-restore; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=principle-redesign-from-first-principles; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-insert-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-plan-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-resume-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=principle-make-operations-idempotent; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-benchmark; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-landing-report; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-health; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-research-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-sketch; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=verifying-agent-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=gstack-ios-fix; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=principle-foundational-thinking; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-remove-workspace; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-laziness-protocol; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-stats; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-review-backlog; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-ns-project; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-fast; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-extract-learnings; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-spec; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-docs-update; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-devex-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-open-gstack-browser; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-careful; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-reapply-patches; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-setup-deploy; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-audit-fix; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsd-list-phase-assumptions; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=principle-boundary-discipline; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-separate-before-serializing-shared-state; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=decomposing-agent-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=gstack-design-consultation; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-ship; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-progress; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-ingest-docs; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=unslop; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-spike; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=principle-never-block-on-the-human; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-mvp-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-codex; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=gstack-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-validate-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-plant-seed; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=grilling; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gstack-plan-tune; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-retro; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-cso; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-pr-branch; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-qa; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=principle-outcome-oriented-execution; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-health; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-add-tests; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsd-verify-work; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-plan-design-review; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-do; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-learn; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-plan-milestone-gaps; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gsd-new-project; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gstack-diagram; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-remove-phase; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=principle-exhaust-the-design-space; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=gstack-design-shotgun; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-unfreeze; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gstack-make-pdf; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gsd-add-backlog; category=agent-workflows; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+
+## backend-platform
+
+- $(@{name=backend-developer; category=backend-platform; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=fullstack-developer; category=backend-platform; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=typescript-best-practices; category=backend-platform; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=durable-objects; category=backend-platform; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=workers-best-practices; category=backend-platform; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+
+## data-research-content
+
+- $(@{name=seo-seranking; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-lead-gen; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-firecrawl; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-maps; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-scrape; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-map; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=native-data-fetching; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=seo-images; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-dashboard-reporting; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-research-index; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-knowledge-ingest; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-crawl; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-technical; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-page; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-lead-research; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-build-scrape; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-ahrefs; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-profound; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-sxo; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=lfx-research-architect; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-cluster; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-sitemap; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-research-papers; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gavelogy-judgment; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=firecrawl-build-interact; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-dataforseo; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-deep-research; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=research; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=seo-plan; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-download; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-specialist; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=landing-page-copywriter; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=seo-schema; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-knowledge-base; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-workflows; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-company-directories; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-content; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-build; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-shop; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-content-brief; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-geo; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-search; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-build-search; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-bing; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-programmatic; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-competitive-intel; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-ecommerce; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=gavelnews-editorial; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=firecrawl-website-design-clone; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-parse; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-demo-walkthrough; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-market-research; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-monitor; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-local; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-flow; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-build-onboarding; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-hreflang; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-drift; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=seo-backlinks; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-interact; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-unlighthouse; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=content-marketer; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=seo-competitor-pages; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=firecrawl-agent; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=seo-image-gen; category=data-research-content; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+
+## design-motion
+
+- $(@{name=high-end-visual-design; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=tactile-ui-system; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=gpt-taste; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=motion; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=imagegen-frontend-web; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-plugins; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=motion-promo; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=animation-designer; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=image-to-code; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=micro-interactions; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=framer-motion-animator; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-utils; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-react; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=brand-architect; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=design-taste-frontend; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-frameworks; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=design-taste-frontend-v1; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-timeline; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-scrolltrigger; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=microinteractions; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=nextjs-framer-motion-animations; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=industrial-brutalist-ui; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gsap-core; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=minimalist-ui; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=brandkit; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=stitch-design-taste; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=web-animation-design; category=design-motion; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+
+## devops-delivery
+
+- $(@{name=setup-ts-deep-modules; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=deployment-engineer; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=deploy-to-vercel; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=cloudflare-one; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=vercel; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=vercel-composition-patterns; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=vercel-cli-with-tokens; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=setup-pre-commit; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=git-workflow-manager; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=vercel-react-best-practices; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=cloudflare; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=migrate-to-shoehorn; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=setup-pstack; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=vercel-react-view-transitions; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=wrangler; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=cloudflare-one-migrations; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=cloudflare-email-service; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=setup-matt-pocock-skills; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=git-guardrails-claude-code; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=sandbox-sdk; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=vercel-optimize; category=devops-delivery; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+
+## docs-writing
+
+- $(@{name=writing-plans; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=writing-beats; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=technical-writing; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=edit-article; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=to-issues; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=to-questionnaire; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=to-spec; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=to-prd; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=to-tickets; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=writing-guidelines; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=docs-drift-editor; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=writing-shape; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=lfx-proposal; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=implement-spec; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=writing-fragments; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=writing-for-agents; category=docs-writing; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+
+## frontend-ui
+
+- $(@{name=frontend-ui-animator; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=frontend-design; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=ubiquitous-language; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=stateful-button-ux; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=accelint-nextjs-best-practices; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=browser; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=syncvas-frontend-craft; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=web-design-guidelines; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ui-designer; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=building-native-ui; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=scroll-experience; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=nextjs-developer; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=ui-ux-pro-max; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=landing-page-design; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ultra-product-uiux; category=frontend-ui; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+
+## integrations-tools
+
+- $(@{name=use-dom; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=obsidian-cli; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=defuddle; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=google-python-style; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=mcp-builder; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=json-canvas; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=obsidian-bases; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=obsidian-vault; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=figma; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=google-typescript-style; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=google-markdown-style; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=figma-implement-design; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=connect-apps; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=obsidian-markdown; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=google-html-css-style; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=google-javascript-style; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=seo-google; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=sora; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=google-json-api-style; category=integrations-tools; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+
+## mobile-native
+
+- $(@{name=expo-ui-jetpack-compose; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=expo-tailwind-setup; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=expo-dev-client; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=vercel-react-native-skills; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=upgrading-expo; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=kotlin-specialist; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=expo-deployment; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=tailwindcss-mobile-first; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=expo-cicd-workflows; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=imagegen-frontend-mobile; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=expo-api-routes; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=expo-react-native-expert; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=expo-ui-swiftui; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=expo-module; category=mobile-native; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+
+## other
+
+- $(@{name=shared-terminals; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=graphify; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=no-comments; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=pushit; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=proper-resume-docx; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=_gstack-command; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=agents-sdk; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=cross-checking-agent-work; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=ask-matt; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=klyna-pr-followup; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=skill-creator; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ponytail-help; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=optimise-claude; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=write-a-skill; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=implement; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=source-command-summarize-context; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=polaris-campus-assistant; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=ponytail-review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=source-command-gpt-image-2; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=codebase-design; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=changelog-generator; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=wait-what; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=maintain-verification-skill; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=customer-success-manager; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=arena; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=sales-engineer; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=create-verification-skill; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=domain-modeling; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=thermo-nuclear-code-quality-review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=find-skills; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=improve-codebase-architecture; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=source-command-save-credits; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=eas-update-insights; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=caveman-poteto-unslop; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=codex-review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=blast-radius; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=escalating-agent-models; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=code-review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=product-to-launch; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=klyna-headless-review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=wizard; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=wayfinder; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=claude-handoff; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=architect; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=comment-pr; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=architect-reviewer; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=automate-me; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=cli-delegate; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=prototype; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=herdr; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=teach; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=show-me-your-work; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=brainstorming; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=resolving-merge-conflicts; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ponytail-debt; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gpt-image-2-prompt-generation; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=grindroom-dev; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=klyna-review; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=pyq-convert; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=hatch-pet; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=organize-pdf-notes; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=behuman; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude, Codex
+- $(@{name=request-refactor-plan; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=create-pr; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=website-bug-finder; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=ponytail; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ponytail-gain; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=design-an-interface; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=zoom-out; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=loop-me; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=klyna-pr-merge; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=klyna-issue; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=search-domain-validator; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ai-native-sdlc; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=product-manager; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=redesign-existing-projects; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=save-credits; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=caveman; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=gathering-project-context; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=legal-video; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=scaffold-exercises; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=triage; category=other; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+
+## security-quality
+
+- $(@{name=systematic-debugging; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=accessibility-tester; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=web-performance-optimization; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=web-perf; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-seo-audit; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=playwright; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Codex
+- $(@{name=diagnosing-bugs; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=qa; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=security-headers-configuration; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=seo-audit; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude
+- $(@{name=security-auditor; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=qa-expert; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=bug-bounty-report-writing; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=diagnose; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=harden-web-experience; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=firecrawl-qa; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=gsap-performance; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=authorized-bug-bounty-research; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents
+- $(@{name=ponytail-audit; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=ui-ux-tester; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Codex
+- $(@{name=turnstile-spin; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=tdd; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude, Codex
+- $(@{name=application-security; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Agents, Claude
+- $(@{name=fullstack-perf-audit; category=security-quality; presentIn=System.Object[]; paths=System.Collections.Specialized.OrderedDictionary}.name) — Claude

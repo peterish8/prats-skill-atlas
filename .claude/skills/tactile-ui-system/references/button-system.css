@@ -1,0 +1,298 @@
+/*
+ * Tactile UI System — component CSS
+ *
+ * Variable names below (--surface-1, --accent, --border-default, --text-primary, ...)
+ * are placeholders. Before using this file, map them to the target project's real
+ * design tokens — do not ship these literal variable names into an unrelated project
+ * unless it happens to already use them. What must NOT change is the shadow/border/
+ * transform *structure* on each rule: the inset top highlight, the solid bottom edge,
+ * the press displacement. That structure is the effect this system is built around.
+ *
+ * Easing tokens referenced here:
+ *   --ease-out:   cubic-bezier(0.22, 1, 0.36, 1)
+ *   --ease-press: cubic-bezier(0.2, 0, 0, 1)
+ */
+
+/* ---------- Primary button ---------- */
+/* Highest-contrast "raised" control — main CTA, confirm, create, publish. */
+.button-primary {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 0 15px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 9px;
+
+  background: var(--cream);
+  color: var(--ink-on-cream);
+
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+
+  box-shadow:
+    inset 0 1px 0 #fffef8,
+    inset 0 -1px 0 rgba(35, 36, 30, 0.18),
+    0 2px 0 #89877e,
+    0 5px 14px rgba(0, 0, 0, 0.3);
+
+  transform: translateY(0);
+
+  transition:
+    transform 120ms cubic-bezier(0.2, 0, 0, 1),
+    box-shadow 120ms ease,
+    background-color 140ms ease;
+}
+
+.button-primary:hover {
+  background: var(--cream-hover);
+}
+
+.button-primary:active {
+  /* The downward move + loss of the bottom-edge shadow is what sells the press. */
+  transform: translateY(2px);
+  box-shadow: inset 0 1px 3px rgba(20, 21, 17, 0.2), 0 0 0 transparent;
+}
+
+/* ---------- Secondary button ---------- */
+/* Neutral raised control — cancel, dismiss, non-primary actions. */
+.button-secondary {
+  min-height: 36px;
+  padding: 0 13px;
+
+  border: 1px solid var(--border-default);
+  border-radius: 9px;
+
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.05), transparent),
+    var(--surface-3);
+
+  color: var(--text-primary);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.08),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.2),
+    0 2px 0 #070806,
+    0 4px 9px rgba(0, 0, 0, 0.24);
+}
+
+.button-secondary:hover {
+  border-color: var(--border-strong);
+  background-color: var(--surface-hover);
+}
+
+.button-secondary:active {
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* ---------- Accent / highlighted-action button ---------- */
+/* For the one class of action that should read as "special" (AI action, upgrade,
+   connect) — a tinted fill and a colored border, never a glow. Swap --accent for
+   whatever the project's brand/highlight color is. */
+.button-accent {
+  color: var(--accent);
+  background: var(--accent-soft);
+  border: 1px solid var(--accent-border);
+
+  box-shadow:
+    inset 0 1px 0 rgba(235, 255, 160, 0.1),
+    0 2px 0 rgba(44, 51, 20, 0.8);
+}
+
+.button-accent:hover {
+  background: var(--accent-soft-hover, rgba(214, 243, 106, 0.17));
+  border-color: var(--accent-border-hover, rgba(214, 243, 106, 0.5));
+}
+
+/* Don't make every instance of this variant glow — a fine tinted border is enough.
+   Reserve it for a small, meaningful set of actions, not every button on screen. */
+
+/* ---------- Ghost button ---------- */
+/* No border/shadow until interacted with — for low-emphasis inline actions. */
+.button-ghost {
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text-muted);
+  box-shadow: none;
+}
+
+.button-ghost:hover {
+  background: rgba(255, 255, 255, 0.055);
+  color: var(--text-primary);
+}
+
+/* ---------- Icon button ---------- */
+/* Compact tool-like control — toolbar icons, 30-34px square. */
+.icon-button {
+  display: grid;
+  width: 32px;
+  height: 32px;
+  place-items: center;
+
+  border: 1px solid rgba(244, 242, 232, 0.08);
+  border-radius: 7px;
+
+  background: rgba(255, 255, 255, 0.035);
+  color: var(--text-muted);
+
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.055);
+
+  transition: 140ms ease;
+}
+
+.icon-button:hover {
+  border-color: rgba(244, 242, 232, 0.16);
+  background: rgba(255, 255, 255, 0.075);
+  color: var(--text-primary);
+}
+
+.icon-button:active {
+  transform: translateY(1px);
+  background: rgba(0, 0, 0, 0.22);
+}
+
+/* Icon guidance: 14-16px icon size, 1.8-2px stroke width, inside a 30-34px button. */
+
+/* ---------- Input ---------- */
+/* Inputs feel pressed INWARD (inset shadow), the opposite of a raised button. */
+.input {
+  min-height: 38px;
+  padding: 0 11px;
+
+  border: 1px solid var(--border-default);
+  border-radius: 9px;
+
+  background: rgba(5, 6, 4, 0.55);
+  color: var(--text-primary);
+
+  box-shadow:
+    inset 0 2px 4px rgba(0, 0, 0, 0.3),
+    0 1px 0 rgba(255, 255, 255, 0.035);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--accent-border, rgba(214, 243, 106, 0.48));
+  box-shadow:
+    0 0 0 3px var(--accent-soft, rgba(214, 243, 106, 0.1)),
+    inset 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* A deeper "composer" variant for chat/prompt inputs: same inset logic, more depth. */
+.composer-input {
+  border: 1px solid var(--border-default);
+  border-radius: 11px;
+  background: var(--background-deep);
+
+  box-shadow:
+    inset 0 2px 5px rgba(0, 0, 0, 0.34),
+    0 1px 0 rgba(255, 255, 255, 0.04);
+}
+
+.composer-input:focus-within {
+  border-color: var(--accent-border, rgba(214, 243, 106, 0.42));
+  box-shadow:
+    0 0 0 3px var(--accent-soft, rgba(214, 243, 106, 0.09)),
+    inset 0 2px 5px rgba(0, 0, 0, 0.34);
+}
+
+/* ---------- Panel / card ---------- */
+/* Hairline border + soft ambient shadow. Not every surface needs to be a card —
+   prefer continuous panels separated by hairline borders over floating rounded
+   cards everywhere. */
+.panel {
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  background: var(--surface-1);
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.045),
+    0 12px 32px rgba(0, 0, 0, 0.22);
+}
+
+/* Panel hierarchy: app background = no border. Workspace side panels = one subtle
+   border. Dropdown/popover = stronger border + deeper shadow. Modal = elevated
+   surface with strong focus treatment. */
+
+/* ---------- List / sidebar row ---------- */
+/* Flat until hover; active state gets a tinted background plus a thin indicator bar. */
+.list-row {
+  display: flex;
+  min-height: 34px;
+  align-items: center;
+  gap: 9px;
+
+  padding: 0 9px;
+  border-radius: 7px;
+
+  color: var(--text-muted);
+}
+
+.list-row:hover {
+  background: rgba(255, 255, 255, 0.045);
+  color: var(--text-primary);
+}
+
+.list-row[data-active="true"] {
+  background: rgba(255, 255, 255, 0.075);
+  color: var(--text-primary);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.055);
+}
+
+.list-row[data-active="true"]::before {
+  content: "";
+  width: 3px;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+/* ---------- Selectable content block ---------- */
+/* For editor-style content (a note paragraph, a canvas node, etc.): borderless by
+   default, only reveal structure on hover/selection. Don't permanently box every
+   piece of content. */
+.selectable-block {
+  position: relative;
+  padding: 5px 8px;
+  border: 1px solid transparent;
+  border-radius: 7px;
+
+  transition: background-color 140ms ease, border-color 140ms ease;
+}
+
+.selectable-block:hover {
+  background: rgba(255, 255, 255, 0.025);
+}
+
+.selectable-block[data-selected="true"] {
+  background: var(--accent-soft, rgba(214, 243, 106, 0.045));
+  border-color: var(--accent-border, rgba(214, 243, 106, 0.22));
+}
+
+/* ---------- Card flip (e.g. flashcards) ---------- */
+.flip-card {
+  background: var(--cream, #e9e4d7);
+  color: var(--ink-on-cream, #191a16);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 12px;
+
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 3px 0 #aaa69a,
+    0 10px 24px rgba(0, 0, 0, 0.28);
+}
+
+/* Flip transition: 280-360ms 3D rotation, no exaggerated spring bounce. Keep the
+   flipped face's text static/readable rather than animating it separately. */
+
+/* ---------- Dot-grid canvas background ---------- */
+/* For a diagram/flowchart canvas — a contained, subtly textured dark surface. */
+.dot-grid-canvas {
+  background-color: var(--surface-1, #10110e);
+  background-image: radial-gradient(rgba(243, 241, 232, 0.09) 0.7px, transparent 0.7px);
+  background-size: 16px 16px;
+}

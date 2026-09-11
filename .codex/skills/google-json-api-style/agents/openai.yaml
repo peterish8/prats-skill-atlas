@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google JSON API Style"
+  short_description: "Design JSON APIs using Google conventions"
+  default_prompt: "Use $google-json-api-style to design or review this JSON API."

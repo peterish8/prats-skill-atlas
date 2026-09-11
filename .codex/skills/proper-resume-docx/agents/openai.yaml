@@ -1,0 +1,3 @@
+display_name: Proper Resume DOCX
+short_description: Build Prathick resumes with the strict Node docx format.
+default_prompt: Create or revise a Prathick Dhanes R resume as a clean .docx using the strict Arial Node docx resume format.

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Stateful Button UX"
+  short_description: "Choose and implement async button feedback states"

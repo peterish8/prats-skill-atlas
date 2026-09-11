@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google JavaScript Style"
+  short_description: "Apply Google JavaScript coding conventions"
+  default_prompt: "Use $google-javascript-style to implement or review this JavaScript code."

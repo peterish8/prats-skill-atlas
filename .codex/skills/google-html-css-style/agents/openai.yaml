@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google HTML and CSS Style"
+  short_description: "Apply Google HTML and CSS coding conventions"
+  default_prompt: "Use $google-html-css-style to implement or review this HTML and CSS."

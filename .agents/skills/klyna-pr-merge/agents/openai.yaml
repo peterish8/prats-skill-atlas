@@ -1,0 +1,3 @@
+interface:
+  display_name: "Klyna PR Merge"
+  short_description: "Verify requested fixes and merge green Klyna PRs"

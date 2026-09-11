@@ -1,0 +1,17 @@
+name: Validate skill mirror
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate runtime trees and catalog
+        shell: pwsh
+        run: ./scripts/validate.ps1

@@ -1,0 +1,31 @@
+{
+  "01-Hypothesis-Testing-and-p-values-Notes.pdf": "Notes/01-Null-and-Alternative-Hypothesis-Type-I-II-Errors-and-p-value.pdf",
+  "04-Z-and-T-Tests-Notes.pdf": "Notes/02-Z-and-T-Tests-One-Sample-and-Two-Sample.pdf",
+  "02-Chi-Square-Tests-Notes.pdf": "Notes/03-Chi-Square-Tests-Independence-and-Goodness-of-Fit.pdf",
+  "03-One-Way-ANOVA-Notes.pdf": "Notes/04-One-Way-ANOVA-F-Test.pdf",
+  "08-Sampling-Distributions-CLT-Confidence-Intervals-Notes.pdf": "Notes/05-Sampling-Distributions-Standard-Error-CLT-and-Confidence-Intervals.pdf",
+  "09-Random-Variable-Probability-Distribution-Notes.docx": "Notes/06-Random-Variable-and-Probability-Distribution.pdf",
+  "05-Partial-Derivatives-Notes.pdf": "Notes/07-Partial-Derivatives-Definition-Computation-and-Geometric-Interpretation.pdf",
+  "06-Jacobian-Matrix-Notes.pdf": "Notes/08-Jacobian-Matrix-and-Vector-Valued-Function-Derivatives.pdf",
+  "07-Gradient-Vector-Steepest-Ascent-Notes.pdf": "Notes/09-Gradient-Vector-Steepest-Ascent-and-Role-in-ML.pdf",
+  "1787237340302_Polaris_Definite_Indefinite_Integrals_Rules_Techniques_Student_Notes.pdf": "Notes/11-Definite-and-Indefinite-Integrals-Rules-Properties-and-Techniques.pdf",
+  "1787237386188_Polaris_Integration_in_Probability_Expectation_Normalising_PDFs_Student_Notes.pdf": "Notes/12-Integration-in-Probability-Expectation-and-Normalising-PDFs.pdf",
+  "1787237444363_Polaris_Gaussian_Integral_ML_Probability_Student_Notes.pdf": "Notes/13-Gaussian-Integral-Role-in-ML-Probability.pdf",
+  "1787237480983_Polaris_Multivariate_Chain_Rule_Computational_Graphs_Student_Notes.pdf": "Notes/14-Multivariate-Chain-Rule-Computational-Graphs-and-Dependency-Chains.pdf",
+  "1787237525678_Polaris_Chain_Rule_2_Layer_Neural_Network_Student_Notes.pdf": "Notes/15-Chain-Rule-in-a-2-Layer-Neural-Network.pdf",
+
+  "1787237072915_Polaris_Partial_Derivatives_Practice_Set.pdf": "Practice/07-Partial-Derivatives-Practice-Set.pdf",
+  "1787237171476_Polaris_Jacobian_Matrix_Practice_Set.pdf": "Practice/08-Jacobian-Matrix-Practice-Set.pdf",
+  "1787237111619_Polaris_Gradient_Vector_Steepest_Ascent_ML_Practice_Set.pdf": "Practice/09-Gradient-Vector-Steepest-Ascent-and-ML-Practice-Set.pdf",
+  "1787237252203_Polaris_Hessian_Matrix_Practice_Set.pdf": "Practice/10-Hessian-Matrix-Second-Order-Partial-Derivatives-and-Convexity-Practice-Set.pdf",
+  "1787237305726_Polaris_Definite_Indefinite_Integrals_Practice_Set.pdf": "Practice/11-Definite-and-Indefinite-Integrals-Practice-Set.pdf",
+  "1787237428075_Polaris_Gaussian_Integral_ML_Probability_Practice_Set.pdf": "Practice/13-Gaussian-Integral-ML-Probability-Practice-Set.pdf",
+  "1787237466783_Polaris_Multivariate_Chain_Rule_Computational_Graphs_Practice_Set.pdf": "Practice/14-Multivariate-Chain-Rule-Computational-Graphs-Practice-Set.pdf",
+  "1787237509116_Polaris_Chain_Rule_2_Layer_Neural_Network_Practice_Set.pdf": "Practice/15-Chain-Rule-in-a-2-Layer-Neural-Network-Practice-Set.pdf",
+
+  "1787237089756_Polaris_Partial_Derivatives_Student_Notes.pdf": "_Duplicates/07-Partial-Derivatives-Student-Notes-duplicate.pdf",
+  "1787237195538_Polaris_Jacobian_Matrix_Vector_Valued_Function_Derivatives_Student_Notes.pdf": "_Duplicates/08-Jacobian-Matrix-Student-Notes-duplicate.pdf",
+  "1787237135444_Polaris_Gradient_Vector_Steepest_Ascent_ML_Student_Notes.pdf": "_Duplicates/09-Gradient-Vector-Student-Notes-duplicate.pdf",
+  "1787237386188_Polaris_Integration_in_Probability_Expectation_Normalising_PDFs_Student_Notes (1).pdf": "_Duplicates/12-Integration-in-Probability-Student-Notes-duplicate.pdf",
+  "Null and alternative hypothesis.pdf": "_Other/LMS-Preview-Null-and-Alternative-Hypothesis.pdf"
+}

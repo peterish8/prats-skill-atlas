@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Python Style"
+  short_description: "Apply Google Python coding conventions"
+  default_prompt: "Use $google-python-style to implement or review this Python code."

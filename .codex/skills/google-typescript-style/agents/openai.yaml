@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google TypeScript Style"
+  short_description: "Apply Google TypeScript coding conventions"
+  default_prompt: "Use $google-typescript-style to implement or review this TypeScript code."

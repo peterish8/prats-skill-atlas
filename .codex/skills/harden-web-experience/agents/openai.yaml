@@ -1,0 +1,4 @@
+interface:
+  display_name: "Harden Web Experience"
+  short_description: "Turn web apps into production-grade products"
+  default_prompt: "Use $harden-web-experience to make this web app production-ready: audit every critical journey, fix the highest-impact issues, and prove the result."

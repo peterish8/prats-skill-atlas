@@ -1,0 +1,26 @@
+# Local tooling and generated scratch files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Do not commit regenerated dependency or build output
+node_modules/
+.venv/
+ms-playwright/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.map
+*.exe
+*.dll
+*.pyd
+*.so
+*.dylib
+*.pak
+*.bin
+
+# Local editor state
+.idea/
+.vscode/

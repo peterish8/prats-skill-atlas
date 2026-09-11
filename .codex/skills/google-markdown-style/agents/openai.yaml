@@ -1,0 +1,4 @@
+interface:
+  display_name: "Google Markdown Style"
+  short_description: "Write clear Google-style Markdown documentation"
+  default_prompt: "Use $google-markdown-style to write or review this Markdown document."

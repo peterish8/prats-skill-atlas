@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Motion promo</title>
+<style>
+  :root{ --bg:#08080c; --panel:#101018; --line:#22222e; --ink:#e9e9f2; --dim:#8b8b9c; --accent:#7a5cff; }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{ margin:0; background:var(--bg); color:var(--ink);
+    font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:18px; padding:24px; min-height:100vh; }
+  #stage{ position:relative; border-radius:18px; overflow:hidden; background:#000;
+    box-shadow:0 24px 70px rgba(0,0,0,.7), 0 0 0 1px var(--line); line-height:0; }
+  canvas{display:block; width:100%; height:auto;}
+  .bar{display:flex; align-items:center; gap:14px; width:100%; max-width:420px;}
+  button{ background:var(--panel); color:var(--ink); border:1px solid var(--line);
+    padding:9px 16px; border-radius:999px; cursor:pointer; font-size:13px;
+    font-weight:600; letter-spacing:.02em; transition:border-color .15s, background .15s; }
+  button:hover{border-color:var(--accent); background:#171724}
+  input[type=range]{flex:1; accent-color:var(--accent); cursor:pointer}
+  .t{font-variant-numeric:tabular-nums; color:var(--dim); font-size:12px; min-width:76px; text-align:right}
+  .hint{color:var(--dim); font-size:12px; text-align:center; max-width:440px}
+  code{background:var(--panel); padding:1px 6px; border-radius:5px; font-size:11px}
+</style>
+</head>
+<body>
+
+<div id="stage"><canvas id="c"></canvas></div>
+
+<div class="bar">
+  <button id="play">Pause</button>
+  <input id="seek" type="range" min="0" max="1000" value="0" step="1">
+  <span class="t" id="time">0.00 / 0.00</span>
+</div>
+<div class="hint">Scrub to inspect any frame. Edit <code>BRAND</code> and <code>TIMELINE</code> in the script below to re-skin or re-time.</div>
+
+<script>
+/*__ENGINE__*/
+</script>
+
+<script>
+(function(){
+  var cvs = document.getElementById('c');
+  cvs.width = PROMO.W; cvs.height = PROMO.H;
+  var ctx = cvs.getContext('2d');
+  var playBtn = document.getElementById('play'), seek = document.getElementById('seek'), tEl = document.getElementById('time');
+
+  function fit(){
+    var maxH = Math.max(320, window.innerHeight - 190);
+    var maxW = Math.min(window.innerWidth - 48, 440);
+    var h = Math.min(maxH, maxW * (PROMO.H/PROMO.W));
+    document.getElementById('stage').style.width = (h * PROMO.W/PROMO.H) + 'px';
+  }
+  window.addEventListener('resize', fit); fit();
+
+  var playing = true, t = 0, last = performance.now(), scrubbing = false;
+  function render(){
+    PROMO.drawFrame(ctx, t);
+    tEl.textContent = t.toFixed(2) + ' / ' + PROMO.DUR.toFixed(2);
+    if(!scrubbing) seek.value = Math.round(t / PROMO.DUR * 1000);
+  }
+  function loop(now){
+    var dt = Math.min(0.05, (now - last)/1000); last = now;
+    if(playing){ t += dt; if(t >= PROMO.DUR) t -= PROMO.DUR; }
+    render(); requestAnimationFrame(loop);
+  }
+  playBtn.addEventListener('click', function(){ playing = !playing; playBtn.textContent = playing ? 'Pause' : 'Play'; });
+  seek.addEventListener('input', function(){ scrubbing = true; t = seek.value/1000*PROMO.DUR; render(); });
+  seek.addEventListener('change', function(){ scrubbing = false; });
+  requestAnimationFrame(loop);
+})();
+</script>
+</body>
+</html>

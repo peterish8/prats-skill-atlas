@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product to Launch"
+  short_description: "Build, verify, ship, and grow products"
+  default_prompt: "Use $product-to-launch to take this product from scoped plan through implementation, verification, launch, marketing, and sales."

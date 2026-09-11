@@ -1,0 +1,5697 @@
+{
+  "repository": "prats-skill-forge",
+  "runtimeRoots": [
+    ".claude/skills",
+    ".codex/skills",
+    ".agents/skills"
+  ],
+  "skillCount": 483,
+  "skills": [
+    {
+      "name": "gsd-ui-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ui-phase/SKILL.md",
+        "Codex": ".codex/skills/gsd-ui-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-ui-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-office-hours",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-office-hours/SKILL.md",
+        "Codex": ".codex/skills/gstack-office-hours/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-workspace",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-workspace/SKILL.md",
+        "Agents": ".agents/skills/gsd-workspace/SKILL.md"
+      }
+    },
+    {
+      "name": "grill-me",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/grill-me/SKILL.md",
+        "Agents": ".agents/skills/grill-me/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-pause-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-pause-work/SKILL.md",
+        "Codex": ".codex/skills/gsd-pause-work/SKILL.md",
+        "Agents": ".agents/skills/gsd-pause-work/SKILL.md"
+      }
+    },
+    {
+      "name": "setup-ts-deep-modules",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/setup-ts-deep-modules/SKILL.md",
+        "Agents": ".agents/skills/setup-ts-deep-modules/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-seranking",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-seranking/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-settings",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-settings/SKILL.md",
+        "Codex": ".codex/skills/gsd-settings/SKILL.md",
+        "Agents": ".agents/skills/gsd-settings/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-capture",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-capture/SKILL.md",
+        "Agents": ".agents/skills/gsd-capture/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-join-discord",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-join-discord/SKILL.md"
+      }
+    },
+    {
+      "name": "shared-terminals",
+      "category": "other",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/shared-terminals/SKILL.md"
+      }
+    },
+    {
+      "name": "high-end-visual-design",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/high-end-visual-design/SKILL.md",
+        "Agents": ".agents/skills/high-end-visual-design/SKILL.md"
+      }
+    },
+    {
+      "name": "graphify",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/graphify/SKILL.md",
+        "Agents": ".agents/skills/graphify/SKILL.md"
+      }
+    },
+    {
+      "name": "review",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/review/SKILL.md"
+      }
+    },
+    {
+      "name": "deployment-engineer",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/deployment-engineer/SKILL.md",
+        "Agents": ".agents/skills/deployment-engineer/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-analyze-dependencies",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-analyze-dependencies/SKILL.md"
+      }
+    },
+    {
+      "name": "no-comments",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/no-comments/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-skillify",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-skillify/SKILL.md",
+        "Codex": ".codex/skills/gstack-skillify/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-workstreams",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-workstreams/SKILL.md",
+        "Codex": ".codex/skills/gsd-workstreams/SKILL.md",
+        "Agents": ".agents/skills/gsd-workstreams/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-add-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-add-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "pushit",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/pushit/SKILL.md"
+      }
+    },
+    {
+      "name": "proper-resume-docx",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/proper-resume-docx/SKILL.md"
+      }
+    },
+    {
+      "name": "classifying-agent-tasks",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/classifying-agent-tasks/SKILL.md"
+      }
+    },
+    {
+      "name": "_gstack-command",
+      "category": "other",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/_gstack-command/SKILL.md"
+      }
+    },
+    {
+      "name": "frontend-ui-animator",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/frontend-ui-animator/SKILL.md",
+        "Agents": ".agents/skills/frontend-ui-animator/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-sequence-verifiable-units",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-sequence-verifiable-units/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-build-the-lever",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-build-the-lever/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-complete-milestone",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-complete-milestone/SKILL.md",
+        "Codex": ".codex/skills/gsd-complete-milestone/SKILL.md",
+        "Agents": ".agents/skills/gsd-complete-milestone/SKILL.md"
+      }
+    },
+    {
+      "name": "tactile-ui-system",
+      "category": "design-motion",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/tactile-ui-system/SKILL.md",
+        "Codex": ".codex/skills/tactile-ui-system/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-sync-gbrain",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-sync-gbrain/SKILL.md",
+        "Codex": ".codex/skills/gstack-sync-gbrain/SKILL.md"
+      }
+    },
+    {
+      "name": "gpt-taste",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gpt-taste/SKILL.md",
+        "Agents": ".agents/skills/gpt-taste/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-spec-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-spec-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-spec-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "writing-plans",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/writing-plans/SKILL.md",
+        "Agents": ".agents/skills/writing-plans/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-note",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-note/SKILL.md"
+      }
+    },
+    {
+      "name": "deploy-to-vercel",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/deploy-to-vercel/SKILL.md",
+        "Agents": ".agents/skills/deploy-to-vercel/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-session-report",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-session-report/SKILL.md"
+      }
+    },
+    {
+      "name": "agents-sdk",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/agents-sdk/SKILL.md",
+        "Codex": ".codex/skills/agents-sdk/SKILL.md",
+        "Agents": ".agents/skills/agents-sdk/SKILL.md"
+      }
+    },
+    {
+      "name": "motion",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/motion/SKILL.md",
+        "Agents": ".agents/skills/motion/SKILL.md"
+      }
+    },
+    {
+      "name": "cloudflare-one",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/cloudflare-one/SKILL.md",
+        "Codex": ".codex/skills/cloudflare-one/SKILL.md",
+        "Agents": ".agents/skills/cloudflare-one/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ship",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ship/SKILL.md",
+        "Codex": ".codex/skills/gsd-ship/SKILL.md",
+        "Agents": ".agents/skills/gsd-ship/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-forensics",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-forensics/SKILL.md",
+        "Codex": ".codex/skills/gsd-forensics/SKILL.md",
+        "Agents": ".agents/skills/gsd-forensics/SKILL.md"
+      }
+    },
+    {
+      "name": "use-dom",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/use-dom/SKILL.md",
+        "Agents": ".agents/skills/use-dom/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-model-the-domain",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-model-the-domain/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-canary",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-canary/SKILL.md",
+        "Codex": ".codex/skills/gstack-canary/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-next",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-next/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-lead-gen",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-lead-gen/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-lead-gen/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-lead-gen/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-browse",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-browse/SKILL.md",
+        "Codex": ".codex/skills/gstack-browse/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ns-ideate",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ns-ideate/SKILL.md",
+        "Agents": ".agents/skills/gsd-ns-ideate/SKILL.md"
+      }
+    },
+    {
+      "name": "cross-checking-agent-work",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/cross-checking-agent-work/SKILL.md"
+      }
+    },
+    {
+      "name": "ask-matt",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ask-matt/SKILL.md",
+        "Agents": ".agents/skills/ask-matt/SKILL.md"
+      }
+    },
+    {
+      "name": "parallelizing-agent-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/parallelizing-agent-work/SKILL.md"
+      }
+    },
+    {
+      "name": "systematic-debugging",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/systematic-debugging/SKILL.md",
+        "Agents": ".agents/skills/systematic-debugging/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-firecrawl",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-firecrawl/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-ios-clean",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-ios-clean/SKILL.md",
+        "Codex": ".codex/skills/gstack-ios-clean/SKILL.md"
+      }
+    },
+    {
+      "name": "imagegen-frontend-web",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/imagegen-frontend-web/SKILL.md",
+        "Agents": ".agents/skills/imagegen-frontend-web/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-autonomous",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-autonomous/SKILL.md",
+        "Codex": ".codex/skills/gsd-autonomous/SKILL.md",
+        "Agents": ".agents/skills/gsd-autonomous/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-inbox",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-inbox/SKILL.md",
+        "Agents": ".agents/skills/gsd-inbox/SKILL.md"
+      }
+    },
+    {
+      "name": "recall",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/recall/SKILL.md"
+      }
+    },
+    {
+      "name": "klyna-pr-followup",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/klyna-pr-followup/SKILL.md"
+      }
+    },
+    {
+      "name": "skill-creator",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/skill-creator/SKILL.md",
+        "Agents": ".agents/skills/skill-creator/SKILL.md"
+      }
+    },
+    {
+      "name": "ponytail-help",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ponytail-help/SKILL.md",
+        "Agents": ".agents/skills/ponytail-help/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-secure-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-secure-phase/SKILL.md",
+        "Codex": ".codex/skills/gsd-secure-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-secure-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ns-context",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ns-context/SKILL.md",
+        "Agents": ".agents/skills/gsd-ns-context/SKILL.md"
+      }
+    },
+    {
+      "name": "interrogate",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/interrogate/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-maps",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-maps/SKILL.md"
+      }
+    },
+    {
+      "name": "obsidian-cli",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/obsidian-cli/SKILL.md",
+        "Agents": ".agents/skills/obsidian-cli/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-debug",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-debug/SKILL.md",
+        "Codex": ".codex/skills/gsd-debug/SKILL.md",
+        "Agents": ".agents/skills/gsd-debug/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-scrape",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-scrape/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-scrape/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-scrape/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-ui-jetpack-compose",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-ui-jetpack-compose/SKILL.md",
+        "Agents": ".agents/skills/expo-ui-jetpack-compose/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-map",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-map/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-map/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-map/SKILL.md"
+      }
+    },
+    {
+      "name": "agent-reach",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/agent-reach/SKILL.md",
+        "Agents": ".agents/skills/agent-reach/SKILL.md"
+      }
+    },
+    {
+      "name": "swarm",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/swarm/SKILL.md"
+      }
+    },
+    {
+      "name": "optimise-claude",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/optimise-claude/SKILL.md",
+        "Agents": ".agents/skills/optimise-claude/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-plan-eng-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-plan-eng-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-plan-eng-review/SKILL.md"
+      }
+    },
+    {
+      "name": "native-data-fetching",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/native-data-fetching/SKILL.md",
+        "Agents": ".agents/skills/native-data-fetching/SKILL.md"
+      }
+    },
+    {
+      "name": "frontend-design",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/frontend-design/SKILL.md"
+      }
+    },
+    {
+      "name": "how",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/how/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-plugins",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-plugins/SKILL.md",
+        "Agents": ".agents/skills/gsap-plugins/SKILL.md"
+      }
+    },
+    {
+      "name": "write-a-skill",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/write-a-skill/SKILL.md",
+        "Agents": ".agents/skills/write-a-skill/SKILL.md"
+      }
+    },
+    {
+      "name": "defuddle",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/defuddle/SKILL.md",
+        "Agents": ".agents/skills/defuddle/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-map-codebase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-map-codebase/SKILL.md",
+        "Codex": ".codex/skills/gsd-map-codebase/SKILL.md",
+        "Agents": ".agents/skills/gsd-map-codebase/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-document-release",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-document-release/SKILL.md",
+        "Codex": ".codex/skills/gstack-document-release/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-images",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-images/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-set-profile",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-set-profile/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-dashboard-reporting",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-dashboard-reporting/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-dashboard-reporting/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-dashboard-reporting/SKILL.md"
+      }
+    },
+    {
+      "name": "accessibility-tester",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/accessibility-tester/SKILL.md",
+        "Agents": ".agents/skills/accessibility-tester/SKILL.md"
+      }
+    },
+    {
+      "name": "implement",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/implement/SKILL.md",
+        "Agents": ".agents/skills/implement/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-research-index",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-research-index/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-research-index/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-research-index/SKILL.md"
+      }
+    },
+    {
+      "name": "source-command-summarize-context",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/source-command-summarize-context/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-connect-chrome",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-connect-chrome/SKILL.md"
+      }
+    },
+    {
+      "name": "writing-beats",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/writing-beats/SKILL.md",
+        "Agents": ".agents/skills/writing-beats/SKILL.md"
+      }
+    },
+    {
+      "name": "ubiquitous-language",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/ubiquitous-language/SKILL.md"
+      }
+    },
+    {
+      "name": "polaris-campus-assistant",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/polaris-campus-assistant/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel/SKILL.md",
+        "Agents": ".agents/skills/vercel/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-tailwind-setup",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-tailwind-setup/SKILL.md",
+        "Agents": ".agents/skills/expo-tailwind-setup/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-thread",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-thread/SKILL.md",
+        "Codex": ".codex/skills/gsd-thread/SKILL.md",
+        "Agents": ".agents/skills/gsd-thread/SKILL.md"
+      }
+    },
+    {
+      "name": "ponytail-review",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ponytail-review/SKILL.md",
+        "Agents": ".agents/skills/ponytail-review/SKILL.md"
+      }
+    },
+    {
+      "name": "google-python-style",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/google-python-style/SKILL.md",
+        "Codex": ".codex/skills/google-python-style/SKILL.md"
+      }
+    },
+    {
+      "name": "web-performance-optimization",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/web-performance-optimization/SKILL.md",
+        "Agents": ".agents/skills/web-performance-optimization/SKILL.md"
+      }
+    },
+    {
+      "name": "handoff",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/handoff/SKILL.md",
+        "Agents": ".agents/skills/handoff/SKILL.md"
+      }
+    },
+    {
+      "name": "source-command-gpt-image-2",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/source-command-gpt-image-2/SKILL.md"
+      }
+    },
+    {
+      "name": "web-perf",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/web-perf/SKILL.md",
+        "Codex": ".codex/skills/web-perf/SKILL.md",
+        "Agents": ".agents/skills/web-perf/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl/SKILL.md",
+        "Codex": ".codex/skills/firecrawl/SKILL.md",
+        "Agents": ".agents/skills/firecrawl/SKILL.md"
+      }
+    },
+    {
+      "name": "codebase-design",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/codebase-design/SKILL.md",
+        "Agents": ".agents/skills/codebase-design/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-upgrade",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-upgrade/SKILL.md",
+        "Codex": ".codex/skills/gstack-upgrade/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel-composition-patterns/SKILL.md",
+        "Agents": ".agents/skills/vercel-composition-patterns/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-undo",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-undo/SKILL.md",
+        "Agents": ".agents/skills/gsd-undo/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ns-workflow",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ns-workflow/SKILL.md",
+        "Agents": ".agents/skills/gsd-ns-workflow/SKILL.md"
+      }
+    },
+    {
+      "name": "changelog-generator",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/changelog-generator/SKILL.md",
+        "Agents": ".agents/skills/changelog-generator/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-seo-audit",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-seo-audit/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-seo-audit/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-seo-audit/SKILL.md"
+      }
+    },
+    {
+      "name": "stateful-button-ux",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/stateful-button-ux/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel-cli-with-tokens",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel-cli-with-tokens/SKILL.md",
+        "Agents": ".agents/skills/vercel-cli-with-tokens/SKILL.md"
+      }
+    },
+    {
+      "name": "reflect",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/reflect/SKILL.md"
+      }
+    },
+    {
+      "name": "setup-pre-commit",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/setup-pre-commit/SKILL.md",
+        "Agents": ".agents/skills/setup-pre-commit/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-guard",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-guard/SKILL.md",
+        "Codex": ".codex/skills/gstack-guard/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-milestone-summary",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-milestone-summary/SKILL.md",
+        "Codex": ".codex/skills/gsd-milestone-summary/SKILL.md",
+        "Agents": ".agents/skills/gsd-milestone-summary/SKILL.md"
+      }
+    },
+    {
+      "name": "wait-what",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/wait-what/SKILL.md",
+        "Agents": ".agents/skills/wait-what/SKILL.md"
+      }
+    },
+    {
+      "name": "maintain-verification-skill",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/maintain-verification-skill/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-eval-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-eval-review/SKILL.md",
+        "Agents": ".agents/skills/gsd-eval-review/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-context-save",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-context-save/SKILL.md",
+        "Codex": ".codex/skills/gstack-context-save/SKILL.md"
+      }
+    },
+    {
+      "name": "git-workflow-manager",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/git-workflow-manager/SKILL.md",
+        "Agents": ".agents/skills/git-workflow-manager/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-pair-agent",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-pair-agent/SKILL.md",
+        "Codex": ".codex/skills/gstack-pair-agent/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ai-integration-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ai-integration-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-ai-integration-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-plan-ceo-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-plan-ceo-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-plan-ceo-review/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel-react-best-practices/SKILL.md",
+        "Agents": ".agents/skills/vercel-react-best-practices/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-design-html",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-design-html/SKILL.md",
+        "Codex": ".codex/skills/gstack-design-html/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-knowledge-ingest",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-knowledge-ingest/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-knowledge-ingest/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-knowledge-ingest/SKILL.md"
+      }
+    },
+    {
+      "name": "mcp-builder",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/mcp-builder/SKILL.md",
+        "Agents": ".agents/skills/mcp-builder/SKILL.md"
+      }
+    },
+    {
+      "name": "customer-success-manager",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/customer-success-manager/SKILL.md",
+        "Agents": ".agents/skills/customer-success-manager/SKILL.md"
+      }
+    },
+    {
+      "name": "arena",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/arena/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-import",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-import/SKILL.md",
+        "Agents": ".agents/skills/gsd-import/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-add-todo",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-add-todo/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-crawl",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-crawl/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-crawl/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-crawl/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-dev-client",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-dev-client/SKILL.md",
+        "Agents": ".agents/skills/expo-dev-client/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-benchmark-models",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-benchmark-models/SKILL.md",
+        "Codex": ".codex/skills/gstack-benchmark-models/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-minimize-reader-load",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-minimize-reader-load/SKILL.md"
+      }
+    },
+    {
+      "name": "poteto-mode",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/poteto-mode/SKILL.md"
+      }
+    },
+    {
+      "name": "technical-writing",
+      "category": "docs-writing",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/technical-writing/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-design-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-design-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-design-review/SKILL.md"
+      }
+    },
+    {
+      "name": "sales-engineer",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/sales-engineer/SKILL.md",
+        "Agents": ".agents/skills/sales-engineer/SKILL.md"
+      }
+    },
+    {
+      "name": "create-verification-skill",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/create-verification-skill/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-technical",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-technical/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ns-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ns-review/SKILL.md",
+        "Agents": ".agents/skills/gsd-ns-review/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-encode-lessons-in-structure",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-encode-lessons-in-structure/SKILL.md"
+      }
+    },
+    {
+      "name": "grill-with-docs",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/grill-with-docs/SKILL.md",
+        "Agents": ".agents/skills/grill-with-docs/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-page",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-page/SKILL.md"
+      }
+    },
+    {
+      "name": "domain-modeling",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/domain-modeling/SKILL.md",
+        "Agents": ".agents/skills/domain-modeling/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-investigate",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-investigate/SKILL.md",
+        "Codex": ".codex/skills/gstack-investigate/SKILL.md"
+      }
+    },
+    {
+      "name": "playwright",
+      "category": "security-quality",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/playwright/SKILL.md"
+      }
+    },
+    {
+      "name": "figure-it-out",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/figure-it-out/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-scrape",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-scrape/SKILL.md",
+        "Codex": ".codex/skills/gstack-scrape/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-lead-research",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-lead-research/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-lead-research/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-lead-research/SKILL.md"
+      }
+    },
+    {
+      "name": "motion-promo",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/motion-promo/SKILL.md",
+        "Codex": ".codex/skills/motion-promo/SKILL.md",
+        "Agents": ".agents/skills/motion-promo/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-build-scrape",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-build-scrape/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-build-scrape/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-build-scrape/SKILL.md"
+      }
+    },
+    {
+      "name": "diagnosing-bugs",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/diagnosing-bugs/SKILL.md",
+        "Agents": ".agents/skills/diagnosing-bugs/SKILL.md"
+      }
+    },
+    {
+      "name": "cloudflare",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/cloudflare/SKILL.md",
+        "Codex": ".codex/skills/cloudflare/SKILL.md",
+        "Agents": ".agents/skills/cloudflare/SKILL.md"
+      }
+    },
+    {
+      "name": "summarize-context",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/summarize-context/SKILL.md",
+        "Agents": ".agents/skills/summarize-context/SKILL.md"
+      }
+    },
+    {
+      "name": "bro",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/bro/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack/SKILL.md",
+        "Codex": ".codex/skills/gstack/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-manager",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-manager/SKILL.md",
+        "Codex": ".codex/skills/gsd-manager/SKILL.md",
+        "Agents": ".agents/skills/gsd-manager/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel-react-native-skills/SKILL.md",
+        "Agents": ".agents/skills/vercel-react-native-skills/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-profile-user",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-profile-user/SKILL.md",
+        "Codex": ".codex/skills/gsd-profile-user/SKILL.md",
+        "Agents": ".agents/skills/gsd-profile-user/SKILL.md"
+      }
+    },
+    {
+      "name": "json-canvas",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/json-canvas/SKILL.md",
+        "Agents": ".agents/skills/json-canvas/SKILL.md"
+      }
+    },
+    {
+      "name": "migrate-to-shoehorn",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/migrate-to-shoehorn/SKILL.md",
+        "Agents": ".agents/skills/migrate-to-shoehorn/SKILL.md"
+      }
+    },
+    {
+      "name": "upgrading-expo",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/upgrading-expo/SKILL.md",
+        "Agents": ".agents/skills/upgrading-expo/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-plan-devex-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-plan-devex-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-plan-devex-review/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-ahrefs",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-ahrefs/SKILL.md"
+      }
+    },
+    {
+      "name": "thermo-nuclear-code-quality-review",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/thermo-nuclear-code-quality-review/SKILL.md"
+      }
+    },
+    {
+      "name": "find-skills",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/find-skills/SKILL.md",
+        "Codex": ".codex/skills/find-skills/SKILL.md",
+        "Agents": ".agents/skills/find-skills/SKILL.md"
+      }
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/improve-codebase-architecture/SKILL.md",
+        "Agents": ".agents/skills/improve-codebase-architecture/SKILL.md"
+      }
+    },
+    {
+      "name": "source-command-save-credits",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/source-command-save-credits/SKILL.md"
+      }
+    },
+    {
+      "name": "setup-pstack",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/setup-pstack/SKILL.md"
+      }
+    },
+    {
+      "name": "eas-update-insights",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/eas-update-insights/SKILL.md",
+        "Agents": ".agents/skills/eas-update-insights/SKILL.md"
+      }
+    },
+    {
+      "name": "caveman-poteto-unslop",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/caveman-poteto-unslop/SKILL.md"
+      }
+    },
+    {
+      "name": "why",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/why/SKILL.md"
+      }
+    },
+    {
+      "name": "animation-designer",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/animation-designer/SKILL.md",
+        "Agents": ".agents/skills/animation-designer/SKILL.md"
+      }
+    },
+    {
+      "name": "codex-review",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/codex-review/SKILL.md",
+        "Agents": ".agents/skills/codex-review/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-profound",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-profound/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-freeze",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-freeze/SKILL.md",
+        "Codex": ".codex/skills/gstack-freeze/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel-react-view-transitions/SKILL.md",
+        "Agents": ".agents/skills/vercel-react-view-transitions/SKILL.md"
+      }
+    },
+    {
+      "name": "obsidian-bases",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/obsidian-bases/SKILL.md",
+        "Agents": ".agents/skills/obsidian-bases/SKILL.md"
+      }
+    },
+    {
+      "name": "blast-radius",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/blast-radius/SKILL.md"
+      }
+    },
+    {
+      "name": "obsidian-vault",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/obsidian-vault/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-ios-qa",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-ios-qa/SKILL.md",
+        "Codex": ".codex/skills/gstack-ios-qa/SKILL.md"
+      }
+    },
+    {
+      "name": "image-to-code",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/image-to-code/SKILL.md",
+        "Agents": ".agents/skills/image-to-code/SKILL.md"
+      }
+    },
+    {
+      "name": "micro-interactions",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/micro-interactions/SKILL.md",
+        "Agents": ".agents/skills/micro-interactions/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-sxo",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-sxo/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-plan-review-convergence",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-plan-review-convergence/SKILL.md",
+        "Agents": ".agents/skills/gsd-plan-review-convergence/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-code-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-code-review/SKILL.md",
+        "Agents": ".agents/skills/gsd-code-review/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-explore",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-explore/SKILL.md",
+        "Agents": ".agents/skills/gsd-explore/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-check-todos",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-check-todos/SKILL.md"
+      }
+    },
+    {
+      "name": "edit-article",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/edit-article/SKILL.md"
+      }
+    },
+    {
+      "name": "escalating-agent-models",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/escalating-agent-models/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-cleanup",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-cleanup/SKILL.md",
+        "Codex": ".codex/skills/gsd-cleanup/SKILL.md",
+        "Agents": ".agents/skills/gsd-cleanup/SKILL.md"
+      }
+    },
+    {
+      "name": "code-review",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/code-review/SKILL.md",
+        "Agents": ".agents/skills/code-review/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-ios-sync",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-ios-sync/SKILL.md",
+        "Codex": ".codex/skills/gstack-ios-sync/SKILL.md"
+      }
+    },
+    {
+      "name": "routing-agent-tools",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/routing-agent-tools/SKILL.md"
+      }
+    },
+    {
+      "name": "accelint-nextjs-best-practices",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/accelint-nextjs-best-practices/SKILL.md",
+        "Agents": ".agents/skills/accelint-nextjs-best-practices/SKILL.md"
+      }
+    },
+    {
+      "name": "grill-me-codex",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/grill-me-codex/SKILL.md",
+        "Agents": ".agents/skills/grill-me-codex/SKILL.md"
+      }
+    },
+    {
+      "name": "wrangler",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/wrangler/SKILL.md",
+        "Codex": ".codex/skills/wrangler/SKILL.md",
+        "Agents": ".agents/skills/wrangler/SKILL.md"
+      }
+    },
+    {
+      "name": "qa",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/qa/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-guard-the-context-window",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-guard-the-context-window/SKILL.md"
+      }
+    },
+    {
+      "name": "framer-motion-animator",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/framer-motion-animator/SKILL.md",
+        "Agents": ".agents/skills/framer-motion-animator/SKILL.md"
+      }
+    },
+    {
+      "name": "seo",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-utils",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-utils/SKILL.md",
+        "Agents": ".agents/skills/gsap-utils/SKILL.md"
+      }
+    },
+    {
+      "name": "lfx-research-architect",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/lfx-research-architect/SKILL.md",
+        "Codex": ".codex/skills/lfx-research-architect/SKILL.md",
+        "Agents": ".agents/skills/lfx-research-architect/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-cluster",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-cluster/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-sitemap",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-sitemap/SKILL.md"
+      }
+    },
+    {
+      "name": "product-to-launch",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/product-to-launch/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ns-manage",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ns-manage/SKILL.md",
+        "Agents": ".agents/skills/gsd-ns-manage/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-research-papers",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-research-papers/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-research-papers/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-research-papers/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "klyna-headless-review",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/klyna-headless-review/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-migrate-callers-then-delete-legacy-apis",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-migrate-callers-then-delete-legacy-apis/SKILL.md"
+      }
+    },
+    {
+      "name": "gavelogy-judgment",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gavelogy-judgment/SKILL.md",
+        "Agents": ".agents/skills/gavelogy-judgment/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-build-interact",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-build-interact/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-build-interact/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-build-interact/SKILL.md"
+      }
+    },
+    {
+      "name": "figma",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/figma/SKILL.md",
+        "Agents": ".agents/skills/figma/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-type-system-discipline",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-type-system-discipline/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-dataforseo",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-dataforseo/SKILL.md"
+      }
+    },
+    {
+      "name": "wizard",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/wizard/SKILL.md",
+        "Agents": ".agents/skills/wizard/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-execute-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-execute-phase/SKILL.md",
+        "Codex": ".codex/skills/gsd-execute-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-execute-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "to-issues",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/to-issues/SKILL.md",
+        "Agents": ".agents/skills/to-issues/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-setup-gbrain",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-setup-gbrain/SKILL.md",
+        "Codex": ".codex/skills/gstack-setup-gbrain/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-audit-milestone",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-audit-milestone/SKILL.md",
+        "Codex": ".codex/skills/gsd-audit-milestone/SKILL.md",
+        "Agents": ".agents/skills/gsd-audit-milestone/SKILL.md"
+      }
+    },
+    {
+      "name": "wayfinder",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/wayfinder/SKILL.md",
+        "Agents": ".agents/skills/wayfinder/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-deep-research",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-deep-research/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-deep-research/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-deep-research/SKILL.md"
+      }
+    },
+    {
+      "name": "research",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/research/SKILL.md",
+        "Agents": ".agents/skills/research/SKILL.md"
+      }
+    },
+    {
+      "name": "claude-handoff",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/claude-handoff/SKILL.md",
+        "Agents": ".agents/skills/claude-handoff/SKILL.md"
+      }
+    },
+    {
+      "name": "security-headers-configuration",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/security-headers-configuration/SKILL.md",
+        "Agents": ".agents/skills/security-headers-configuration/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-react",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-react/SKILL.md",
+        "Agents": ".agents/skills/gsap-react/SKILL.md"
+      }
+    },
+    {
+      "name": "architect",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/architect/SKILL.md"
+      }
+    },
+    {
+      "name": "comment-pr",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/comment-pr/SKILL.md",
+        "Codex": ".codex/skills/comment-pr/SKILL.md",
+        "Agents": ".agents/skills/comment-pr/SKILL.md"
+      }
+    },
+    {
+      "name": "brand-architect",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/brand-architect/SKILL.md",
+        "Agents": ".agents/skills/brand-architect/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-plan",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-plan/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-download",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-download/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-download/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-download/SKILL.md"
+      }
+    },
+    {
+      "name": "cloudflare-one-migrations",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/cloudflare-one-migrations/SKILL.md",
+        "Codex": ".codex/skills/cloudflare-one-migrations/SKILL.md",
+        "Agents": ".agents/skills/cloudflare-one-migrations/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-audit-uat",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-audit-uat/SKILL.md",
+        "Codex": ".codex/skills/gsd-audit-uat/SKILL.md",
+        "Agents": ".agents/skills/gsd-audit-uat/SKILL.md"
+      }
+    },
+    {
+      "name": "kotlin-specialist",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/kotlin-specialist/SKILL.md",
+        "Agents": ".agents/skills/kotlin-specialist/SKILL.md"
+      }
+    },
+    {
+      "name": "executing-agent-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/executing-agent-work/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-graphify",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-graphify/SKILL.md",
+        "Agents": ".agents/skills/gsd-graphify/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-quick",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-quick/SKILL.md",
+        "Codex": ".codex/skills/gsd-quick/SKILL.md",
+        "Agents": ".agents/skills/gsd-quick/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-specialist",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/seo-specialist/SKILL.md",
+        "Agents": ".agents/skills/seo-specialist/SKILL.md"
+      }
+    },
+    {
+      "name": "architect-reviewer",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/architect-reviewer/SKILL.md",
+        "Agents": ".agents/skills/architect-reviewer/SKILL.md"
+      }
+    },
+    {
+      "name": "to-questionnaire",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/to-questionnaire/SKILL.md",
+        "Agents": ".agents/skills/to-questionnaire/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-ios-design-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-ios-design-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-ios-design-review/SKILL.md"
+      }
+    },
+    {
+      "name": "automate-me",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/automate-me/SKILL.md"
+      }
+    },
+    {
+      "name": "design-taste-frontend",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/design-taste-frontend/SKILL.md",
+        "Agents": ".agents/skills/design-taste-frontend/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-new-milestone",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-new-milestone/SKILL.md",
+        "Codex": ".codex/skills/gsd-new-milestone/SKILL.md",
+        "Agents": ".agents/skills/gsd-new-milestone/SKILL.md"
+      }
+    },
+    {
+      "name": "full-output-enforcement",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/full-output-enforcement/SKILL.md",
+        "Agents": ".agents/skills/full-output-enforcement/SKILL.md"
+      }
+    },
+    {
+      "name": "google-typescript-style",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/google-typescript-style/SKILL.md",
+        "Codex": ".codex/skills/google-typescript-style/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-surface",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-surface/SKILL.md",
+        "Agents": ".agents/skills/gsd-surface/SKILL.md"
+      }
+    },
+    {
+      "name": "cli-delegate",
+      "category": "other",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/cli-delegate/SKILL.md"
+      }
+    },
+    {
+      "name": "prototype",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/prototype/SKILL.md",
+        "Agents": ".agents/skills/prototype/SKILL.md"
+      }
+    },
+    {
+      "name": "to-spec",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/to-spec/SKILL.md",
+        "Agents": ".agents/skills/to-spec/SKILL.md"
+      }
+    },
+    {
+      "name": "cloudflare-email-service",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/cloudflare-email-service/SKILL.md",
+        "Codex": ".codex/skills/cloudflare-email-service/SKILL.md",
+        "Agents": ".agents/skills/cloudflare-email-service/SKILL.md"
+      }
+    },
+    {
+      "name": "landing-page-copywriter",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/landing-page-copywriter/SKILL.md",
+        "Agents": ".agents/skills/landing-page-copywriter/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-setup-browser-cookies",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-setup-browser-cookies/SKILL.md",
+        "Codex": ".codex/skills/gstack-setup-browser-cookies/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-land-and-deploy",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-land-and-deploy/SKILL.md",
+        "Codex": ".codex/skills/gstack-land-and-deploy/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-subtract-before-you-add",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-subtract-before-you-add/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-fix-root-causes",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-fix-root-causes/SKILL.md"
+      }
+    },
+    {
+      "name": "herdr",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/herdr/SKILL.md",
+        "Agents": ".agents/skills/herdr/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-schema",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-schema/SKILL.md"
+      }
+    },
+    {
+      "name": "grill-with-docs-codex",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/grill-with-docs-codex/SKILL.md",
+        "Agents": ".agents/skills/grill-with-docs-codex/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-frameworks",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-frameworks/SKILL.md",
+        "Agents": ".agents/skills/gsap-frameworks/SKILL.md"
+      }
+    },
+    {
+      "name": "teach",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/teach/SKILL.md",
+        "Codex": ".codex/skills/teach/SKILL.md",
+        "Agents": ".agents/skills/teach/SKILL.md"
+      }
+    },
+    {
+      "name": "show-me-your-work",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/show-me-your-work/SKILL.md"
+      }
+    },
+    {
+      "name": "to-prd",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/to-prd/SKILL.md",
+        "Agents": ".agents/skills/to-prd/SKILL.md"
+      }
+    },
+    {
+      "name": "adaptive-agent-workflow",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/adaptive-agent-workflow/SKILL.md"
+      }
+    },
+    {
+      "name": "brainstorming",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/brainstorming/SKILL.md",
+        "Agents": ".agents/skills/brainstorming/SKILL.md"
+      }
+    },
+    {
+      "name": "design-taste-frontend-v1",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/design-taste-frontend-v1/SKILL.md",
+        "Agents": ".agents/skills/design-taste-frontend-v1/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-timeline",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-timeline/SKILL.md",
+        "Agents": ".agents/skills/gsap-timeline/SKILL.md"
+      }
+    },
+    {
+      "name": "to-tickets",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/to-tickets/SKILL.md",
+        "Agents": ".agents/skills/to-tickets/SKILL.md"
+      }
+    },
+    {
+      "name": "resolving-merge-conflicts",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/resolving-merge-conflicts/SKILL.md",
+        "Agents": ".agents/skills/resolving-merge-conflicts/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-qa-only",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-qa-only/SKILL.md",
+        "Codex": ".codex/skills/gstack-qa-only/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-deployment",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-deployment/SKILL.md",
+        "Agents": ".agents/skills/expo-deployment/SKILL.md"
+      }
+    },
+    {
+      "name": "recovering-agent-failures",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/recovering-agent-failures/SKILL.md"
+      }
+    },
+    {
+      "name": "writing-guidelines",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/writing-guidelines/SKILL.md",
+        "Agents": ".agents/skills/writing-guidelines/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-scrolltrigger",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-scrolltrigger/SKILL.md",
+        "Agents": ".agents/skills/gsap-scrolltrigger/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-list-workspaces",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-list-workspaces/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-knowledge-base",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-knowledge-base/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-knowledge-base/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-knowledge-base/SKILL.md"
+      }
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/setup-matt-pocock-skills/SKILL.md",
+        "Agents": ".agents/skills/setup-matt-pocock-skills/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-experience-first",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-experience-first/SKILL.md"
+      }
+    },
+    {
+      "name": "browser",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/browser/SKILL.md",
+        "Agents": ".agents/skills/browser/SKILL.md"
+      }
+    },
+    {
+      "name": "microinteractions",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/microinteractions/SKILL.md",
+        "Agents": ".agents/skills/microinteractions/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-update",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-update/SKILL.md",
+        "Codex": ".codex/skills/gsd-update/SKILL.md",
+        "Agents": ".agents/skills/gsd-update/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-document-generate",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-document-generate/SKILL.md",
+        "Codex": ".codex/skills/gstack-document-generate/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-workflows",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-workflows/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-workflows/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-workflows/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ui-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ui-review/SKILL.md",
+        "Codex": ".codex/skills/gsd-ui-review/SKILL.md",
+        "Agents": ".agents/skills/gsd-ui-review/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-config",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-config/SKILL.md",
+        "Agents": ".agents/skills/gsd-config/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-audit",
+      "category": "security-quality",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-audit/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-company-directories",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-company-directories/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-company-directories/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-company-directories/SKILL.md"
+      }
+    },
+    {
+      "name": "security-auditor",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/security-auditor/SKILL.md",
+        "Agents": ".agents/skills/security-auditor/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-help",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-help/SKILL.md",
+        "Codex": ".codex/skills/gsd-help/SKILL.md",
+        "Agents": ".agents/skills/gsd-help/SKILL.md"
+      }
+    },
+    {
+      "name": "ponytail-debt",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ponytail-debt/SKILL.md",
+        "Agents": ".agents/skills/ponytail-debt/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-claude",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gstack-claude/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-prove-it-works",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-prove-it-works/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-content",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-content/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-build",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-build/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-build/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-build/SKILL.md"
+      }
+    },
+    {
+      "name": "tailwindcss-mobile-first",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/tailwindcss-mobile-first/SKILL.md",
+        "Agents": ".agents/skills/tailwindcss-mobile-first/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ultraplan-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ultraplan-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-ultraplan-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "docs-drift-editor",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/docs-drift-editor/SKILL.md",
+        "Agents": ".agents/skills/docs-drift-editor/SKILL.md"
+      }
+    },
+    {
+      "name": "gpt-image-2-prompt-generation",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gpt-image-2-prompt-generation/SKILL.md",
+        "Agents": ".agents/skills/gpt-image-2-prompt-generation/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-cicd-workflows",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-cicd-workflows/SKILL.md",
+        "Agents": ".agents/skills/expo-cicd-workflows/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-discuss-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-discuss-phase/SKILL.md",
+        "Codex": ".codex/skills/gsd-discuss-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-discuss-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-autoplan",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-autoplan/SKILL.md",
+        "Codex": ".codex/skills/gstack-autoplan/SKILL.md"
+      }
+    },
+    {
+      "name": "syncvas-frontend-craft",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/syncvas-frontend-craft/SKILL.md"
+      }
+    },
+    {
+      "name": "qa-expert",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/qa-expert/SKILL.md",
+        "Agents": ".agents/skills/qa-expert/SKILL.md"
+      }
+    },
+    {
+      "name": "imagegen-frontend-mobile",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/imagegen-frontend-mobile/SKILL.md",
+        "Agents": ".agents/skills/imagegen-frontend-mobile/SKILL.md"
+      }
+    },
+    {
+      "name": "google-markdown-style",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/google-markdown-style/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-shop",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-shop/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-shop/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-shop/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-content-brief",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-content-brief/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-new-workspace",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-new-workspace/SKILL.md"
+      }
+    },
+    {
+      "name": "bug-bounty-report-writing",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/bug-bounty-report-writing/SKILL.md"
+      }
+    },
+    {
+      "name": "git-guardrails-claude-code",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/git-guardrails-claude-code/SKILL.md",
+        "Agents": ".agents/skills/git-guardrails-claude-code/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-context-restore",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-context-restore/SKILL.md",
+        "Codex": ".codex/skills/gstack-context-restore/SKILL.md"
+      }
+    },
+    {
+      "name": "diagnose",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/diagnose/SKILL.md",
+        "Agents": ".agents/skills/diagnose/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-geo",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-geo/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-search",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-search/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-search/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-search/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-redesign-from-first-principles",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-redesign-from-first-principles/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-insert-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-insert-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "harden-web-experience",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/harden-web-experience/SKILL.md",
+        "Codex": ".codex/skills/harden-web-experience/SKILL.md",
+        "Agents": ".agents/skills/harden-web-experience/SKILL.md"
+      }
+    },
+    {
+      "name": "grindroom-dev",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/grindroom-dev/SKILL.md",
+        "Agents": ".agents/skills/grindroom-dev/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-build-search",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-build-search/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-build-search/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-build-search/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-bing",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-bing/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-plan-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-plan-phase/SKILL.md",
+        "Codex": ".codex/skills/gsd-plan-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-plan-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-qa",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-qa/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-qa/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-qa/SKILL.md"
+      }
+    },
+    {
+      "name": "figma-implement-design",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/figma-implement-design/SKILL.md",
+        "Agents": ".agents/skills/figma-implement-design/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-resume-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-resume-work/SKILL.md",
+        "Codex": ".codex/skills/gsd-resume-work/SKILL.md",
+        "Agents": ".agents/skills/gsd-resume-work/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-make-operations-idempotent",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-make-operations-idempotent/SKILL.md"
+      }
+    },
+    {
+      "name": "nextjs-framer-motion-animations",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/nextjs-framer-motion-animations/SKILL.md",
+        "Agents": ".agents/skills/nextjs-framer-motion-animations/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-benchmark",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-benchmark/SKILL.md",
+        "Codex": ".codex/skills/gstack-benchmark/SKILL.md"
+      }
+    },
+    {
+      "name": "industrial-brutalist-ui",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/industrial-brutalist-ui/SKILL.md",
+        "Agents": ".agents/skills/industrial-brutalist-ui/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-landing-report",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-landing-report/SKILL.md",
+        "Codex": ".codex/skills/gstack-landing-report/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-performance",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-performance/SKILL.md",
+        "Agents": ".agents/skills/gsap-performance/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-programmatic",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-programmatic/SKILL.md"
+      }
+    },
+    {
+      "name": "klyna-review",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/klyna-review/SKILL.md"
+      }
+    },
+    {
+      "name": "pyq-convert",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/pyq-convert/SKILL.md",
+        "Agents": ".agents/skills/pyq-convert/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-health",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-health/SKILL.md",
+        "Codex": ".codex/skills/gsd-health/SKILL.md",
+        "Agents": ".agents/skills/gsd-health/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-research-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-research-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-sketch",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-sketch/SKILL.md",
+        "Agents": ".agents/skills/gsd-sketch/SKILL.md"
+      }
+    },
+    {
+      "name": "sandbox-sdk",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/sandbox-sdk/SKILL.md",
+        "Codex": ".codex/skills/sandbox-sdk/SKILL.md",
+        "Agents": ".agents/skills/sandbox-sdk/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-competitive-intel",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-competitive-intel/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-competitive-intel/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-competitive-intel/SKILL.md"
+      }
+    },
+    {
+      "name": "verifying-agent-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/verifying-agent-work/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-ecommerce",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-ecommerce/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-ios-fix",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-ios-fix/SKILL.md",
+        "Codex": ".codex/skills/gstack-ios-fix/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-foundational-thinking",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-foundational-thinking/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-remove-workspace",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-remove-workspace/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-laziness-protocol",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-laziness-protocol/SKILL.md"
+      }
+    },
+    {
+      "name": "gavelnews-editorial",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gavelnews-editorial/SKILL.md",
+        "Codex": ".codex/skills/gavelnews-editorial/SKILL.md"
+      }
+    },
+    {
+      "name": "writing-shape",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/writing-shape/SKILL.md",
+        "Agents": ".agents/skills/writing-shape/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-stats",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-stats/SKILL.md",
+        "Codex": ".codex/skills/gsd-stats/SKILL.md",
+        "Agents": ".agents/skills/gsd-stats/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-website-design-clone",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-website-design-clone/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-website-design-clone/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-website-design-clone/SKILL.md"
+      }
+    },
+    {
+      "name": "lfx-proposal",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/lfx-proposal/SKILL.md",
+        "Codex": ".codex/skills/lfx-proposal/SKILL.md",
+        "Agents": ".agents/skills/lfx-proposal/SKILL.md"
+      }
+    },
+    {
+      "name": "connect-apps",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/connect-apps/SKILL.md",
+        "Agents": ".agents/skills/connect-apps/SKILL.md"
+      }
+    },
+    {
+      "name": "hatch-pet",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/hatch-pet/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-review-backlog",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-review-backlog/SKILL.md",
+        "Codex": ".codex/skills/gsd-review-backlog/SKILL.md",
+        "Agents": ".agents/skills/gsd-review-backlog/SKILL.md"
+      }
+    },
+    {
+      "name": "web-design-guidelines",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/web-design-guidelines/SKILL.md",
+        "Agents": ".agents/skills/web-design-guidelines/SKILL.md"
+      }
+    },
+    {
+      "name": "ui-designer",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/ui-designer/SKILL.md",
+        "Agents": ".agents/skills/ui-designer/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ns-project",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ns-project/SKILL.md",
+        "Agents": ".agents/skills/gsd-ns-project/SKILL.md"
+      }
+    },
+    {
+      "name": "authorized-bug-bounty-research",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/authorized-bug-bounty-research/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-parse",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-parse/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-parse/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-parse/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-api-routes",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-api-routes/SKILL.md",
+        "Agents": ".agents/skills/expo-api-routes/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-react-native-expert",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/expo-react-native-expert/SKILL.md",
+        "Agents": ".agents/skills/expo-react-native-expert/SKILL.md"
+      }
+    },
+    {
+      "name": "implement-spec",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/implement-spec/SKILL.md",
+        "Agents": ".agents/skills/implement-spec/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-demo-walkthrough",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-demo-walkthrough/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-demo-walkthrough/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-demo-walkthrough/SKILL.md"
+      }
+    },
+    {
+      "name": "gsap-core",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsap-core/SKILL.md",
+        "Agents": ".agents/skills/gsap-core/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-fast",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-fast/SKILL.md",
+        "Codex": ".codex/skills/gsd-fast/SKILL.md",
+        "Agents": ".agents/skills/gsd-fast/SKILL.md"
+      }
+    },
+    {
+      "name": "minimalist-ui",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/minimalist-ui/SKILL.md",
+        "Agents": ".agents/skills/minimalist-ui/SKILL.md"
+      }
+    },
+    {
+      "name": "building-native-ui",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/building-native-ui/SKILL.md",
+        "Agents": ".agents/skills/building-native-ui/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-extract-learnings",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-extract-learnings/SKILL.md",
+        "Agents": ".agents/skills/gsd-extract-learnings/SKILL.md"
+      }
+    },
+    {
+      "name": "obsidian-markdown",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/obsidian-markdown/SKILL.md",
+        "Agents": ".agents/skills/obsidian-markdown/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-spec",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-spec/SKILL.md",
+        "Codex": ".codex/skills/gstack-spec/SKILL.md"
+      }
+    },
+    {
+      "name": "vercel-optimize",
+      "category": "devops-delivery",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/vercel-optimize/SKILL.md",
+        "Agents": ".agents/skills/vercel-optimize/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-docs-update",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-docs-update/SKILL.md",
+        "Codex": ".codex/skills/gsd-docs-update/SKILL.md",
+        "Agents": ".agents/skills/gsd-docs-update/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-devex-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-devex-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-devex-review/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-open-gstack-browser",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-open-gstack-browser/SKILL.md",
+        "Codex": ".codex/skills/gstack-open-gstack-browser/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-market-research",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-market-research/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-market-research/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-market-research/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-careful",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-careful/SKILL.md",
+        "Codex": ".codex/skills/gstack-careful/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-reapply-patches",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-reapply-patches/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-monitor",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-monitor/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-monitor/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-monitor/SKILL.md"
+      }
+    },
+    {
+      "name": "scroll-experience",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/scroll-experience/SKILL.md",
+        "Agents": ".agents/skills/scroll-experience/SKILL.md"
+      }
+    },
+    {
+      "name": "organize-pdf-notes",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/organize-pdf-notes/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-setup-deploy",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-setup-deploy/SKILL.md",
+        "Codex": ".codex/skills/gstack-setup-deploy/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-audit-fix",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-audit-fix/SKILL.md",
+        "Agents": ".agents/skills/gsd-audit-fix/SKILL.md"
+      }
+    },
+    {
+      "name": "ponytail-audit",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ponytail-audit/SKILL.md",
+        "Agents": ".agents/skills/ponytail-audit/SKILL.md"
+      }
+    },
+    {
+      "name": "behuman",
+      "category": "other",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/behuman/SKILL.md",
+        "Codex": ".codex/skills/behuman/SKILL.md"
+      }
+    },
+    {
+      "name": "request-refactor-plan",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/request-refactor-plan/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-local",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-local/SKILL.md"
+      }
+    },
+    {
+      "name": "ui-ux-tester",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/ui-ux-tester/SKILL.md",
+        "Agents": ".agents/skills/ui-ux-tester/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-flow",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-flow/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-build-onboarding",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-build-onboarding/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-build-onboarding/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-build-onboarding/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-list-phase-assumptions",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-list-phase-assumptions/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-review/SKILL.md",
+        "Codex": ".codex/skills/gsd-review/SKILL.md",
+        "Agents": ".agents/skills/gsd-review/SKILL.md"
+      }
+    },
+    {
+      "name": "create-pr",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/create-pr/SKILL.md",
+        "Codex": ".codex/skills/create-pr/SKILL.md",
+        "Agents": ".agents/skills/create-pr/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-boundary-discipline",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-boundary-discipline/SKILL.md"
+      }
+    },
+    {
+      "name": "website-bug-finder",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/website-bug-finder/SKILL.md"
+      }
+    },
+    {
+      "name": "ponytail",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ponytail/SKILL.md",
+        "Agents": ".agents/skills/ponytail/SKILL.md"
+      }
+    },
+    {
+      "name": "ponytail-gain",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/ponytail-gain/SKILL.md",
+        "Agents": ".agents/skills/ponytail-gain/SKILL.md"
+      }
+    },
+    {
+      "name": "nextjs-developer",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/nextjs-developer/SKILL.md",
+        "Agents": ".agents/skills/nextjs-developer/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-ui-swiftui",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-ui-swiftui/SKILL.md",
+        "Agents": ".agents/skills/expo-ui-swiftui/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-separate-before-serializing-shared-state",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-separate-before-serializing-shared-state/SKILL.md"
+      }
+    },
+    {
+      "name": "decomposing-agent-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/decomposing-agent-work/SKILL.md"
+      }
+    },
+    {
+      "name": "backend-developer",
+      "category": "backend-platform",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/backend-developer/SKILL.md",
+        "Agents": ".agents/skills/backend-developer/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-hreflang",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-hreflang/SKILL.md"
+      }
+    },
+    {
+      "name": "design-an-interface",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/design-an-interface/SKILL.md"
+      }
+    },
+    {
+      "name": "zoom-out",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/zoom-out/SKILL.md",
+        "Agents": ".agents/skills/zoom-out/SKILL.md"
+      }
+    },
+    {
+      "name": "google-html-css-style",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/google-html-css-style/SKILL.md",
+        "Codex": ".codex/skills/google-html-css-style/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-design-consultation",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-design-consultation/SKILL.md",
+        "Codex": ".codex/skills/gstack-design-consultation/SKILL.md"
+      }
+    },
+    {
+      "name": "fullstack-developer",
+      "category": "backend-platform",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/fullstack-developer/SKILL.md",
+        "Agents": ".agents/skills/fullstack-developer/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-drift",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-drift/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-backlinks",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-backlinks/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-ship",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-ship/SKILL.md",
+        "Codex": ".codex/skills/gstack-ship/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-progress",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-progress/SKILL.md",
+        "Codex": ".codex/skills/gsd-progress/SKILL.md",
+        "Agents": ".agents/skills/gsd-progress/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-ingest-docs",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-ingest-docs/SKILL.md",
+        "Agents": ".agents/skills/gsd-ingest-docs/SKILL.md"
+      }
+    },
+    {
+      "name": "turnstile-spin",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/turnstile-spin/SKILL.md",
+        "Codex": ".codex/skills/turnstile-spin/SKILL.md",
+        "Agents": ".agents/skills/turnstile-spin/SKILL.md"
+      }
+    },
+    {
+      "name": "loop-me",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/loop-me/SKILL.md",
+        "Agents": ".agents/skills/loop-me/SKILL.md"
+      }
+    },
+    {
+      "name": "unslop",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/unslop/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-spike",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-spike/SKILL.md",
+        "Agents": ".agents/skills/gsd-spike/SKILL.md"
+      }
+    },
+    {
+      "name": "klyna-pr-merge",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/klyna-pr-merge/SKILL.md"
+      }
+    },
+    {
+      "name": "klyna-issue",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/klyna-issue/SKILL.md"
+      }
+    },
+    {
+      "name": "search-domain-validator",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/search-domain-validator/SKILL.md",
+        "Agents": ".agents/skills/search-domain-validator/SKILL.md"
+      }
+    },
+    {
+      "name": "typescript-best-practices",
+      "category": "backend-platform",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/typescript-best-practices/SKILL.md"
+      }
+    },
+    {
+      "name": "ai-native-sdlc",
+      "category": "other",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/ai-native-sdlc/SKILL.md"
+      }
+    },
+    {
+      "name": "product-manager",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/product-manager/SKILL.md",
+        "Agents": ".agents/skills/product-manager/SKILL.md"
+      }
+    },
+    {
+      "name": "tdd",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/tdd/SKILL.md",
+        "Codex": ".codex/skills/tdd/SKILL.md",
+        "Agents": ".agents/skills/tdd/SKILL.md"
+      }
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/ui-ux-pro-max/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-never-block-on-the-human",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-never-block-on-the-human/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-mvp-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-mvp-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-mvp-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-codex",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-codex/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-interact",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-interact/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-interact/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-interact/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-review/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-unlighthouse",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-unlighthouse/SKILL.md"
+      }
+    },
+    {
+      "name": "redesign-existing-projects",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/redesign-existing-projects/SKILL.md",
+        "Agents": ".agents/skills/redesign-existing-projects/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-validate-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-validate-phase/SKILL.md",
+        "Codex": ".codex/skills/gsd-validate-phase/SKILL.md",
+        "Agents": ".agents/skills/gsd-validate-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-plant-seed",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-plant-seed/SKILL.md"
+      }
+    },
+    {
+      "name": "grilling",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/grilling/SKILL.md",
+        "Agents": ".agents/skills/grilling/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-plan-tune",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-plan-tune/SKILL.md",
+        "Codex": ".codex/skills/gstack-plan-tune/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-retro",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-retro/SKILL.md",
+        "Codex": ".codex/skills/gstack-retro/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-cso",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-cso/SKILL.md",
+        "Codex": ".codex/skills/gstack-cso/SKILL.md"
+      }
+    },
+    {
+      "name": "content-marketer",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/content-marketer/SKILL.md",
+        "Agents": ".agents/skills/content-marketer/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-pr-branch",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-pr-branch/SKILL.md",
+        "Codex": ".codex/skills/gsd-pr-branch/SKILL.md",
+        "Agents": ".agents/skills/gsd-pr-branch/SKILL.md"
+      }
+    },
+    {
+      "name": "brandkit",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/brandkit/SKILL.md",
+        "Agents": ".agents/skills/brandkit/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-qa",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-qa/SKILL.md",
+        "Codex": ".codex/skills/gstack-qa/SKILL.md"
+      }
+    },
+    {
+      "name": "application-security",
+      "category": "security-quality",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/application-security/SKILL.md",
+        "Agents": ".agents/skills/application-security/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-outcome-oriented-execution",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-outcome-oriented-execution/SKILL.md"
+      }
+    },
+    {
+      "name": "durable-objects",
+      "category": "backend-platform",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/durable-objects/SKILL.md",
+        "Codex": ".codex/skills/durable-objects/SKILL.md",
+        "Agents": ".agents/skills/durable-objects/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-health",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-health/SKILL.md",
+        "Codex": ".codex/skills/gstack-health/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-add-tests",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-add-tests/SKILL.md",
+        "Codex": ".codex/skills/gsd-add-tests/SKILL.md",
+        "Agents": ".agents/skills/gsd-add-tests/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-verify-work",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-verify-work/SKILL.md",
+        "Codex": ".codex/skills/gsd-verify-work/SKILL.md",
+        "Agents": ".agents/skills/gsd-verify-work/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-plan-design-review",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-plan-design-review/SKILL.md",
+        "Codex": ".codex/skills/gstack-plan-design-review/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-do",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-do/SKILL.md"
+      }
+    },
+    {
+      "name": "google-javascript-style",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/google-javascript-style/SKILL.md",
+        "Codex": ".codex/skills/google-javascript-style/SKILL.md"
+      }
+    },
+    {
+      "name": "landing-page-design",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/landing-page-design/SKILL.md",
+        "Agents": ".agents/skills/landing-page-design/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-learn",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-learn/SKILL.md",
+        "Codex": ".codex/skills/gstack-learn/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-google",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-google/SKILL.md"
+      }
+    },
+    {
+      "name": "writing-fragments",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/writing-fragments/SKILL.md",
+        "Agents": ".agents/skills/writing-fragments/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-plan-milestone-gaps",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-plan-milestone-gaps/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-new-project",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gsd-new-project/SKILL.md",
+        "Codex": ".codex/skills/gsd-new-project/SKILL.md",
+        "Agents": ".agents/skills/gsd-new-project/SKILL.md"
+      }
+    },
+    {
+      "name": "fullstack-perf-audit",
+      "category": "security-quality",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/fullstack-perf-audit/SKILL.md"
+      }
+    },
+    {
+      "name": "sora",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/sora/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-diagram",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-diagram/SKILL.md",
+        "Codex": ".codex/skills/gstack-diagram/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-competitor-pages",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-competitor-pages/SKILL.md"
+      }
+    },
+    {
+      "name": "stitch-design-taste",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/stitch-design-taste/SKILL.md",
+        "Agents": ".agents/skills/stitch-design-taste/SKILL.md"
+      }
+    },
+    {
+      "name": "firecrawl-agent",
+      "category": "data-research-content",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/firecrawl-agent/SKILL.md",
+        "Codex": ".codex/skills/firecrawl-agent/SKILL.md",
+        "Agents": ".agents/skills/firecrawl-agent/SKILL.md"
+      }
+    },
+    {
+      "name": "save-credits",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/save-credits/SKILL.md",
+        "Agents": ".agents/skills/save-credits/SKILL.md"
+      }
+    },
+    {
+      "name": "seo-image-gen",
+      "category": "data-research-content",
+      "presentIn": [
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/seo-image-gen/SKILL.md"
+      }
+    },
+    {
+      "name": "caveman",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/caveman/SKILL.md",
+        "Agents": ".agents/skills/caveman/SKILL.md"
+      }
+    },
+    {
+      "name": "gathering-project-context",
+      "category": "other",
+      "presentIn": [
+        "Agents"
+      ],
+      "paths": {
+        "Agents": ".agents/skills/gathering-project-context/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-remove-phase",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-remove-phase/SKILL.md"
+      }
+    },
+    {
+      "name": "workers-best-practices",
+      "category": "backend-platform",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/workers-best-practices/SKILL.md",
+        "Codex": ".codex/skills/workers-best-practices/SKILL.md",
+        "Agents": ".agents/skills/workers-best-practices/SKILL.md"
+      }
+    },
+    {
+      "name": "principle-exhaust-the-design-space",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/principle-exhaust-the-design-space/SKILL.md"
+      }
+    },
+    {
+      "name": "writing-for-agents",
+      "category": "docs-writing",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/writing-for-agents/SKILL.md",
+        "Agents": ".agents/skills/writing-for-agents/SKILL.md"
+      }
+    },
+    {
+      "name": "legal-video",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/legal-video/SKILL.md",
+        "Codex": ".codex/skills/legal-video/SKILL.md",
+        "Agents": ".agents/skills/legal-video/SKILL.md"
+      }
+    },
+    {
+      "name": "scaffold-exercises",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/scaffold-exercises/SKILL.md",
+        "Agents": ".agents/skills/scaffold-exercises/SKILL.md"
+      }
+    },
+    {
+      "name": "triage",
+      "category": "other",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/triage/SKILL.md",
+        "Agents": ".agents/skills/triage/SKILL.md"
+      }
+    },
+    {
+      "name": "ultra-product-uiux",
+      "category": "frontend-ui",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/ultra-product-uiux/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-design-shotgun",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-design-shotgun/SKILL.md",
+        "Codex": ".codex/skills/gstack-design-shotgun/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-unfreeze",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-unfreeze/SKILL.md",
+        "Codex": ".codex/skills/gstack-unfreeze/SKILL.md"
+      }
+    },
+    {
+      "name": "gstack-make-pdf",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/gstack-make-pdf/SKILL.md",
+        "Codex": ".codex/skills/gstack-make-pdf/SKILL.md"
+      }
+    },
+    {
+      "name": "expo-module",
+      "category": "mobile-native",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/expo-module/SKILL.md",
+        "Agents": ".agents/skills/expo-module/SKILL.md"
+      }
+    },
+    {
+      "name": "web-animation-design",
+      "category": "design-motion",
+      "presentIn": [
+        "Agents",
+        "Claude"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/web-animation-design/SKILL.md",
+        "Agents": ".agents/skills/web-animation-design/SKILL.md"
+      }
+    },
+    {
+      "name": "gsd-add-backlog",
+      "category": "agent-workflows",
+      "presentIn": [
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/gsd-add-backlog/SKILL.md"
+      }
+    },
+    {
+      "name": "google-json-api-style",
+      "category": "integrations-tools",
+      "presentIn": [
+        "Claude",
+        "Codex"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/google-json-api-style/SKILL.md",
+        "Codex": ".codex/skills/google-json-api-style/SKILL.md"
+      }
+    }
+  ]
+}
