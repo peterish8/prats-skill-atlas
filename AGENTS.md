@@ -18,13 +18,13 @@ When a user gives you this repository or asks you to set it up:
 
 - Use `catalog/skills.json` as the complete index of names, categories, runtime availability, and descriptions.
 - Match skills to the user's project, stack, current phase, and requested task. Do not install a whole category just because one skill matched.
-- Prefer a shared skill only when it exists in the requested runtime tree. If a package is runtime-specific or unavailable for Claude, Codex, Grok, or Agents, say so explicitly.
+- Prefer a shared skill only when it exists in the requested runtime tree. If a package is runtime-specific or unavailable for Claude, Codex, Grok, Antigravity, or Agents, say so explicitly.
 - Treat user answers, repository evidence, and skill metadata as separate evidence. Mark uncertainty instead of guessing.
 - Keep the user's existing global skills. The selection installer is additive and does not delete unrelated packages.
 
 ## Repository maintenance
 
-Runtime packages live at `.claude/skills/<category>/<subcategory>/<skill>/SKILL.md`, `.codex/skills/...`, `.grok/skills/...`, and `.agents/skills/...`. Run these after changing the collection:
+Runtime packages live at `.claude/skills/<category>/<subcategory>/<skill>/SKILL.md`, `.codex/skills/...`, `.grok/skills/...`, `.antigravity/skills/...`, and `.agents/skills/...`. Run these after changing the collection:
 
 ```powershell
 .\scripts\organize-runtime-trees.ps1

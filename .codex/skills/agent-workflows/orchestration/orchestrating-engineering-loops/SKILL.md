@@ -1,6 +1,6 @@
 ---
 name: orchestrating-engineering-loops
-description: Use when substantial software-engineering work may benefit from multiple agents, independent parallel tasks, extended implementation or debugging, benchmarking, or separate implementation and evaluation. Skip for trivial changes where delegation overhead exceeds its value.
+description: Run a finite looping-engineering workflow when substantial software work may benefit from two or more agents or model families, parallel tasks, extended implementation or debugging, benchmarking, or independent evaluation. Skip trivial changes where orchestration costs more than direct work.
 ---
 
 # Orchestrating Engineering Loops
@@ -9,13 +9,15 @@ Lead → Contract → Fan-out → Execute → Evaluate → Repair → Integrate.
 
 ## Runtime binding
 
-This copy is bound to Codex. Codex is the active orchestrator, principal engineer, integrator, and final evaluator for the current user conversation. Claude, Grok, and other confirmed agents are bounded workers, not peer orchestrators.
+This copy is bound to Codex. Codex is the active orchestrator, principal engineer, integrator, and final evaluator for the current user conversation. Claude, Grok, Antigravity, and other confirmed agents are bounded workers, not peer orchestrators.
 
 ## First-use gate
 
-Before delegating, load the project roster from `.orchestration/agent-roster.yaml`, otherwise the user roster from `~/.agents/orchestration/agent-roster.yaml`. If neither contains confirmed access that is still applicable, ask the access interview in [references/onboarding-and-roster.md](references/onboarding-and-roster.md) before proposing workers.
+On first activation, establish whether the user has access to at least two agent runtimes or model families. If that is unknown, ask before proposing multi-agent work. When two or more are available, load the project roster from `.orchestration/agent-roster.yaml`, otherwise the user roster from `~/.agents/orchestration/agent-roster.yaml`. If neither contains confirmed access that is still applicable, ask all ten questions in [references/onboarding-and-roster.md](references/onboarding-and-roster.md) together before proposing workers. Knowing only the agent names is not a completed roster and does not waive the other questions. If only one agent or model is available, skip multi-agent onboarding and run the engineering loop directly.
 
 CLI detection is evidence that software exists, not proof that the user has access, budget, authorization, or a preferred model. Confirm those once, save them when the user agrees, and reuse the roster. When the user corrects a role, model, budget, or preference, update the roster delta instead of defending an old default or repeating the full interview.
+
+For every confirmed agent, record the preferred model and reasoning effort for orchestration, routine work, difficult work, and independent review. Recommend a strong reliable model at high effort for orchestration and final integration; a balanced model at medium effort for routine implementation; a fast or lower-cost model at high effort for bounded difficult work before escalating; and, when risk justifies the cost, a different model family at high effort for independent review. These are starting recommendations, not permanent vendor rankings. Respect the user's observed results, quotas, and corrections.
 
 ## Lead responsibilities
 
@@ -30,11 +32,13 @@ Before substantial work:
 
 ## Routing workers
 
-Choose workers from the confirmed roster by demonstrated capability, current access, cost, context capacity, and independence—not brand stereotypes. The current runtime remains lead whether it is Claude, Codex, Grok, or another compatible agent.
+Choose workers from the confirmed roster by demonstrated capability, current access, cost, context capacity, and independence—not brand stereotypes. The current runtime remains lead whether it is Claude, Codex, Grok, Antigravity, or another compatible agent.
 
 Delegation is useful when parallelism, specialization, context isolation, or independent verification outweigh startup cost, worker tokens, merge risk, and review effort. Read-only workers may intentionally overlap for cross-checking. Modifying workers must have non-overlapping ownership or run serially.
 
 Never invent a CLI flag, model ID, reasoning level, API, or dispatch capability. Inspect the current interface before first use and record the verified invocation in the roster. If dispatch is unavailable, produce a compact handoff packet and continue without claiming a worker ran.
+
+When Antigravity CLI is available, read [references/antigravity-routing.md](references/antigravity-routing.md) before its first dispatch or when its model or agent inventory changes.
 
 For non-trivial work, use the sprint and worker contracts in [references/contracts.md](references/contracts.md). Modifying workers should normally use isolated worktrees or equivalent checkouts. Preserve unrelated user changes; never solve coordination mistakes with destructive cleanup.
 

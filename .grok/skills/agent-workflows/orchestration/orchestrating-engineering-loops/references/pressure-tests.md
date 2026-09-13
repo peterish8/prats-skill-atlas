@@ -40,3 +40,16 @@ The complete runtime-specific skill and its references were injected into fresh,
 - Claude produced no output after three bounded waits and was terminated. This run establishes neither a Claude pass nor a Claude failure; Claude behavior remains unverified in this environment.
 
 The forward tests validate instruction interpretation in isolated prompt contexts. They do not prove real cross-runtime process dispatch, worktree integration, production permissions, or model-specific quality. Those remain execution-time checks for the active orchestrator.
+
+## Antigravity extension, 2026-09-12
+
+The Antigravity-bound skill was forward-tested through the installed `agy` CLI in sandboxed plan mode with structured JSON output.
+
+1. A first invocation paired an effort-encoded model slug with a conflicting `--effort` value. AGY rejected it before spending tokens. The dispatch reference now requires either the exact effort variant or a separately compatible effort flag, never both in conflict.
+2. A specialist-agent run returned `SUCCESS` with an empty response and zero usage. It was not accepted as evidence; the retry changed the worker and reduced context instead of repeating the same call.
+3. The next run followed the main workflow but compressed the compulsory interview and invented an unavailable versioned model in an example. The onboarding gate and no-invented-slug rule were strengthened.
+4. The final fresh run asked all ten onboarding questions, proposed orchestration/routine/scout/difficult/reviewer model-effort roles, used only the eight supplied live AGY model slugs, omitted a conflicting effort flag, preserved sandboxing and a finite timeout, and requested confirmation before saving the roster.
+
+Result: the Antigravity onboarding and routing behavior passed after evidence-driven repair. Actual modifying-worker integration and permission-gated tool execution remain execution-time verification boundaries.
+
+The package was then invoked by name from Antigravity's global skill root without injecting its contents. The low model summarized the gate incompletely, so the same proof was escalated to the verified high variant. The high run loaded the skill and correctly identified the two-agent access check, all-ten-questions requirement, four model-effort roles, and Antigravity-as-lead binding. This validates global discovery while also demonstrating that low-effort output should not be accepted for policy-critical interpretation without checking it.

@@ -23,11 +23,13 @@ case "$mode" in
     copy_tree Claude "$repo_root/.claude/skills" "${HOME}/.claude/skills"
     copy_tree Codex "$repo_root/.codex/skills" "${HOME}/.codex/skills"
     copy_tree Grok "$repo_root/.grok/skills" "${HOME}/.grok/skills"
+    copy_tree Antigravity "$repo_root/.antigravity/skills" "${HOME}/.gemini/config/skills"
     copy_tree Agents "$repo_root/.agents/skills" "${HOME}/.agents/skills"
     ;;
   claude) copy_tree Claude "$repo_root/.claude/skills" "${HOME}/.claude/skills" ;;
   codex) copy_tree Codex "$repo_root/.codex/skills" "${HOME}/.codex/skills" ;;
   grok) copy_tree Grok "$repo_root/.grok/skills" "${HOME}/.grok/skills" ;;
+  antigravity|agy) copy_tree Antigravity "$repo_root/.antigravity/skills" "${HOME}/.gemini/config/skills" ;;
   agents) copy_tree Agents "$repo_root/.agents/skills" "${HOME}/.agents/skills" ;;
   selection)
     manifest="${2:?Usage: $0 selection path/to/selection.json}"
@@ -56,6 +58,7 @@ roots = {
     "Claude": (repo_root / ".claude" / "skills", Path.home() / ".claude" / "skills"),
     "Codex": (repo_root / ".codex" / "skills", Path.home() / ".codex" / "skills"),
     "Grok": (repo_root / ".grok" / "skills", Path.home() / ".grok" / "skills"),
+    "Antigravity": (repo_root / ".antigravity" / "skills", Path.home() / ".gemini" / "config" / "skills"),
     "Agents": (repo_root / ".agents" / "skills", Path.home() / ".agents" / "skills"),
 }
 targets = data.get("targets", [])
@@ -83,7 +86,7 @@ for target_name in targets:
         print(f"{target_name}: unavailable in this runtime tree: {', '.join(missing)}")
 PY
     ;;
-  *) echo "Usage: $0 [all|claude|codex|grok|agents|selection path/to/selection.json]" >&2; exit 2 ;;
+  *) echo "Usage: $0 [all|claude|codex|grok|antigravity|agy|agents|selection path/to/selection.json]" >&2; exit 2 ;;
 esac
 
 echo 'Installation complete. Existing unrelated skill packages were not deleted.'

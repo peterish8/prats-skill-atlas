@@ -4,6 +4,7 @@ param(
     [switch]$Claude,
     [switch]$Codex,
     [switch]$Grok,
+    [switch]$Antigravity,
     [switch]$Agents,
     [string]$Manifest,
     [switch]$DryRun
@@ -13,7 +14,7 @@ $ErrorActionPreference = 'Stop'
 $repoRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
 . (Join-Path $repoRoot 'scripts\runtime-layout.ps1')
 
-if ($Manifest -and ($All -or $Claude -or $Codex -or $Grok -or $Agents)) {
+if ($Manifest -and ($All -or $Claude -or $Codex -or $Grok -or $Antigravity -or $Agents)) {
     throw 'Use -Manifest by itself; do not combine it with runtime switches.'
 }
 
@@ -36,13 +37,14 @@ if ($Manifest) {
     $requestedTargets = @($manifestData.targets | ForEach-Object { [string]$_ } | Select-Object -Unique)
     if ($requestedTargets.Count -eq 0) { throw 'Selection manifest contains no targets.' }
 } else {
-    if (-not ($All -or $Claude -or $Codex -or $Grok -or $Agents)) {
+    if (-not ($All -or $Claude -or $Codex -or $Grok -or $Antigravity -or $Agents)) {
         $All = $true
     }
     $requestedTargets = @()
     if ($All -or $Claude) { $requestedTargets += 'Claude' }
     if ($All -or $Codex) { $requestedTargets += 'Codex' }
     if ($All -or $Grok) { $requestedTargets += 'Grok' }
+    if ($All -or $Antigravity) { $requestedTargets += 'Antigravity' }
     if ($All -or $Agents) { $requestedTargets += 'Agents' }
 }
 
@@ -50,6 +52,7 @@ $targetDefinitions = @{
     Claude = @{ Name = 'Claude'; Source = Join-Path $repoRoot '.claude\skills'; Target = Join-Path $HOME '.claude\skills' }
     Codex = @{ Name = 'Codex'; Source = Join-Path $repoRoot '.codex\skills'; Target = Join-Path $HOME '.codex\skills' }
     Grok = @{ Name = 'Grok'; Source = Join-Path $repoRoot '.grok\skills'; Target = Join-Path $HOME '.grok\skills' }
+    Antigravity = @{ Name = 'Antigravity'; Source = Join-Path $repoRoot '.antigravity\skills'; Target = Join-Path $HOME '.gemini\config\skills' }
     Agents = @{ Name = 'Agents'; Source = Join-Path $repoRoot '.agents\skills'; Target = Join-Path $HOME '.agents\skills' }
 }
 $targets = @()

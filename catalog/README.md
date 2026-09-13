@@ -1,6 +1,6 @@
 # Prats Skill Atlas catalog
 
-`skills.json` and `skills.md` are generated from the four runtime trees by `scripts/build-catalog.ps1`.
+`skills.json` and `skills.md` are generated from the five runtime trees by `scripts/build-catalog.ps1`.
 
 The catalog is the discovery layer used during onboarding. Agents should inspect its names, categories, runtime availability, and descriptions first, then read full `SKILL.md` files only for approved candidates.
 

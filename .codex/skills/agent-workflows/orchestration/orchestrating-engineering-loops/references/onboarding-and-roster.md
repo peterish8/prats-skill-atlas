@@ -15,9 +15,11 @@ The active runtime is the default orchestrator. Do not ask the user to select a 
 
 Ask these together before the first delegation plan. Accept short answers and `unknown`.
 
-1. Which agents do you actually have access to—Claude, Codex, Grok, local models, or others?
+When two or more agents or model families are available and no confirmed roster exists, ask all ten questions. Do not treat a list of agent names as a completed interview. On later runs, ask only for a missing or stale field that materially affects the current route.
+
+1. Do you have access to at least two agent runtimes or model families, and which ones—Claude, Codex, Grok, Antigravity/`agy`, local models, or others?
 2. How can each be invoked here: native subagent, desktop task, CLI, API, MCP, or manual handoff?
-3. Which models and reasoning or effort levels are allowed or preferred for routine, difficult, and review work?
+3. For each agent, which model and reasoning or effort level should handle orchestration, routine work, difficult work, and independent review? Accept a recommended matrix when the user has no preference.
 4. What is each agent especially good or poor at in your experience?
 5. May workers edit files, or are some read-only/research-only?
 6. Are isolated git worktrees available for modifying workers?
@@ -27,6 +29,20 @@ Ask these together before the first delegation plan. Accept short answers and `u
 10. What would make the system feel correct for you, and what behavior should it never repeat?
 
 Summarize the proposed roster and ask one confirmation before saving it. The interview authorizes saving preferences only in the chosen location; it does not authorize worker execution or external side effects.
+
+## Recommended model-effort matrix
+
+Use this as the proposed default, then adapt it to the user's actual model list, quotas, latency, and observed quality.
+
+| Role | Recommended model class | Effort | Why |
+| --- | --- | --- | --- |
+| Orchestrator and final integrator | strongest reliable available model | high | Owns intent, architecture, risk, integration, and the completion claim |
+| Routine implementation | balanced general coding model | medium | Good quality without paying maximum reasoning cost on every task |
+| Fast scout or mechanical worker | fastest or lower-cost capable model | medium | Cheap breadth, file discovery, summaries, and bounded transformations |
+| Bounded difficult worker | fast/lower-cost model first, then stronger model if evidence warrants | high | Uses more reasoning before escalating model cost |
+| Independent reviewer | different capable model family from the builder | high | Adds useful independence when risk or subjectivity justifies it |
+
+Do not require every role to use a different model. A small roster can reuse one strong model while keeping builder and evaluator prompts or contexts separate. Mark unsupported effort controls as `model-defined`; never invent a flag or tier.
 
 ## Roster schema
 
@@ -47,6 +63,7 @@ agents:
       command: example
       verifiedVersion: unknown
     models:
+      orchestrator: configured-default
       routine: configured-default
       difficult: configured-default
       review: configured-default

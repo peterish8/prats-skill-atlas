@@ -9,6 +9,7 @@ Reviewed 2026-09-12.
 - Anthropic's multi-agent research system shows strong value for broad, independent parallel work but much higher token cost and weaker fit for tightly coupled work. Worker prompts need objectives, boundaries, tools, and output formats.
 - Anthropic's parallel compiler experiment demonstrates task ownership, isolated checkouts, strong tests, compact progress artifacts, and specialization, while also warning that an infinite loop belongs in a contained research harness rather than a normal workstation workflow.
 - SWE-agent's Agent-Computer Interface work supports immediate syntax feedback, concise file/search interfaces, and explicit successful-empty output so agents receive useful deterministic feedback without context noise.
+- Google Antigravity documents a native global skill root, structured headless runs with explicit model, effort, and agent selection, and asynchronous subagents whose permissions remain controlled by the main agent. Its headless permission model also shows why a zero exit code must not be confused with proof that every requested action ran.
 
 ## Design decisions
 
@@ -27,3 +28,6 @@ Reviewed 2026-09-12.
 - https://www.anthropic.com/engineering/multi-agent-research-system
 - https://www.anthropic.com/engineering/building-c-compiler
 - https://github.com/SWE-agent/SWE-agent/blob/main/docs/background/aci.md
+- https://antigravity.google/docs/skills
+- https://antigravity.google/docs/cli/headless/
+- https://antigravity.google/docs/cli/features/

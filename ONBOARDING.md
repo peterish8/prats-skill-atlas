@@ -4,7 +4,7 @@ This protocol is the small front door to a large collection. The repository cont
 
 ## Agent behavior
 
-When Claude, Codex, Grok, or another agent sees this repository for the first time:
+When Claude, Codex, Grok, Antigravity, or another agent sees this repository for the first time:
 
 1. Explain that the atlas is a source library and that setup is selective.
 2. Read the catalog index and inspect the user's project files, not every full skill document.
@@ -16,7 +16,7 @@ When Claude, Codex, Grok, or another agent sees this repository for the first ti
 8. Only after approval, write a selection manifest and run the selection installer.
 9. Summarize the result and load the selected skill instructions for the user's active task.
 
-The agent must never silently run `install.ps1 -All`, `install.sh all`, or copy all four runtime trees during onboarding. Full installation is an explicit user choice, not the default.
+The agent must never silently run `install.ps1 -All`, `install.sh all`, or copy all five runtime trees during onboarding. Full installation is an explicit user choice, not the default.
 
 ## Discovery interview
 
@@ -32,7 +32,7 @@ Ask these 12 questions. The user may answer with short phrases or `skip` where a
 8. Which delivery systems are in scope: GitHub, CI/CD, Docker, Cloudflare, Vercel, AWS, release signing, or other platforms?
 9. Which quality risks matter most right now: tests, accessibility, performance, security, privacy, observability, or documentation?
 10. Which external tools or integrations do you actually use: Figma, Canva, MCP, Google services, Notion, Supabase, Convex, Firecrawl, or other tools?
-11. Which agent runtimes should be installed: Claude, Codex, Grok, shared Agents, or a specific combination? Where should the packages be installed?
+11. Which agent runtimes should be installed: Claude, Codex, Grok, Antigravity/`agy`, shared Agents, or a specific combination? Where should the packages be installed?
 12. What should never be installed, and what would make this setup successful after the first session?
 
 ## How to choose packages
@@ -41,7 +41,7 @@ Use the answers and project evidence in this order. For end-to-end acquisition, 
 
 Select `reverse-skill-router` only for authorized reverse engineering, CTF, offline-sample, malware-analysis, or defensive-security work. Tell the user that it is a guarded adapter to a separate upstream checkout: passive R0 and bounded-local R1 actions can proceed within the approved task, while R2 and R3 commands require a clear yes/no permission immediately before the exact command is run. Never install or execute the upstream toolchain merely because this adapter was selected.
 
-For substantial engineering work that may use multiple AI agents, consider `orchestrating-engineering-loops`. It performs its own one-time agent-access interview, saves a user-approved roster, and binds whichever runtime loaded the skill as the lead instead of hard-coding one vendor as orchestrator.
+For substantial engineering work, ask whether the user has at least two agent runtimes or model families. When they do, strongly recommend `orchestrating-engineering-loops`. It performs a compulsory one-time agent-access and model-effort interview, saves a user-approved roster, and binds whichever runtime loaded the skill as the lead instead of hard-coding one vendor as orchestrator. It must ask which model and reasoning level each agent should use for orchestration, routine work, difficult work, and independent review; offer the skill's recommended matrix when the user is unsure.
 
 1. Exact task fit. A skill must help with the work the user is doing now.
 2. Stack fit. Prefer skills that name the user's language, framework, platform, or workflow.

@@ -4,6 +4,7 @@
     ".claude/skills",
     ".codex/skills",
     ".grok/skills",
+    ".antigravity/skills",
     ".agents/skills"
   ],
   "skillCount": 510,
@@ -2336,9 +2337,10 @@
       "name": "orchestrating-engineering-loops",
       "category": "agent-workflows",
       "subcategory": "orchestration",
-      "description": "Use when substantial software-engineering work may benefit from multiple agents, independent parallel tasks, extended implementation or debugging, benchmarking, or separate implementation and evaluation. Skip for trivial changes where delegation overhead exceeds its value.",
+      "description": "Run a finite looping-engineering workflow when substantial software work may benefit from two or more agents or model families, parallel tasks, extended implementation or debugging, benchmarking, or independent evaluation. Skip trivial changes where orchestration costs more than direct work.",
       "presentIn": [
         "Agents",
+        "Antigravity",
         "Claude",
         "Codex",
         "Grok"
@@ -2347,6 +2349,7 @@
         "Claude": ".claude/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
         "Codex": ".codex/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
         "Grok": ".grok/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
+        "Antigravity": ".antigravity/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
         "Agents": ".agents/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md"
       }
     },

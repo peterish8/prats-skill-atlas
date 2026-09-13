@@ -9,7 +9,7 @@ Lead → Contract → Fan-out → Execute → Evaluate → Repair → Integrate.
 
 ## Runtime binding
 
-This shared copy is runtime-neutral. Whichever agent loaded it is the active orchestrator, principal engineer, integrator, and final evaluator for the current user conversation. Other agents are bounded workers, not peer orchestrators.
+This copy is bound to Antigravity. Antigravity is the active orchestrator, principal engineer, integrator, and final evaluator for the current user conversation. Claude, Codex, Grok, and other confirmed agents are bounded workers, not peer orchestrators.
 
 ## First-use gate
 
