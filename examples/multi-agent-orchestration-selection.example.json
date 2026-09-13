@@ -10,7 +10,7 @@
   },
   "skills": [
     {
-      "name": "orchestrating-engineering-loops",
+      "name": "agent-loop",
       "reason": "Discovers the user's agent roster and runs a finite contract-and-evidence engineering loop",
       "targets": ["Claude", "Codex", "Grok", "Antigravity", "Agents"]
     }

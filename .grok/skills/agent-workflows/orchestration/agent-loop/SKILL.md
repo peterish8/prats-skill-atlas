@@ -1,5 +1,5 @@
 ---
-name: orchestrating-engineering-loops
+name: agent-loop
 description: Run a finite looping-engineering workflow when substantial software work may benefit from two or more agents or model families, parallel tasks, extended implementation or debugging, benchmarking, or independent evaluation. Skip trivial changes where orchestration costs more than direct work.
 ---
 
@@ -9,7 +9,7 @@ Lead → Contract → Fan-out → Execute → Evaluate → Repair → Integrate.
 
 ## Runtime binding
 
-This copy is bound to Antigravity. Antigravity is the active orchestrator, principal engineer, integrator, and final evaluator for the current user conversation. Claude, Codex, Grok, and other confirmed agents are bounded workers, not peer orchestrators.
+This copy is bound to Grok. Grok is the active orchestrator, principal engineer, integrator, and final evaluator for the current user conversation. Claude, Codex, Antigravity, and other confirmed agents are bounded workers, not peer orchestrators.
 
 ## First-use gate
 

@@ -22,6 +22,26 @@
       }
     },
     {
+      "name": "agent-loop",
+      "category": "agent-workflows",
+      "subcategory": "orchestration",
+      "description": "Run a finite looping-engineering workflow when substantial software work may benefit from two or more agents or model families, parallel tasks, extended implementation or debugging, benchmarking, or independent evaluation. Skip trivial changes where orchestration costs more than direct work.",
+      "presentIn": [
+        "Agents",
+        "Antigravity",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/agent-workflows/orchestration/agent-loop/SKILL.md",
+        "Codex": ".codex/skills/agent-workflows/orchestration/agent-loop/SKILL.md",
+        "Grok": ".grok/skills/agent-workflows/orchestration/agent-loop/SKILL.md",
+        "Antigravity": ".antigravity/skills/agent-workflows/orchestration/agent-loop/SKILL.md",
+        "Agents": ".agents/skills/agent-workflows/orchestration/agent-loop/SKILL.md"
+      }
+    },
+    {
       "name": "agent-reach",
       "category": "agent-workflows",
       "subcategory": "coordination",
@@ -2331,26 +2351,6 @@
       ],
       "paths": {
         "Codex": ".codex/skills/agent-workflows/coordination/interrogate/SKILL.md"
-      }
-    },
-    {
-      "name": "orchestrating-engineering-loops",
-      "category": "agent-workflows",
-      "subcategory": "orchestration",
-      "description": "Run a finite looping-engineering workflow when substantial software work may benefit from two or more agents or model families, parallel tasks, extended implementation or debugging, benchmarking, or independent evaluation. Skip trivial changes where orchestration costs more than direct work.",
-      "presentIn": [
-        "Agents",
-        "Antigravity",
-        "Claude",
-        "Codex",
-        "Grok"
-      ],
-      "paths": {
-        "Claude": ".claude/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
-        "Codex": ".codex/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
-        "Grok": ".grok/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
-        "Antigravity": ".antigravity/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md",
-        "Agents": ".agents/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md"
       }
     },
     {

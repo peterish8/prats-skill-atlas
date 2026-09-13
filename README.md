@@ -34,7 +34,7 @@ Hand this repository to Claude, Codex, Grok, or Antigravity and the root agent i
 
 The default is selective setup. Your friend does not need to explain this workflow manually, and no one gets the full atlas unless they explicitly choose it.
 
-> **Have two or more AI agents or model families?** The onboarding agent must ask, then strongly recommend the flagship [`orchestrating-engineering-loops`](.agents/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md) skill for substantial engineering. It asks once which runtimes, models, reasoning levels, budgets, and permissions you have, saves the confirmed roster, and updates only corrected preferences later.
+> **Have two or more AI agents or model families?** The onboarding agent must ask, then strongly recommend the flagship [`agent-loop`](.agents/skills/agent-workflows/orchestration/agent-loop/SKILL.md) skill for substantial engineering. It asks once which runtimes, models, reasoning levels, budgets, and permissions you have, saves the confirmed roster, and updates only corrected preferences later.
 
 ## What is inside
 
@@ -97,7 +97,7 @@ The Atlas carries the lightweight guarded adapter and upstream provenance, not t
 
 ## Flagship: Looping Engineering Orchestrator
 
-[`orchestrating-engineering-loops`](.agents/skills/agent-workflows/orchestration/orchestrating-engineering-loops/SKILL.md) is the Atlas's primary engineering-control skill. Claude leads inside Claude, Codex inside Codex, Grok inside Grok, and Antigravity inside `agy`; other confirmed systems become bounded workers. If access to two or more agents or model families is unknown, the skill must ask. Its compulsory first-use interview records the model and reasoning effort for orchestration, routine work, difficult work, and independent review, then saves the approved roster so setup is not repeated.
+[`agent-loop`](.agents/skills/agent-workflows/orchestration/agent-loop/SKILL.md) is the Atlas's primary engineering-control skill. Claude leads inside Claude, Codex inside Codex, Grok inside Grok, and Antigravity inside `agy`; other confirmed systems become bounded workers. If access to two or more agents or model families is unknown, the skill must ask. Its compulsory first-use interview records the model and reasoning effort for orchestration, routine work, difficult work, and independent review, then saves the approved roster so setup is not repeated.
 
 The skill delegates only when parallelism, specialization, context savings, or independent review outweigh coordination cost. It uses bounded worker contracts, single-writer ownership, isolated worktrees, deterministic verification, failure classification, benchmark integrity, and finite stopping conditions. Start with the [`multi-agent selection example`](examples/multi-agent-orchestration-selection.example.json).
 
