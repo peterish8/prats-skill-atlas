@@ -7,7 +7,7 @@
     ".antigravity/skills",
     ".agents/skills"
   ],
-  "skillCount": 510,
+  "skillCount": 512,
   "skills": [
     {
       "name": "adaptive-agent-workflow",
@@ -3083,6 +3083,46 @@
       "paths": {
         "Claude": ".claude/skills/design/visual-and-motion/brandkit/SKILL.md",
         "Agents": ".agents/skills/design/visual-and-motion/brandkit/SKILL.md"
+      }
+    },
+    {
+      "name": "cinematic-ui-motion",
+      "category": "design",
+      "subcategory": "visual-and-motion",
+      "description": "Design or implement tactile cinematic interfaces with product-specific hero objects, coherent scene choreography and satisfying gesture feedback. Use for existing websites or apps, prototypes, or planning-only motion and UI specifications inspired by the Polaris experience.",
+      "presentIn": [
+        "Agents",
+        "Antigravity",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/design/visual-and-motion/cinematic-ui-motion/SKILL.md",
+        "Codex": ".codex/skills/design/visual-and-motion/cinematic-ui-motion/SKILL.md",
+        "Grok": ".grok/skills/design/visual-and-motion/cinematic-ui-motion/SKILL.md",
+        "Antigravity": ".antigravity/skills/design/visual-and-motion/cinematic-ui-motion/SKILL.md",
+        "Agents": ".agents/skills/design/visual-and-motion/cinematic-ui-motion/SKILL.md"
+      }
+    },
+    {
+      "name": "curiosity-driven-ux",
+      "category": "design",
+      "subcategory": "experience-and-behavior",
+      "description": "Design engaging product journeys through narrative, low-effort choices, meaningful progress, user agency and personalized completion. Use to adapt the Polaris experience to existing websites or apps, prototypes, or planning-only UX and behavioral specifications.",
+      "presentIn": [
+        "Agents",
+        "Antigravity",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/design/experience-and-behavior/curiosity-driven-ux/SKILL.md",
+        "Codex": ".codex/skills/design/experience-and-behavior/curiosity-driven-ux/SKILL.md",
+        "Grok": ".grok/skills/design/experience-and-behavior/curiosity-driven-ux/SKILL.md",
+        "Antigravity": ".antigravity/skills/design/experience-and-behavior/curiosity-driven-ux/SKILL.md",
+        "Agents": ".agents/skills/design/experience-and-behavior/curiosity-driven-ux/SKILL.md"
       }
     },
     {

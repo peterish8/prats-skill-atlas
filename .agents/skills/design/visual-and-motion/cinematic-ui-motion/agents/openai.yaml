@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cinematic UI & Motion"
+  short_description: "Build tactile interfaces with coherent cinematic motion"
+  default_prompt: "Use $cinematic-ui-motion to make this product tactile and cinematic with a product-specific visual motif and verified motion."

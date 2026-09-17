@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "cinematic-experience",
+  "targets": [
+    "Claude",
+    "Codex",
+    "Grok",
+    "Antigravity",
+    "Agents"
+  ],
+  "answers": {
+    "projectType": "existing app, prototype or product idea",
+    "goal": "tactile cinematic UI and clear, curious, satisfying journeys",
+    "scope": "Preserve the target brand, working features and requested mode"
+  },
+  "skills": [
+    {
+      "name": "cinematic-ui-motion",
+      "reason": "Design and verify composition, tactile feedback and coherent motion",
+      "targets": [
+        "Claude",
+        "Codex",
+        "Grok",
+        "Antigravity",
+        "Agents"
+      ]
+    },
+    {
+      "name": "curiosity-driven-ux",
+      "reason": "Design useful choices, meaningful progress and personalized completion",
+      "targets": [
+        "Claude",
+        "Codex",
+        "Grok",
+        "Antigravity",
+        "Agents"
+      ]
+    }
+  ]
+}

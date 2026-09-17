@@ -12,6 +12,7 @@ The catalog is the discovery layer used during onboarding. Agents should inspect
 - `backend/apis-and-platforms` — APIs, databases, server runtimes, cloud platforms, and typed backend work
 - `architecture/system-design` — architecture, domain modeling, codebase boundaries, and system structure
 - `mobile/native-and-cross-platform` — Expo, React Native, iOS, SwiftUI, Kotlin, and Android
+- `design/experience-and-behavior` — engaging journeys, choice design, meaningful progress, agency and personalized completion
 - `design/visual-and-motion` — branding, product design, interaction, animation, and visual direction
 - `security/appsec-and-privacy` — security, privacy, bug bounty, hardening, and security headers
 - `security/reverse-engineering` — guarded reverse engineering and authorized security routing

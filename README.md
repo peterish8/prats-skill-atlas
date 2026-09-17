@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/510_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="510 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/512_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="512 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.grok"><img src="https://img.shields.io/badge/Grok-ready-c084fc?style=flat-square&labelColor=0b1017" alt="Grok ready"></a>
@@ -40,12 +40,12 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 379 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 279 | Codex-compatible skill packages |
-| [`.grok/skills`](.grok/skills) | 1 | Grok-compatible skill packages |
-| [`.antigravity/skills`](.antigravity/skills) | 1 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
-| [`.agents/skills`](.agents/skills) | 334 | Shared agent skill packages |
-| **Unique skill names** | **510** | Deduplicated collection across all trees |
+| [`.claude/skills`](.claude/skills) | 381 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 281 | Codex-compatible skill packages |
+| [`.grok/skills`](.grok/skills) | 3 | Grok-compatible skill packages |
+| [`.antigravity/skills`](.antigravity/skills) | 3 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
+| [`.agents/skills`](.agents/skills) | 336 | Shared agent skill packages |
+| **Unique skill names** | **512** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
@@ -54,7 +54,7 @@ Every package keeps its own `SKILL.md`, references, scripts, and practical asset
 - `architecture/system-design`
 - `frontend/web-ui`
 - `backend/apis-and-platforms`
-- `design/visual-and-motion`
+- `design/{visual-and-motion,experience-and-behavior}`
 - `agent-workflows/{coordination,orchestration}`
 - `security/{appsec-and-privacy,reverse-engineering}`
 - `testing/qa-and-verification`
@@ -67,6 +67,25 @@ Every package keeps its own `SKILL.md`, references, scripts, and practical asset
 - `tools-utilities/general-purpose`
 
 See the complete map in [`catalog/skills.md`](catalog/skills.md).
+
+## Cinematic UI and curious UX
+
+Two portable skills translate the Polaris Cubing Club experience into existing apps, prototypes, or planning-only specifications. They preserve the target product's brand and working features while adapting the staging, tactile feedback, meaningful progress and personalized completion to its own purpose.
+
+| Skill | Category | Responsibility |
+| --- | --- | --- |
+| [`cinematic-ui-motion`](.agents/skills/design/visual-and-motion/cinematic-ui-motion/SKILL.md) | `design/visual-and-motion` | Composition, material depth, hero objects, gesture feedback, scene choreography, responsive and reduced-motion behavior |
+| [`curiosity-driven-ux`](.agents/skills/design/experience-and-behavior/curiosity-driven-ux/SKILL.md) | `design/experience-and-behavior` | Narrative, low-effort choices, meaningful progress, agency, personalization and satisfying completion |
+
+Both packages include their own references and agent metadata and are available in Claude, Codex, Grok, Antigravity and shared Agents. Behavioral principles are included in the UX skill. They do not require the original survey, a cube, a dark theme, React or a specific animation library; engagement and retention effects remain hypotheses until measured in the target product.
+
+Use the [`cinematic experience selection`](examples/cinematic-experience-selection.example.json) to install only these two skills across all five supported atlas runtimes:
+
+```powershell
+.\install.ps1 -Manifest .\examples\cinematic-experience-selection.example.json
+```
+
+Example request: "Use cinematic-ui-motion and curiosity-driven-ux on this existing app. Preserve its brand and features; make its main journey tactile, curious and satisfying. Implement and verify the changes." For an idea or specification, add "Planning only; produce the journey, storyboard, motion timeline, state contracts and acceptance criteria."
 
 ## Product Growth system
 

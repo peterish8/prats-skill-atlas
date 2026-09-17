@@ -1,0 +1,4 @@
+interface:
+  display_name: "Curiosity-driven UX"
+  short_description: "Make product journeys curious and satisfying to finish"
+  default_prompt: "Use $curiosity-driven-ux to make this product easier, more interesting and satisfying through meaningful progress and user agency."

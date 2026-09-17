@@ -1,6 +1,6 @@
 # Skill index
 
-Unique skill packages: 510
+Unique skill packages: 512
 
 ## agent-workflows/coordination
 
@@ -240,10 +240,15 @@ Unique skill packages: 510
 - `workers-best-practices` - Agents, Claude, Codex | Reviews and authors Cloudflare Workers code against production best practices. Load when writing new Workers, reviewing Worker code, configuring wrangler.jsonc, or checking for common Workers anti-patterns (streaming, floating promises, global state, secrets, bindings, observability). Biases towards retrieval from Cloudflare docs over pre-trained knowledge.
 - `wrangler` - Agents, Claude, Codex | Cloudflare Workers CLI for deploying, developing, and managing Workers, KV, R2, D1, Vectorize, Hyperdrive, Workers AI, Containers, Queues, Workflows, Pipelines, and Secrets Store. Load before running wrangler commands to ensure correct syntax and best practices. Biases towards retrieval from Cloudflare docs over pre-trained knowledge.
 
+## design/experience-and-behavior
+
+- `curiosity-driven-ux` - Agents, Antigravity, Claude, Codex, Grok | Design engaging product journeys through narrative, low-effort choices, meaningful progress, user agency and personalized completion. Use to adapt the Polaris experience to existing websites or apps, prototypes, or planning-only UX and behavioral specifications.
+
 ## design/visual-and-motion
 
 - `animation-designer` - Agents, Claude | Expert in web animations, transitions, and motion design using Framer Motion and CSS
 - `brandkit` - Agents, Claude | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts.
+- `cinematic-ui-motion` - Agents, Antigravity, Claude, Codex, Grok | Design or implement tactile cinematic interfaces with product-specific hero objects, coherent scene choreography and satisfying gesture feedback. Use for existing websites or apps, prototypes, or planning-only motion and UI specifications inspired by the Polaris experience.
 - `design-an-interface` - Agents | Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice".
 - `design-taste-frontend` - Agents, Claude | Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check.
 - `design-taste-frontend-v1` - Agents, Claude | The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility.

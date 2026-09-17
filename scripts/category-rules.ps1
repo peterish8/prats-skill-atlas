@@ -32,6 +32,9 @@ function Get-SkillPlacement {
         return [pscustomobject]@{ Category = 'product-growth'; Subcategory = $productGrowthPlacements[$Name] }
     }
 
+    if ($Name -eq 'cinematic-ui-motion') { return [pscustomobject]@{ Category = 'design'; Subcategory = 'visual-and-motion' } }
+    if ($Name -eq 'curiosity-driven-ux') { return [pscustomobject]@{ Category = 'design'; Subcategory = 'experience-and-behavior' } }
+
     if ($Name -eq 'reverse-skill-router') { return [pscustomobject]@{ Category = 'security'; Subcategory = 'reverse-engineering' } }
     if ($Name -eq 'agent-loop') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'orchestration' } }
 

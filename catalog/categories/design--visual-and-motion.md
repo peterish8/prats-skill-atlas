@@ -1,11 +1,12 @@
 # design/visual-and-motion
 
-Skills in this category: 26
+Skills in this category: 27
 
 | Skill | Available in | Description |
 | --- | --- | --- |
 | `animation-designer` | Agents, Claude | Expert in web animations, transitions, and motion design using Framer Motion and CSS |
 | `brandkit` | Agents, Claude | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark-tech, luxury, cultural, security, gaming, developer-tool, and consumer-app brand systems. Optimized for intentional logo concepting, refined composition, sparse typography, strong symbolic meaning, premium mockups, art-directed imagery, and flexible grid layouts. |
+| `cinematic-ui-motion` | Agents, Antigravity, Claude, Codex, Grok | Design or implement tactile cinematic interfaces with product-specific hero objects, coherent scene choreography and satisfying gesture feedback. Use for existing websites or apps, prototypes, or planning-only motion and UI specifications inspired by the Polaris experience. |
 | `design-an-interface` | Agents | Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions "design it twice". |
 | `design-taste-frontend` | Agents, Claude | Anti-slop frontend skill for landing pages, portfolios, and redesigns. The agent reads the brief, infers the right design direction, and ships interfaces that do not look templated. Real design systems when applicable, audit-first on redesigns, strict pre-flight check. |
 | `design-taste-frontend-v1` | Agents, Claude | The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 install name only if you need exact backward compatibility. |
