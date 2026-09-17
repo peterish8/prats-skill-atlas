@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/513_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="513 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/514_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="514 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.grok"><img src="https://img.shields.io/badge/Grok-ready-c084fc?style=flat-square&labelColor=0b1017" alt="Grok ready"></a>
@@ -40,12 +40,12 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 382 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 282 | Codex-compatible skill packages |
-| [`.grok/skills`](.grok/skills) | 4 | Grok-compatible skill packages |
-| [`.antigravity/skills`](.antigravity/skills) | 4 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
-| [`.agents/skills`](.agents/skills) | 337 | Shared agent skill packages |
-| **Unique skill names** | **513** | Deduplicated collection across all trees |
+| [`.claude/skills`](.claude/skills) | 383 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 283 | Codex-compatible skill packages |
+| [`.grok/skills`](.grok/skills) | 5 | Grok-compatible skill packages |
+| [`.antigravity/skills`](.antigravity/skills) | 5 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
+| [`.agents/skills`](.agents/skills) | 338 | Shared agent skill packages |
+| **Unique skill names** | **514** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
@@ -100,6 +100,22 @@ The full package, including its source lessons, implementation contracts, fideli
 ```
 
 Example request: "Use frontend-design-fidelity on this app. Preserve its chosen design; inspect shared controls, long content, layout boundaries, first paint, keyboard use, error/recovery states and exported outputs. Repair the responsible shared paths and verify the affected surfaces." Add "Planning only" when implementation is not requested.
+
+## Motion, animation and UX stack
+
+[`motion-animate-ux-stack`](.agents/skills/design/visual-and-motion/motion-animate-ux-stack/SKILL.md) is a focused reusable motion-design workshop, separate from the broader UI and journey skills. It teaches sixteen principles of temporal composition, staging, rhythm, anticipation, overlap, weight, elasticity, continuity and loop closure; four continuity contracts; easing/physical-model choices; typography, shape, vector, particle, light and 3D graphics; and five worked sequence patterns with timelines.
+
+Implementation guidance covers property ownership, current-pose retargeting, shared-element/FLIP transitions, ordered physical models, cancellation, alternative playback and performance review. A storyboard/motion brief template makes the same process usable for an existing app, prototype or planning-only specification. Timing suggestions are adaptable heuristics; state, truthfulness and lifecycle contracts remain explicit.
+
+The [verified reference stack](.agents/skills/design/visual-and-motion/motion-animate-ux-stack/references/motion-ux-stack.md) documents the source checkout's Next.js 16.3.5, React 19.2.8, TypeScript 5.9.3, Tailwind CSS 4.3.3 and Motion 13.4.0, with CSS/CSS 3D, SVG, Web Animations and custom frame code. These are source versions, not required versions or deployed-bundle proof. The guide explains when another product can use a smaller or existing stack.
+
+The complete eight-file package is available in all five runtime trees under `design/visual-and-motion`. Install only this skill with the [motion stack selection](examples/motion-ux-stack-selection.example.json):
+
+```powershell
+.\install.ps1 -Manifest .\examples\motion-ux-stack-selection.example.json
+```
+
+Example request: "Use motion-animate-ux-stack on this hero. Design its motion intent, resting poses, spatial grammar, continuous transitions and choreography. Implement using the existing suitable stack, and verify reversal, reduced motion, pause and skip." For a specification, add "Planning only; deliver the storyboard, timeline, ownership and acceptance criteria without scaffolding."
 
 ## Product Growth system
 

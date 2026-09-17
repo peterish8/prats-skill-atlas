@@ -1,6 +1,6 @@
 # Skill index
 
-Unique skill packages: 513
+Unique skill packages: 514
 
 ## agent-workflows/coordination
 
@@ -270,6 +270,7 @@ Unique skill packages: 513
 - `microinteractions` - Agents, Claude | Design the small details -- triggers, rules, feedback, loops and modes -- that separate good products from great ones. Use when the user mentions "microinteraction", "button feedback", "loading state", "toggle design", "animation detail", "interaction polish", "state transitions", or "input feedback". Also trigger when designing form validation responses, progress indicators, confirmation dialogs, or any UI element where the user expects immediate feedback. Covers trigger design, state rules, feedback mechanisms, and progressive loops. For overall UI polish, see refactoring-ui. For affordance design, see design-everyday-things.
 - `minimalist-ui` - Agents, Claude | Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.
 - `motion` - Agents, Claude | Motion (Framer Motion) React animation library. Use for drag-and-drop, scroll animations, gestures, SVG morphing, or encountering bundle size, complex transitions, spring physics errors.
+- `motion-animate-ux-stack` - Agents, Antigravity, Claude, Codex, Grok | Design and implement motion graphics, intentional scene choreography and continuous transitions for websites and apps. Use for hero sequences, animated diagrams, shared-element transformations, editorial reveals, gesture-driven objects and reusable motion specifications, including planning-only work.
 - `motion-promo` - Agents, Claude, Codex | Build broadcast-quality motion-graphics promo films (MP4 + interactive HTML) in a dark neon glass-and-light house style, from a written script or a website URL. Use when the user asks for a promo, product film, brand animation, motion graphics, animated ad, teaser, launch video, or title sequence.
 - `redesign-existing-projects` - Agents, Claude | Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.
 - `stitch-design-taste` - Agents, Claude | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.

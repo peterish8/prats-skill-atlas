@@ -7,7 +7,7 @@
     ".antigravity/skills",
     ".agents/skills"
   ],
-  "skillCount": 513,
+  "skillCount": 514,
   "skills": [
     {
       "name": "adaptive-agent-workflow",
@@ -3417,6 +3417,26 @@
       "paths": {
         "Claude": ".claude/skills/design/visual-and-motion/motion/SKILL.md",
         "Agents": ".agents/skills/design/visual-and-motion/motion/SKILL.md"
+      }
+    },
+    {
+      "name": "motion-animate-ux-stack",
+      "category": "design",
+      "subcategory": "visual-and-motion",
+      "description": "Design and implement motion graphics, intentional scene choreography and continuous transitions for websites and apps. Use for hero sequences, animated diagrams, shared-element transformations, editorial reveals, gesture-driven objects and reusable motion specifications, including planning-only work.",
+      "presentIn": [
+        "Agents",
+        "Antigravity",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/design/visual-and-motion/motion-animate-ux-stack/SKILL.md",
+        "Codex": ".codex/skills/design/visual-and-motion/motion-animate-ux-stack/SKILL.md",
+        "Grok": ".grok/skills/design/visual-and-motion/motion-animate-ux-stack/SKILL.md",
+        "Antigravity": ".antigravity/skills/design/visual-and-motion/motion-animate-ux-stack/SKILL.md",
+        "Agents": ".agents/skills/design/visual-and-motion/motion-animate-ux-stack/SKILL.md"
       }
     },
     {

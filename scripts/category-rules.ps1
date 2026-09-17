@@ -32,6 +32,7 @@ function Get-SkillPlacement {
         return [pscustomobject]@{ Category = 'product-growth'; Subcategory = $productGrowthPlacements[$Name] }
     }
 
+    if ($Name -eq 'motion-animate-ux-stack') { return [pscustomobject]@{ Category = 'design'; Subcategory = 'visual-and-motion' } }
     if ($Name -eq 'cinematic-ui-motion') { return [pscustomobject]@{ Category = 'design'; Subcategory = 'visual-and-motion' } }
     if ($Name -eq 'curiosity-driven-ux') { return [pscustomobject]@{ Category = 'design'; Subcategory = 'experience-and-behavior' } }
 

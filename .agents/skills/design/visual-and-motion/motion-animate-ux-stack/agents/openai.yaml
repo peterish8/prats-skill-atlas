@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion, Animation & UX Stack"
+  short_description: "Teach motion graphics, continuity and animation stacks"
+  default_prompt: "Use $motion-animate-ux-stack to design intentional motion graphics, continuous transitions and interruption-safe UX animation using a suitable technology stack."

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "motion-animation-ux",
+  "targets": [
+    "Claude",
+    "Codex",
+    "Grok",
+    "Antigravity",
+    "Agents"
+  ],
+  "answers": {
+    "projectType": "website, app, prototype or motion specification",
+    "goal": "purposeful motion graphics and continuous, interruptible UX transitions",
+    "scope": "Preserve the target identity and requested surface; use the appropriate existing stack"
+  },
+  "skills": [
+    {
+      "name": "motion-animate-ux-stack",
+      "reason": "Teach and apply motion graphics principles, choreography, continuity and runtime contracts",
+      "targets": [
+        "Claude",
+        "Codex",
+        "Grok",
+        "Antigravity",
+        "Agents"
+      ]
+    }
+  ]
+}
