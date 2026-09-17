@@ -7,7 +7,7 @@
     ".antigravity/skills",
     ".agents/skills"
   ],
-  "skillCount": 512,
+  "skillCount": 513,
   "skills": [
     {
       "name": "adaptive-agent-workflow",
@@ -3847,6 +3847,26 @@
       ],
       "paths": {
         "Agents": ".agents/skills/frontend/web-ui/frontend-design/SKILL.md"
+      }
+    },
+    {
+      "name": "frontend-design-fidelity",
+      "category": "frontend",
+      "subcategory": "web-ui",
+      "description": "Carry an intentional frontend design through shared components, responsive layouts, real content, loading and recovery states, and generated outputs. Use when implementing a design or repairing visual drift in an existing website or app, prototype, or planning-only specification.",
+      "presentIn": [
+        "Agents",
+        "Antigravity",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/frontend/web-ui/frontend-design-fidelity/SKILL.md",
+        "Codex": ".codex/skills/frontend/web-ui/frontend-design-fidelity/SKILL.md",
+        "Grok": ".grok/skills/frontend/web-ui/frontend-design-fidelity/SKILL.md",
+        "Antigravity": ".antigravity/skills/frontend/web-ui/frontend-design-fidelity/SKILL.md",
+        "Agents": ".agents/skills/frontend/web-ui/frontend-design-fidelity/SKILL.md"
       }
     },
     {

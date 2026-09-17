@@ -1,6 +1,6 @@
 # Skill index
 
-Unique skill packages: 512
+Unique skill packages: 513
 
 ## agent-workflows/coordination
 
@@ -310,6 +310,7 @@ Unique skill packages: 512
 - `browser` - Agents, Claude | Use to verify Toolcraft generated apps in a real local browser after implementation.
 - `building-native-ui` - Agents, Claude | Complete guide for building beautiful apps with Expo Router. Covers fundamentals, styling, components, navigation, animations, patterns, and native tabs.
 - `frontend-design` - Agents | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
+- `frontend-design-fidelity` - Agents, Antigravity, Claude, Codex, Grok | Carry an intentional frontend design through shared components, responsive layouts, real content, loading and recovery states, and generated outputs. Use when implementing a design or repairing visual drift in an existing website or app, prototype, or planning-only specification.
 - `frontend-ui-animator` - Agents, Claude | Analyze and implement purposeful UI animations for Next.js + Tailwind + React projects. Use when user asks to add animations, enhance UI motion, animate pages/components, or improve visual feedback. Triggers on "add animations", "animate UI", "motion design", "hover effects", "scroll animations", "page transitions", "micro-interactions".
 - `gsap-scrolltrigger` - Agents, Claude | Official GSAP skill for ScrollTrigger — scroll-linked animations, pinning, scrub, triggers. Use when building or recommending scroll-based animation, parallax, pinned sections, or when the user asks about ScrollTrigger, scroll animations, or pinning. Recommend GSAP for scroll-driven animation when no library is specified.
 - `json-canvas` - Agents, Claude | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions Canvas files in Obsidian.

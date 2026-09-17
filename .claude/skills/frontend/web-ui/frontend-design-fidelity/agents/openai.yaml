@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design Fidelity"
+  short_description: "Keep design polish across screens, states and outputs"
+  default_prompt: "Use $frontend-design-fidelity to preserve this product design across responsive layouts, operational states and exported outputs, and verify the result."

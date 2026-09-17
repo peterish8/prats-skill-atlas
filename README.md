@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/512_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="512 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/513_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="513 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.grok"><img src="https://img.shields.io/badge/Grok-ready-c084fc?style=flat-square&labelColor=0b1017" alt="Grok ready"></a>
@@ -40,12 +40,12 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 381 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 281 | Codex-compatible skill packages |
-| [`.grok/skills`](.grok/skills) | 3 | Grok-compatible skill packages |
-| [`.antigravity/skills`](.antigravity/skills) | 3 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
-| [`.agents/skills`](.agents/skills) | 336 | Shared agent skill packages |
-| **Unique skill names** | **512** | Deduplicated collection across all trees |
+| [`.claude/skills`](.claude/skills) | 382 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 282 | Codex-compatible skill packages |
+| [`.grok/skills`](.grok/skills) | 4 | Grok-compatible skill packages |
+| [`.antigravity/skills`](.antigravity/skills) | 4 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
+| [`.agents/skills`](.agents/skills) | 337 | Shared agent skill packages |
+| **Unique skill names** | **513** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
@@ -86,6 +86,20 @@ Use the [`cinematic experience selection`](examples/cinematic-experience-selecti
 ```
 
 Example request: "Use cinematic-ui-motion and curiosity-driven-ux on this existing app. Preserve its brand and features; make its main journey tactile, curious and satisfying. Implement and verify the changes." For an idea or specification, add "Planning only; produce the journey, storyboard, motion timeline, state contracts and acceptance criteria."
+
+## Frontend design fidelity
+
+[`frontend-design-fidelity`](.agents/skills/frontend/web-ui/frontend-design-fidelity/SKILL.md) captures further implementation lessons from the Polaris frontend beyond animation and behavioral design. It keeps a chosen design coherent across shared components, typography, real content, responsive and keyboard layouts, first paint, loading/error/recovery states and generated outputs.
+
+Use it to implement a design, repair visual drift in an existing app, build a representative prototype or produce planning-only fidelity contracts. It preserves the target brand and features; it does not require adding animation, a new engagement loop or a new theme. Source lessons distinguish code observations from hosted/device proof and explain implementation tradeoffs rather than copying them mechanically.
+
+The full package, including its source lessons, implementation contracts, fidelity brief template and agent metadata, is available in all five runtime trees under `frontend/web-ui`. Use the [`frontend fidelity selection`](examples/frontend-fidelity-selection.example.json) to install only this skill:
+
+```powershell
+.\install.ps1 -Manifest .\examples\frontend-fidelity-selection.example.json
+```
+
+Example request: "Use frontend-design-fidelity on this app. Preserve its chosen design; inspect shared controls, long content, layout boundaries, first paint, keyboard use, error/recovery states and exported outputs. Repair the responsible shared paths and verify the affected surfaces." Add "Planning only" when implementation is not requested.
 
 ## Product Growth system
 

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "frontend-fidelity",
+  "targets": [
+    "Claude",
+    "Codex",
+    "Grok",
+    "Antigravity",
+    "Agents"
+  ],
+  "answers": {
+    "projectType": "existing website, app, prototype or product design",
+    "goal": "preserve the chosen design across real content, layouts, states and outputs",
+    "scope": "Keep the target brand, working features and requested implementation or planning mode"
+  },
+  "skills": [
+    {
+      "name": "frontend-design-fidelity",
+      "reason": "Carry the existing design through shared frontend paths and verify fidelity across relevant conditions",
+      "targets": [
+        "Claude",
+        "Codex",
+        "Grok",
+        "Antigravity",
+        "Agents"
+      ]
+    }
+  ]
+}
