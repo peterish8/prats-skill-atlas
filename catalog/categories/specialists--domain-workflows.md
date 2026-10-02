@@ -1,6 +1,6 @@
 # specialists/domain-workflows
 
-Skills in this category: 9
+Skills in this category: 10
 
 | Skill | Available in | Description |
 | --- | --- | --- |
@@ -10,6 +10,7 @@ Skills in this category: 9
 | `klyna-pr-followup` | Agents | Address requested changes on an existing Klyna pull request by fixing review feedback on the same branch, testing it, and pushing the update to that PR. |
 | `klyna-pr-merge` | Agents | Verify that requested Klyna PR changes were correctly delivered, then approve and merge a green PR when the user explicitly asks to merge if it is good. |
 | `klyna-review` | Agents | Review a Klyna pull request against main and its issue, then prepare exact GitHub inline comments, an approval, or a clean LGTM using the repository review style. |
+| `legal-compliance` | Agents, Codex | Legal and privacy compliance audit plus fixes for an app or website. This skill should be used when the user asks whether their product can "get sued", wants a viral legal claim fact-checked, asks "what do we need legally", "is this compliant", "privacy policy / terms / GDPR / DPDP / COPPA / DMCA", wants a compliance checklist for a codebase, or wants the fixes built (policy pages, consent at sign-up, delete-my-account, data export, retention cron, takedown and report flow, open-source licence). It verifies the rules with live web search, reads the codebase to see what actually applies, produces a short tickable checklist ordered by deadline, then implements the items the user picks. |
 | `legal-video` | Agents, Claude, Codex | Build Indian legal explainer videos in the woodcut/linocut (Gavelogy) style with Remotion. Phase 1 generates one combined mega-prompt of all image prompts; Phase 2 preps assets (TTS or self-recorded audio + transcription + image-map); Phase 3 builds the full Remotion project. Trigger: /legal-video |
 | `polaris-campus-assistant` | Codex | Use when Nithy asks Codex to work with Polaris Campus batches, announcements, study materials, local PDF downloads, or slash-style commands such as /polaris check all, /polaris announcements <batch>, /polaris sync <batch>, or /polaris batches. |
 | `sales-engineer` | Agents, Codex | Use this agent when you need to conduct technical pre-sales activities including solution architecture, proof-of-concept development, and technical demonstrations for complex sales deals. |

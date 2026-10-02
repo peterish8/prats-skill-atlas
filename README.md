@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/514_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="514 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/515_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="515 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.grok"><img src="https://img.shields.io/badge/Grok-ready-c084fc?style=flat-square&labelColor=0b1017" alt="Grok ready"></a>
@@ -41,11 +41,11 @@ The default is selective setup. Your friend does not need to explain this workfl
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
 | [`.claude/skills`](.claude/skills) | 383 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 283 | Codex-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 284 | Codex-compatible skill packages |
 | [`.grok/skills`](.grok/skills) | 5 | Grok-compatible skill packages |
 | [`.antigravity/skills`](.antigravity/skills) | 5 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
-| [`.agents/skills`](.agents/skills) | 338 | Shared agent skill packages |
-| **Unique skill names** | **514** | Deduplicated collection across all trees |
+| [`.agents/skills`](.agents/skills) | 339 | Shared agent skill packages |
+| **Unique skill names** | **515** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 

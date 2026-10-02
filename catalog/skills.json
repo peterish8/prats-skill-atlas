@@ -7,7 +7,7 @@
     ".antigravity/skills",
     ".agents/skills"
   ],
-  "skillCount": 514,
+  "skillCount": 515,
   "skills": [
     {
       "name": "adaptive-agent-workflow",
@@ -6621,6 +6621,20 @@
       ],
       "paths": {
         "Agents": ".agents/skills/specialists/domain-workflows/klyna-review/SKILL.md"
+      }
+    },
+    {
+      "name": "legal-compliance",
+      "category": "specialists",
+      "subcategory": "domain-workflows",
+      "description": "Legal and privacy compliance audit plus fixes for an app or website. This skill should be used when the user asks whether their product can \"get sued\", wants a viral legal claim fact-checked, asks \"what do we need legally\", \"is this compliant\", \"privacy policy / terms / GDPR / DPDP / COPPA / DMCA\", wants a compliance checklist for a codebase, or wants the fixes built (policy pages, consent at sign-up, delete-my-account, data export, retention cron, takedown and report flow, open-source licence). It verifies the rules with live web search, reads the codebase to see what actually applies, produces a short tickable checklist ordered by deadline, then implements the items the user picks.",
+      "presentIn": [
+        "Agents",
+        "Codex"
+      ],
+      "paths": {
+        "Codex": ".codex/skills/specialists/domain-workflows/legal-compliance/SKILL.md",
+        "Agents": ".agents/skills/specialists/domain-workflows/legal-compliance/SKILL.md"
       }
     },
     {
