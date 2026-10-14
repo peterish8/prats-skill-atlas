@@ -1,0 +1,4 @@
+interface:
+  display_name: "Website Bug Finder"
+  short_description: "Find and verify high-impact website bugs"
+  default_prompt: "Use $website-bug-finder to audit this website code and local runtime for evidence-backed P1 findings."

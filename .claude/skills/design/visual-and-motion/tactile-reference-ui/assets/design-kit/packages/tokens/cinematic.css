@@ -1,0 +1,128 @@
+/* Material and scene layer: stable geometry first; bounded feedback second. */
+.tui-theme {
+  --tui-edge:color-mix(in srgb,var(--tui-accent),#101918 30%);
+  --tui-control-shadow:inset 0 1px 0 #ffffff32,0 2px 0 var(--tui-edge),0 5px 9px -5px #14241f4d;
+  --tui-shadow:inset 0 1px 0 #ffffffa6,0 1px 2px #14241f07,0 12px 30px -22px #14241f42;
+}
+.tui-theme .tui-button[data-variant=primary] {
+  border-color:color-mix(in srgb,var(--tui-accent),#fff 8%);
+  background:linear-gradient(180deg,color-mix(in srgb,var(--tui-accent),#fff 5%),var(--tui-accent));
+  box-shadow:var(--tui-control-shadow); font-weight:550;
+}
+.tui-theme .tui-button[data-variant=secondary] {
+  background:linear-gradient(#fff,var(--tui-surface));
+  box-shadow:inset 0 1px 0 #fff,0 2px 0 color-mix(in srgb,var(--tui-border),#d6d9d6 35%),0 5px 9px -7px #14241f4d;
+}
+.tui-theme .tui-button:not(:disabled):hover { transform:none; }
+.tui-theme .tui-button:not(:disabled):active {
+  transform:translateY(2px); box-shadow:inset 0 1px 2px #0000001f,0 0 0 transparent;
+}
+.tui-theme .tui-button[data-variant=ghost] { box-shadow:none; }
+.tui-theme .tui-input { box-shadow:inset 0 1px 2px #1c29250b,0 1px 0 #ffffff80; }
+.tui-theme .tui-switch-track { border:1px solid #75847b30; box-shadow:inset 0 1px 3px #0002,0 1px 0 #fff; }
+.tui-theme .tui-switch-thumb { border-color:#fff; box-shadow:inset 0 1px 0 #fff,0 1px 2px #0003; }
+.tui-theme .tui-tab { transition:color 150ms var(--tui-ease),border-color 150ms var(--tui-ease); }
+.tui-theme .tui-site-brand::before { font-size:21px; line-height:1; }
+.tui-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.tui-theme .tui-atmosphere[data-kind=landscape] { background:#c6d9b1 url('./assets/meadow-landscape.png') center 65%/cover no-repeat; }
+.tui-theme .tui-atmosphere[data-kind=landscape] .tui-atmosphere-layer:nth-child(1) { background:none; }
+.tui-theme .tui-atmosphere[data-kind=landscape] .tui-atmosphere-layer:nth-child(2) { opacity:.18; }
+.tui-motion-stage { position:relative; isolation:isolate; perspective:1000px; --tui-pointer-x:0px; --tui-pointer-y:0px; --tui-pointer-rx:0deg; --tui-pointer-ry:0deg; }
+.tui-stage-object {
+  transform:translate3d(var(--tui-pointer-x),var(--tui-pointer-y),0) rotateX(var(--tui-pointer-rx)) rotateY(var(--tui-pointer-ry));
+  transition:transform 700ms var(--tui-ease); transform-origin:50% 60%;
+}
+.tui-motion-stage[data-motion-running=true] .tui-stage-object { animation:tui-object-breathe 12s ease-in-out infinite; }
+.tui-motion-stage[data-motion-running=false] :is(.tui-stage-object,.tui-atmosphere-layer,.tui-material-ring,.tui-material-glint) { animation-play-state:paused!important; }
+@keyframes tui-object-breathe {
+  0%,100% { transform:translate3d(var(--tui-pointer-x),var(--tui-pointer-y),0) rotateX(var(--tui-pointer-rx)) rotateY(var(--tui-pointer-ry)); }
+  50% { transform:translate3d(var(--tui-pointer-x),calc(var(--tui-pointer-y) - 4px),0) rotateX(var(--tui-pointer-rx)) rotateY(var(--tui-pointer-ry)); }
+}
+.tui-theme .tui-atmosphere[data-animated] .tui-atmosphere-layer:first-child { animation:tui-light-drift 18s ease-in-out infinite alternate; animation-play-state:paused; }
+.tui-theme .tui-atmosphere[data-animated=true] .tui-atmosphere-layer:first-child { animation-play-state:running; }
+@keyframes tui-light-drift { from { transform:translate3d(-.6%,0,0); } to { transform:translate3d(.6%,-.8%,0); } }
+
+/* A task-first invitation: input and submission share a frame, but retain labels. */
+.tui-composer { width:min(100%,490px); text-align:left; position:relative; margin:0; }
+.tui-composer-label { display:block; font-size:12px; font-weight:550; margin:0 0 9px; color:var(--tui-text); }
+.tui-composer-row { display:flex; gap:8px; align-items:center; padding:6px; border:1px solid var(--tui-border); border-radius:13px; background:#fff; box-shadow:inset 0 1px 1px #fff,0 2px 3px #1c292507,0 8px 24px -18px #1c292528; }
+.tui-composer-row:focus-within { outline:2px solid var(--tui-accent); outline-offset:3px; }
+.tui-composer-input { min-width:0; flex:1; min-height:44px; color:var(--tui-text); border:0; border-radius:8px; background:transparent; padding:9px 12px; font-size:13px; }
+.tui-theme .tui-composer-input:focus-visible { outline:none; }
+.tui-composer-input::placeholder { color:#626b60; }
+.tui-composer-row .tui-button { flex:none; border-radius:8px; font-size:12px; padding-inline:14px; }
+.tui-composer-help,.tui-composer-error { margin:9px 2px 0; font-size:12px; line-height:1.5; color:var(--tui-muted); }
+.tui-composer-error { color:#98343a; }
+.tui-composer-input:disabled { opacity:.6; }
+
+/* Original diagrams and rhythm derived from the fine-line institutional reference. */
+.tui-process-card { display:flex; flex-direction:column; min-height:270px; background:#f1f1f4; border:1px solid #e8e8ec; border-radius:6px; padding:24px; }
+.tui-process-mark { width:140px; height:90px; max-width:100%; color:var(--tui-muted); margin-bottom:38px; }
+.tui-process-mark path { fill:none; stroke:currentColor; stroke-width:1; stroke-linecap:round; stroke-linejoin:round; }
+.tui-process-step { display:block; font:10px/1.5 var(--tui-font); letter-spacing:.1em; text-transform:uppercase; color:var(--tui-muted); margin-bottom:10px; }
+.tui-process-card h3 { font-family:var(--tui-display); font-size:28px; font-weight:400; line-height:1.15; letter-spacing:-.04em; margin:0; }
+.tui-process-card p { font-size:13px; color:var(--tui-muted); line-height:1.55; margin:12px 0 0; }
+.tui-theme[data-tui-direction=equilibrium] .tui-process-card:first-child { background:linear-gradient(#f8f9ed,#edfa98); border-color:#e7efd3; }
+
+/* Bounded device frames with actual semantic foreground content. */
+.tui-device-frame { position:relative; margin:0; width:100%; max-width:680px; border:1px solid #fff; border-radius:16px; background:#fff; box-shadow:inset 0 1px 0 #fff,0 2px 4px #17271b0c,0 18px 44px -25px #17271b75; overflow:hidden; min-width:0; }
+.tui-device-chrome { display:flex; align-items:center; gap:5px; height:27px; padding:0 13px; border-bottom:1px solid #e4e8e5; background:linear-gradient(#fafcfb,#f4f6f4); }
+.tui-device-chrome span { display:block; width:5px; height:5px; border:1px solid #c9d1cc; border-radius:50%; background:#e1e7e3; }
+.tui-device-content { padding:16px; min-width:0; background:#fff; color:#202327; --tui-muted:#606770; --tui-bg:#f4f6f7; --tui-border:#dadddf; }
+.tui-device-caption { padding:9px 13px; border-top:1px solid #e4e8e5; font-size:11px; line-height:1.4; color:#5b665f; background:#f9fbf9; }
+.tui-device-frame[data-variant=phone] { max-width:230px; padding:7px; border:3px solid #242824; border-radius:31px; background:#f9fbf9; box-shadow:inset 0 1px 1px #fff8,0 3px 8px #0001,0 24px 38px -22px #24431d66; }
+.tui-device-frame[data-variant=phone] .tui-device-chrome { width:62px; height:15px; position:absolute; top:8px; left:50%; transform:translateX(-50%); border:0; background:#242824; border-radius:0 0 10px 10px; justify-content:center; }
+.tui-device-frame[data-variant=phone] .tui-device-chrome span { display:none; }
+.tui-device-frame[data-variant=phone] .tui-device-content { padding:25px 10px 16px; min-height:260px; border-radius:21px; overflow:hidden; }
+.tui-device-frame[data-variant=phone] .tui-device-caption { background:transparent; border:0; text-align:center; padding:7px 6px 3px; font-size:10px; }
+
+/* Four distinct sculptures, one consistent studio-light model. */
+.tui-material-object { --tui-object-size:160px; position:relative; width:var(--tui-object-size); aspect-ratio:1; display:inline-grid; place-items:center; isolation:isolate; }
+.tui-material-object::after { content:''; position:absolute; inset:78% 13% 1%; border-radius:50%; background:#34594328; filter:blur(12px); transform:scaleY(.45); z-index:-1; }
+.tui-material-core { position:absolute; inset:6%; border-radius:50%; background:radial-gradient(circle at 32% 20%,#ffffffd9,transparent 35%),radial-gradient(circle at 72% 83%,#3bb477c4,transparent 62%),linear-gradient(135deg,#ecffd9,#b7efa2 35%,#60c1aa); border:1px solid #e4ffdeb3; box-shadow:inset 0 2px 3px #fff9,inset -9px -12px 20px #32917b20,0 18px 30px -22px #31766160; }
+.tui-material-ring { position:absolute; inset:13%; border-radius:50%; border:1px solid #ffffff7d; box-shadow:inset 0 1px 0 #ffffff96; }
+.tui-material-glint { position:absolute; top:13%; left:20%; width:34%; height:20%; border-radius:50%; background:radial-gradient(ellipse,#ffffffa6,transparent 70%); transform:rotate(-32deg); }
+.tui-material-object[data-kind=coin] .tui-material-core { inset:9% 6%; background:radial-gradient(at 28% 18%,#f4ffd5 0,transparent 45%),linear-gradient(140deg,#ddff97,#a3ed64 45%,#8fc976); border:2px solid #e5ffb0; box-shadow:inset 0 1px 1px #fff,inset -6px -5px 9px #54984b26,4px 5px 0 #8bc461,5px 6px 2px #68a75650,0 20px 32px -22px #3d6b2266; }
+.tui-material-object[data-kind=coin] .tui-material-core::after { content:''; position:absolute; inset:28%; border:8px solid #ffffff59; border-left:0; border-right:0; border-radius:3px; transform:rotate(-8deg); }
+.tui-material-object[data-kind=coin] .tui-material-ring { inset:18% 15%; border-color:#ffffff80; }
+.tui-material-object[data-kind=sun] .tui-material-core { inset:3%; background:radial-gradient(circle at 50% 52%,#4b86c3 0 45%,transparent 46%),conic-gradient(from 30deg,#b4eed7,#3f84cd,#f5f7a9,#72cdbf,#2770c1,#d2f0ab,#4b86c3,#e8ffc0,#b4eed7); box-shadow:inset 0 0 13px #ffffb07d,0 12px 32px -18px #3f89c07d; border:1px solid #d8fbe186; }
+.tui-material-object[data-kind=sun] .tui-material-ring { inset:11%; border:2px solid #d8f8b485; transform:rotate(-18deg); border-radius:44% 52% 45% 56%; box-shadow:0 0 3px #c6ee8ea6,inset 0 0 7px #c2eb9b8c; }
+.tui-material-object[data-kind=sun] .tui-material-glint { top:19%; left:17%; width:13%; height:11%; background:#e5ffc47d; filter:blur(3px); }
+.tui-theme .tui-material-object[data-kind=sun] .tui-material-core { inset:0; background:transparent url('./assets/iridescent-orb.png') center/contain no-repeat; border:0; box-shadow:none; }
+.tui-theme .tui-material-object[data-kind=sun] :is(.tui-material-ring,.tui-material-glint) { display:none; }
+.tui-material-object[data-kind=certificate] .tui-material-core { inset:4%; background:radial-gradient(at 30% 20%,#5188ff,transparent 55%),repeating-conic-gradient(from 0deg,#2247eb 0deg 15deg,#4269ff 15deg 30deg); border:0; border-radius:38%; clip-path:polygon(50% 0,61% 6%,73% 4%,82% 13%,93% 16%,96% 29%,100% 39%,95% 50%,100% 62%,94% 72%,92% 85%,80% 89%,72% 98%,60% 96%,50% 100%,39% 95%,27% 97%,18% 88%,7% 84%,4% 72%,0 61%,5% 50%,0 39%,6% 28%,8% 16%,20% 12%,28% 3%,40% 5%); box-shadow:inset 0 0 12px #d1e1ff6b; }
+.tui-material-object[data-kind=certificate] .tui-material-ring { inset:24%; border-color:#cfe0ff4d; }
+.tui-material-object[data-kind=certificate] .tui-material-glint { width:48%; height:39%; background:radial-gradient(ellipse,#8ac0ff59,transparent 70%); }
+
+/* Useful application states keep the same physical language. */
+.tui-accordion { display:grid; gap:0; border:1px solid var(--tui-border); border-radius:14px; overflow:hidden; background:var(--tui-surface); }
+.tui-accordion-item+.tui-accordion-item { border-top:1px solid var(--tui-border); }
+.tui-accordion-summary { display:flex; align-items:center; justify-content:space-between; gap:16px; min-height:54px; padding:15px 18px; font-size:14px; font-weight:550; cursor:pointer; list-style:none; }
+.tui-accordion-summary::-webkit-details-marker { display:none; }
+.tui-accordion-summary::after { content:'+'; font-size:20px; font-weight:400; color:var(--tui-muted); transition:transform 180ms var(--tui-ease); }
+.tui-accordion-item[open]>.tui-accordion-summary::after { transform:rotate(45deg); }
+.tui-accordion-content { padding:0 18px 20px; font-size:14px; line-height:1.65; color:var(--tui-muted); }
+.tui-segmented { border:0; margin:0; padding:0; min-width:0; }
+.tui-segmented-legend { font-size:12px; font-weight:550; padding:0; margin-bottom:9px; color:var(--tui-muted); }
+.tui-segmented-options { display:flex; flex-wrap:wrap; gap:3px; padding:4px; border:1px solid var(--tui-border); border-radius:12px; background:var(--tui-bg); box-shadow:inset 0 1px 3px #1c29250a; }
+.tui-segmented-option { position:relative; display:flex; flex:1; min-width:0; align-items:center; justify-content:center; cursor:pointer; min-height:44px; font-size:13px; }
+.tui-segmented-option input { position:absolute; inset:0; opacity:0; width:100%; height:100%; margin:0; cursor:inherit; }
+.tui-segmented-option span { width:100%; text-align:center; padding:10px 15px; border-radius:8px; border:1px solid transparent; white-space:nowrap; }
+.tui-segmented-option input:checked+span { background:var(--tui-surface); border-color:var(--tui-border); box-shadow:0 1px 2px #14241f12; color:var(--tui-text); }
+.tui-segmented-option input:focus-visible+span { outline:3px solid var(--tui-accent); outline-offset:2px; }
+.tui-segmented-option input:disabled+span { opacity:.5; cursor:not-allowed; }
+.tui-notice { padding:18px 20px; border:1px solid var(--tui-border); border-radius:12px; color:var(--tui-text); background:var(--tui-soft); font-size:14px; line-height:1.6; }
+.tui-notice-title { margin:0 0 6px; font-size:14px; font-weight:650; }
+.tui-notice[data-tone=warning] { background:#fff8e9; border-color:#e8d8b8; }.tui-notice[data-tone=danger] { background:#fff1f2; border-color:#eccbd0; }.tui-notice[data-tone=success] { background:#edf8f0; border-color:#cce5d4; }
+.tui-empty-state { padding:36px 24px; display:grid; justify-items:center; text-align:center; border:1px dashed var(--tui-border); border-radius:var(--tui-radius); background:var(--tui-surface); }
+.tui-empty-state-art,.tui-empty-art { margin:0 0 22px; }.tui-empty-state h3 { font-size:22px; line-height:1.2; letter-spacing:-.035em; margin:0; font-weight:550; }.tui-empty-state p { max-width:380px; margin:12px 0 0; font-size:14px; line-height:1.6; color:var(--tui-muted); }.tui-empty-state-actions,.tui-empty-actions { display:flex; gap:10px; flex-wrap:wrap; justify-content:center; margin-top:22px; }
+.tui-avatar-stack { display:flex; align-items:center; padding-left:7px; list-style:none; margin:0; }
+.tui-avatar-visuals { display:flex; align-items:center; }
+.tui-avatar,.tui-avatar-overflow { display:grid; place-items:center; width:38px; height:38px; border:3px solid var(--tui-surface); border-radius:50%; margin-left:-7px; color:#244238; font-size:11px; font-weight:650; background:linear-gradient(#e0f2e6,#c7e5d8); box-shadow:0 1px 2px #15291a14; }
+.tui-avatar:nth-child(3n+2) { color:#394b7f; background:linear-gradient(#e3eafa,#cbd8f6); }.tui-avatar:nth-child(3n+3) { color:#64537b; background:linear-gradient(#eee5f4,#ded1ea); }
+.tui-avatar-overflow { background:var(--tui-bg); color:var(--tui-muted); }
+.tui-skeleton { display:grid; gap:10px; width:100%; }.tui-skeleton-line { display:block; height:12px; border-radius:6px; background:linear-gradient(90deg,var(--tui-bg),var(--tui-soft),var(--tui-bg)); background-size:200% 100%; }.tui-skeleton-line:first-child { width:45%; height:20px; }.tui-skeleton-line:last-child { width:70%; }
+@media(hover:hover) and (pointer:fine) { .tui-theme .tui-button:not(:disabled):hover { transform:translateY(-1px); filter:brightness(1.035); }.tui-accordion-summary:hover { background:var(--tui-soft); } }
+@media(max-width:480px) { .tui-composer-row { gap:4px; }.tui-composer-input { padding-inline:7px; font-size:12px; }.tui-composer-row .tui-button { padding-inline:10px; }.tui-process-card { min-height:230px; padding:22px; }.tui-process-mark { margin-bottom:25px; }.tui-device-content { padding:12px; } }
+@media(prefers-reduced-motion:reduce) { .tui-theme .tui-stage-object,.tui-theme .tui-atmosphere-layer { animation:none!important; transform:none!important; transition:none!important; }.tui-theme .tui-button:not(:disabled):hover { transform:none; }.tui-theme .tui-button:not(:disabled):active { transform:none; }.tui-accordion-summary::after { transition:none; } }
+@media(forced-colors:active) { .tui-material-object { display:none; }.tui-device-frame,.tui-composer-row,.tui-accordion,.tui-notice,.tui-segmented-options { border-color:CanvasText; }.tui-segmented-option input:checked+span { border-color:Highlight; }.tui-theme .tui-button { box-shadow:none; } }

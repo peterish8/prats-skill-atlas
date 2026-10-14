@@ -1,0 +1,3 @@
+interface:
+  display_name: "TradingView Chart Markup"
+  short_description: "Mark candle levels, point connections, and channels"

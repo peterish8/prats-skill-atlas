@@ -1,14 +1,15 @@
 # architecture/system-design
 
-Skills in this category: 8
+Skills in this category: 9
 
 | Skill | Available in | Description |
 | --- | --- | --- |
-| `architect` | Codex | Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use for /architect, 'architect this', 'design this', or non-trivial work where jumping to code would lock in the wrong shape. |
-| `architect-reviewer` | Agents, Codex | Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. |
-| `brand-architect` | Agents, Claude | Use this skill when users need to develop brand strategy, choose a company name, define brand positioning, create brand voice, or build brand identity from day one. Activates for "what should I name it," "brand strategy," "positioning," or identity questions. |
-| `codebase-design` | Agents, Claude | Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary. |
-| `domain-modeling` | Agents, Claude | Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR. |
-| `improve-codebase-architecture` | Agents, Claude | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. |
+| `architect` | Claude, Codex | Sketch types, signatures, and module structure before code, then stay in the loop while implementation fills in. Use for /architect, 'architect this', 'design this', or non-trivial work where jumping to code would lock in the wrong shape. |
+| `architect-reviewer` | Agents, Claude, Codex | Use this agent when you need to evaluate system design decisions, architectural patterns, and technology choices at the macro level. |
+| `brand-architect` | Agents, Claude, Codex | Use this skill when users need to develop brand strategy, choose a company name, define brand positioning, create brand voice, or build brand identity from day one. Activates for "what should I name it," "brand strategy," "positioning," or identity questions. |
+| `codebase-design` | Agents, Claude, Codex | Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a seam goes, make code more testable or AI-navigable, or when another skill needs the deep-module vocabulary. |
+| `domain-modeling` | Agents, Claude, Codex | Build and sharpen a project's domain model. Use when discussing codebase terminology, writing or editing a CONTEXT.md, or recording or editing an ADR. |
+| `improve-codebase-architecture` | Agents, Claude, Codex | Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick. |
 | `lfx-research-architect` | Agents, Claude, Codex | Research an LFX mentorship project and produce a verified architecture, issue, contributor, and implementation reference. |
-| `ubiquitous-language` | Agents | Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions "domain model" or "DDD". |
+| `source-command-lfx-research-architect` | Agents, Claude, Codex | Research an LFX mentorship project and create a production-grade research folder from an upstream issue URL and project URL |
+| `ubiquitous-language` | Agents, Claude, Codex | Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions "domain model" or "DDD". |

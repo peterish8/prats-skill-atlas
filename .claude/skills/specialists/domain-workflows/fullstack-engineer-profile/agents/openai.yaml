@@ -1,0 +1,4 @@
+interface:
+  display_name: "Full Stack Engineer Profile"
+  short_description: "Build evidence-based full-stack profiles"
+  default_prompt: "Use $fullstack-engineer-profile to review my selected projects and write a full-stack engineer resume with verified frontend and backend evidence."

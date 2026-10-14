@@ -12,6 +12,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Test copy-only synchronization
+        run: python -m unittest discover -s tests -p 'test_skill_sync.py' -v
       - name: Validate runtime trees and catalog
         shell: pwsh
         run: ./scripts/validate.ps1

@@ -1,0 +1,22 @@
+{
+  "name": "tactile-reference-kit",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "npm@11.16.0",
+  "workspaces": [
+    "packages/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @tactile-ui/tokens && npm run build -w @tactile-ui/react && npm run build -w @tactile-ui/svelte && npm run build -w tactile-react-gallery && npm run build -w tactile-svelte-gallery",
+    "check": "npm run check -w @tactile-ui/react && npm run check -w @tactile-ui/svelte && npm run check -w tactile-react-gallery && npm run check -w tactile-svelte-gallery",
+    "dev:react": "npm run dev -w tactile-react-gallery",
+    "dev:svelte": "npm run dev -w tactile-svelte-gallery",
+    "pack:libs": "node scripts/pack-libs.mjs",
+    "bundle:skill": "node scripts/bundle-skill.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

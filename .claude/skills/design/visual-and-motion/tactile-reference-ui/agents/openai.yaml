@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tactile Reference UI"
+  short_description: "Reference-led React and Svelte UI with refined motion"
+  default_prompt: "Use $tactile-reference-ui to build a polished, usable page in the selected reference direction using its actual component library."
+policy:
+  allow_implicit_invocation: true

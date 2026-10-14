@@ -1,0 +1,26 @@
+[
+  {
+    "file": "InstrumentSerif-Regular.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/0b58fb370093f9a9f4ff785d94405710b79de67c/ofl/instrumentserif/InstrumentSerif-Regular.ttf",
+    "revision": "0b58fb370093f9a9f4ff785d94405710b79de67c",
+    "sha256": "498EFD461F6DDFCB7A111BF9A565709D2085D48201D501EAD960D93E84FFBB88"
+  },
+  {
+    "file": "instrumentserif-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/0b58fb370093f9a9f4ff785d94405710b79de67c/ofl/instrumentserif/OFL.txt",
+    "revision": "0b58fb370093f9a9f4ff785d94405710b79de67c",
+    "sha256": "129ED7618959716959F2941FDD5B49E0AD6E6C1D78726761786A00253D865521"
+  },
+  {
+    "file": "Manrope-Variable.ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/b31870aff700ab7a1d74fa0c6887d95beb9e0037/ofl/manrope/Manrope%5Bwght%5D.ttf",
+    "revision": "b31870aff700ab7a1d74fa0c6887d95beb9e0037",
+    "sha256": "3AE11C49DB0455A3CC33E37D380F20FDB8C7F8B41DC07625C177E3D87A9D6AE6"
+  },
+  {
+    "file": "manrope-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/b31870aff700ab7a1d74fa0c6887d95beb9e0037/ofl/manrope/OFL.txt",
+    "revision": "b31870aff700ab7a1d74fa0c6887d95beb9e0037",
+    "sha256": "58172E0C0FAC2CDA8A37B348164BB55E44B0E69051E557E92B1D3F6910141F7B"
+  }
+]

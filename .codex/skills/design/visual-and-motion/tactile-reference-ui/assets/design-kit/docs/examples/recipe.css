@@ -1,0 +1,13 @@
+.reference-page { min-height:100dvh; background:var(--tui-bg); }
+.reference-hero { position:relative; isolation:isolate; overflow:hidden; background:#fff; }
+.reference-content { max-width:1140px; margin-inline:auto; padding:80px 24px; }
+.reference-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+.reference-toolbar { display:flex; justify-content:center; gap:12px; padding:0 24px 28px; }
+.reference-result { max-width:720px; margin:32px auto 0; }
+.reference-result .tui-device-frame { max-width:none; }
+.reference-footer { padding:28px 24px; border-top:1px solid var(--tui-border); text-align:center; font-size:13px; color:var(--tui-muted); }
+.reference-page .tui-marketing-hero[data-align=center] .tui-hero-actions { width:100%; }
+.reference-page .tui-marketing-hero[data-align=center] .tui-hero-title { max-width:11ch; }
+.reference-page .tui-composer { margin-inline:auto; }
+.reference-page .tui-section-heading { margin-bottom:36px; }
+@media(max-width:760px) { .reference-content { padding:56px 20px; }.reference-grid { grid-template-columns:1fr; }.reference-toolbar { flex-wrap:wrap; } }

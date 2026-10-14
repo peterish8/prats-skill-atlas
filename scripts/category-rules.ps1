@@ -39,6 +39,11 @@ function Get-SkillPlacement {
     if ($Name -eq 'reverse-skill-router') { return [pscustomobject]@{ Category = 'security'; Subcategory = 'reverse-engineering' } }
     if ($Name -eq 'agent-loop') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'orchestration' } }
     if ($Name -eq 'solo-build') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'coordination' } }
+    if ($Name -match '^aws-|^amazon-bedrock$') { return [pscustomobject]@{ Category = 'backend'; Subcategory = 'apis-and-platforms' } }
+    if ($Name -match '^(launch-with-aws|signing-in-to-aws)$') { return [pscustomobject]@{ Category = 'devops'; Subcategory = 'delivery-and-tooling' } }
+    if ($Name -match '^resume-|^(creative-portfolio-resume|fullstack-engineer-profile|tailor-resume|tech-resume-optimizer|tradingview-chart-markup|xauusd-intraday)$') { return [pscustomobject]@{ Category = 'specialists'; Subcategory = 'domain-workflows' } }
+    if ($Name -eq 'session-lessons') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'coordination' } }
+    if ($Name -eq 'graft') { return [pscustomobject]@{ Category = 'tools-utilities'; Subcategory = 'general-purpose' } }
 
     if ($Name -match '^gsd-') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gsd' } }
     if ($Name -match '^gstack') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gstack' } }

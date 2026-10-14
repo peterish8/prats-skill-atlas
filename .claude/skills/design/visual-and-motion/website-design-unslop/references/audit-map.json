@@ -1,0 +1,1817 @@
+{
+  "version": 2,
+  "reviewed_on": "2026-10-12",
+  "check_count": 150,
+  "notes": "This is a rule-wording review, not website outcomes or AI-authorship evidence. Sources support only their stated scope; derived recommendations are labeled.",
+  "checks": [
+    {
+      "id": 1,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Brand palette is in scope",
+      "inspect": "DOCUMENT+SCREENSHOT: compare approved palette and page emphasis.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 2,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Hero or ambient glow exists",
+      "inspect": "SCREENSHOT: inspect focal hierarchy and text legibility with the glow.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 3,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Several accent colors exist",
+      "inspect": "SCREENSHOT: identify brand versus semantic roles and competing emphasis.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 4,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Transparent panels exist",
+      "inspect": "SCREENSHOT+MEASUREMENT: inspect layered readability over actual backgrounds.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 5,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Shadows define surfaces",
+      "inspect": "SCREENSHOT: compare elevations with grouping and action importance.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 6,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Several component types exist",
+      "inspect": "SOURCE+SCREENSHOT: inspect radius tokens by role and resulting hierarchy.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 7,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Gradient text exists",
+      "inspect": "SCREENSHOT+MEASUREMENT: inspect emphasis and contrast across the rendered text.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 8,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Several gradients overlap",
+      "inspect": "SCREENSHOT: inspect boundaries, action recognition, and effect hierarchy.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 9,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Theme choice is being evaluated",
+      "inspect": "DOCUMENT+SCREENSHOT: compare theme to reading context and approved brand.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 10,
+      "category": "Color and effects",
+      "basis": "heuristic",
+      "applies_when": "Background effects are layered",
+      "inspect": "SCREENSHOT: inspect distraction, text readability, and visual competition.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 11,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Landing hero introduces the product",
+      "inspect": "DOCUMENT+SCREENSHOT: identify audience, benefit, and primary next step.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 12,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Feature groups use uniform cards",
+      "inspect": "DOCUMENT+SCREENSHOT: compare actual feature importance with grouping.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 13,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Features use a uniform content formula",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect whether explanation fits each feature.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 14,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Column templates repeat",
+      "inspect": "SCREENSHOT: compare layout to the relationships in each section.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 15,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Containers are nested",
+      "inspect": "SCREENSHOT+DOM: identify which container boundaries communicate meaning.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 16,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Text is boxed repeatedly",
+      "inspect": "SCREENSHOT: inspect whether borders add grouping or just visual weight.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 17,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Content importance differs",
+      "inspect": "DOCUMENT+SCREENSHOT: compare prioritization with visual prominence.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 18,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Metric tiles exist",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect definitions and why each value matters.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 19,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Image/text sections repeat",
+      "inspect": "SCREENSHOT: inspect relative emphasis and scanability rather than counting repetitions.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 20,
+      "category": "Layouts and grouping",
+      "basis": "heuristic",
+      "applies_when": "Large gaps exist",
+      "inspect": "SCREENSHOT: inspect reading sequence and whether spacing guides attention.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 21,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Typography is being selected or reviewed",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect reading context, role clarity, and brand fit.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 22,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Several text roles exist",
+      "inspect": "SOURCE+SCREENSHOT: inspect role sizes/weights and visible hierarchy.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 23,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Multiple font families exist",
+      "inspect": "SOURCE+SCREENSHOT: identify each role and readability.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 24,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Uppercase section labels repeat",
+      "inspect": "SCREENSHOT: inspect whether labels add useful hierarchy or clutter.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 25,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Small tracked labels exist",
+      "inspect": "SCREENSHOT: inspect at normal viewing size and target device.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 26,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Metadata affects user decisions",
+      "inspect": "SCREENSHOT+MEASUREMENT: inspect its legibility and contrast.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 27,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Thin text overlays gradients or dark surfaces",
+      "inspect": "MEASUREMENT+SCREENSHOT: inspect rendered contrast and readable weight.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 28,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Long body content exists",
+      "inspect": "SCREENSHOT: inspect line length, spacing, and reading comfort.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 29,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Headlines contain forced breaks",
+      "inspect": "TASK+SCREENSHOT: inspect reflow across actual target widths.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 30,
+      "category": "Typography",
+      "basis": "heuristic",
+      "applies_when": "Uppercase controls exist",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect readability and approved language style.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 31,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "Emoji identify navigation",
+      "inspect": "TASK+SCREENSHOT: inspect labels and cross-device symbol interpretation.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 32,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "Icon styles vary",
+      "inspect": "SCREENSHOT: compare style by control/illustration role and meaning.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 33,
+      "category": "Icons and symbols",
+      "basis": "product_constraint",
+      "applies_when": "AI-themed symbols exist",
+      "inspect": "DOCUMENT+SCREENSHOT: verify whether the associated feature actually uses AI.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 34,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "Feature icons have identical treatments",
+      "inspect": "SCREENSHOT: identify whether icons add meaning to scanning.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 35,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "One symbol appears in multiple actions",
+      "inspect": "TASK+SCREENSHOT: compare action meanings and their labels.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 36,
+      "category": "Icons and symbols",
+      "basis": "practice",
+      "applies_when": "Important controls are icon-only",
+      "inspect": "DOM+TASK: inspect naming, visible understanding, and activation context.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 37,
+      "category": "Icons and symbols",
+      "basis": "practice",
+      "applies_when": "Navigation labels depend on hover",
+      "inspect": "TASK+DOM: inspect focus/touch alternatives and accessible navigation names.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 38,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "Icons replace direct labels",
+      "inspect": "TASK+SCREENSHOT: inspect whether users can recognize the intended action.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 39,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "Decorative symbols repeat through text",
+      "inspect": "SCREENSHOT: inspect reading interruption and semantic contribution.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 40,
+      "category": "Icons and symbols",
+      "basis": "heuristic",
+      "applies_when": "Unfamiliar symbols indicate actions",
+      "inspect": "TASK+DOCUMENT: establish expected meaning or record user-testing uncertainty.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 41,
+      "category": "Images and evidence",
+      "basis": "heuristic",
+      "applies_when": "3D characters or robots are present",
+      "inspect": "DOCUMENT+SCREENSHOT: compare imagery to brand and audience context.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 42,
+      "category": "Images and evidence",
+      "basis": "heuristic",
+      "applies_when": "Abstract artwork is present",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect message support, brand fit, and distraction.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 43,
+      "category": "Images and evidence",
+      "basis": "product_constraint",
+      "applies_when": "Interface screenshots are shown",
+      "inspect": "DOCUMENT+SCREENSHOT: verify product representation, readable text, and mockup labels.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 44,
+      "category": "Images and evidence",
+      "basis": "practice",
+      "applies_when": "Generated imagery is used",
+      "inspect": "SCREENSHOT: inspect full resolution and rendered crops for visible artifacts.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 45,
+      "category": "Images and evidence",
+      "basis": "heuristic",
+      "applies_when": "Stock photos are present",
+      "inspect": "DOCUMENT+SCREENSHOT: compare subjects with actual use context.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 46,
+      "category": "Images and evidence",
+      "basis": "heuristic",
+      "applies_when": "Multiple illustrations exist",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect coherence with the approved art direction.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 47,
+      "category": "Images and evidence",
+      "basis": "product_constraint",
+      "applies_when": "Charts are decorative or illustrative",
+      "inspect": "DOCUMENT+SCREENSHOT: verify provenance or visible example labels.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 48,
+      "category": "Images and evidence",
+      "basis": "product_constraint",
+      "applies_when": "Customer/partner/integration logos appear",
+      "inspect": "DOCUMENT: verify relationship, permission where relevant, and accurate caption.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 49,
+      "category": "Images and evidence",
+      "basis": "product_constraint",
+      "applies_when": "Avatars imply real people",
+      "inspect": "DOCUMENT+SCREENSHOT: verify approved identity representation or fictional labeling.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 50,
+      "category": "Images and evidence",
+      "basis": "product_constraint",
+      "applies_when": "A product claim needs an example",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect whether the example meaningfully supports the claim.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 51,
+      "category": "Copy and credibility",
+      "basis": "heuristic",
+      "applies_when": "A headline states product value",
+      "inspect": "DOCUMENT+SCREENSHOT: identify concrete benefit for the audience.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 52,
+      "category": "Copy and credibility",
+      "basis": "heuristic",
+      "applies_when": "AI wording appears across features",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect real functions and usefulness of each mention.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 53,
+      "category": "Copy and credibility",
+      "basis": "heuristic",
+      "applies_when": "Hype language replaces specifics",
+      "inspect": "DOCUMENT+SCREENSHOT: compare copy against capabilities and evidence.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 54,
+      "category": "Copy and credibility",
+      "basis": "heuristic",
+      "applies_when": "Feature descriptions share a formula",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect whether differences are explained.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 55,
+      "category": "Copy and credibility",
+      "basis": "heuristic",
+      "applies_when": "Copy is interchangeable between companies",
+      "inspect": "DOCUMENT: identify audience, use case, and product-specific facts.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 56,
+      "category": "Copy and credibility",
+      "basis": "product_constraint",
+      "applies_when": "Quantified performance claims appear",
+      "inspect": "DOCUMENT: inspect methodology, conditions, period, and source support.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 57,
+      "category": "Copy and credibility",
+      "basis": "product_constraint",
+      "applies_when": "Testimonials appear",
+      "inspect": "DOCUMENT: confirm approved genuine quotes and attribution.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 58,
+      "category": "Copy and credibility",
+      "basis": "product_constraint",
+      "applies_when": "Users choose commercial/access terms",
+      "inspect": "DOCUMENT+TASK: compare displayed terms with approved plans and applicable limits.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 59,
+      "category": "Copy and credibility",
+      "basis": "product_constraint",
+      "applies_when": "Security/compliance badges or claims appear",
+      "inspect": "DOCUMENT: verify exact scope and supporting evidence.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 60,
+      "category": "Copy and credibility",
+      "basis": "practice",
+      "applies_when": "A service needs ownership/support information",
+      "inspect": "DOCUMENT+TASK: inspect support, ownership, and relevant policy destinations.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 61,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "An action outcome could be ambiguous",
+      "inspect": "TASK+SCREENSHOT: inspect label plus surrounding context and actual destination.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 62,
+      "category": "Interactions and forms",
+      "basis": "heuristic",
+      "applies_when": "Primary and secondary actions coexist",
+      "inspect": "DOCUMENT+SCREENSHOT: compare emphasis with the main task.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 63,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "A visible link or button exists",
+      "inspect": "TASK: activate safely and confirm its intended destination or behavior.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 64,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "A decoration resembles a control",
+      "inspect": "DOM+TASK: compare affordance with actual behavior and semantics.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 65,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "An interactive control exists",
+      "inspect": "TASK+SCREENSHOT: inspect relevant focus, activation, availability, and pending feedback.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 66,
+      "category": "Interactions and forms",
+      "basis": "heuristic",
+      "applies_when": "Modals occur in the main journey",
+      "inspect": "TASK: inspect interruption, retained context, and task suitability.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 67,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "Inputs exist",
+      "inspect": "DOM+TASK: inspect persistent labels after entry and accessible relationships.",
+      "source_refs": [
+        "wai-design",
+        "govuk-error"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 68,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "An error path exists",
+      "inspect": "TASK: reproduce safely; inspect explanation and recovery action.",
+      "source_refs": [
+        "govuk-error",
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 69,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "An empty collection/state exists",
+      "inspect": "TASK+SCREENSHOT: inspect why empty and the applicable next action.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 70,
+      "category": "Interactions and forms",
+      "basis": "practice",
+      "applies_when": "An action can destroy user work",
+      "inspect": "DOCUMENT+TASK: inspect consequence and safe recovery without triggering unapproved destruction.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 71,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Text is visible",
+      "inspect": "MEASUREMENT: calculate contrast for each relevant text role/background and criterion exception.",
+      "source_refs": [
+        "wcag-contrast"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 72,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Gradient text is visible",
+      "inspect": "MEASUREMENT: inspect the weakest rendered foreground/background contrast.",
+      "source_refs": [
+        "wcag-contrast"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 73,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Text can be resized",
+      "inspect": "TASK+MEASUREMENT: resize text to 200% and inspect information/function loss and exceptions.",
+      "source_refs": [
+        "wcag-resize"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 74,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Keyboard focus traverses controls",
+      "inspect": "TASK+SCREENSHOT: inspect visible focus on actual backgrounds.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 75,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Controls support the main task",
+      "inspect": "TASK: complete the in-scope task using keyboard and inspect traps or missing operation.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 76,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Pointer targets exist",
+      "inspect": "DOM+MEASUREMENT: measure hit areas/spacing and evaluate the applicable 2.5.8 exception.",
+      "source_refs": [
+        "wcag-target"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 77,
+      "category": "Accessibility",
+      "basis": "practice",
+      "applies_when": "Hover reveals actions",
+      "inspect": "TASK: operate with keyboard and touch without relying on pointer hover.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 78,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Color encodes information",
+      "inspect": "SCREENSHOT+TASK: inspect equivalent textual or non-color cues for each meaning.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 79,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Automatic motion or updates occur",
+      "inspect": "TASK+DOCUMENT: inspect duration, parallel content, essential exceptions, controls, and reduced-motion behavior separately.",
+      "source_refs": [
+        "wcag-motion"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 80,
+      "category": "Accessibility",
+      "basis": "standard",
+      "applies_when": "Images convey information or function",
+      "inspect": "DOM+DOCUMENT: inspect contextual alternatives and decorative exclusion.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 81,
+      "category": "Consistency and responsive behavior",
+      "basis": "heuristic",
+      "applies_when": "Spacing repeats across components",
+      "inspect": "SOURCE+SCREENSHOT: inspect tokens and purposeful exceptions.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 82,
+      "category": "Consistency and responsive behavior",
+      "basis": "heuristic",
+      "applies_when": "Sections require visual alignment",
+      "inspect": "SCREENSHOT: inspect grid, baselines, and reading relationships.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 83,
+      "category": "Consistency and responsive behavior",
+      "basis": "practice",
+      "applies_when": "Shared components recur on routes",
+      "inspect": "SOURCE+TASK: inspect consistent appearance and behavior across their uses.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 84,
+      "category": "Consistency and responsive behavior",
+      "basis": "heuristic",
+      "applies_when": "Icons recur",
+      "inspect": "SOURCE+SCREENSHOT: inspect control-role size and stroke coherence.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 85,
+      "category": "Consistency and responsive behavior",
+      "basis": "heuristic",
+      "applies_when": "Related components have different shapes",
+      "inspect": "SOURCE+SCREENSHOT: compare shape roles with established tokens.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 86,
+      "category": "Consistency and responsive behavior",
+      "basis": "practice",
+      "applies_when": "Product labels recur",
+      "inspect": "DOCUMENT+TASK: inspect consistent terminology and capitalization.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 87,
+      "category": "Consistency and responsive behavior",
+      "basis": "practice",
+      "applies_when": "The page supports narrow screens",
+      "inspect": "TASK+SCREENSHOT: inspect task order and action access at actual target widths.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 88,
+      "category": "Consistency and responsive behavior",
+      "basis": "standard",
+      "applies_when": "The content reflows vertically",
+      "inspect": "TASK+MEASUREMENT: inspect 320 CSS-pixel equivalent width; identify legitimate two-dimensional exceptions.",
+      "source_refs": [
+        "wcag-reflow"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 89,
+      "category": "Consistency and responsive behavior",
+      "basis": "practice",
+      "applies_when": "Sticky headers/overlays exist",
+      "inspect": "TASK+SCREENSHOT: tab and scroll through the page to inspect obscured content/focus.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 90,
+      "category": "Consistency and responsive behavior",
+      "basis": "practice",
+      "applies_when": "Long or enlarged text may occur",
+      "inspect": "TASK+SCREENSHOT: use realistic long values and zoom without losing content or actions.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 91,
+      "category": "Product completeness",
+      "basis": "product_constraint",
+      "applies_when": "Marketing describes capabilities",
+      "inspect": "DOCUMENT+TASK: compare claims with actual features and visible preview/prototype limits.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 92,
+      "category": "Product completeness",
+      "basis": "product_constraint",
+      "applies_when": "Sample data is displayed",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect explicit labels where data could be mistaken for real.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 93,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "Form validation can fail",
+      "inspect": "TASK: submit invalid synthetic input; confirm relevant fields retain entered work.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 94,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "A server failure can reach the UI",
+      "inspect": "TASK+SOURCE: inspect user-safe messages and disclosure limits.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 95,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "The product promises durable saves",
+      "inspect": "TASK: perform an authorized reversible save and reload to confirm persistence.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 96,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "Requests may take noticeable time",
+      "inspect": "TASK: inspect genuine loading/progress feedback during a delayed request.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 97,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "Offline/failed/empty paths exist",
+      "inspect": "TASK: inspect safe recovery and explanation for each in-scope path.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 98,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "Authentication or roles exist",
+      "inspect": "TASK+DOCUMENT: inspect available permission/session states with authorized accounts.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 99,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "Application routes exist",
+      "inspect": "TASK: inspect direct URLs, reloads, and unknown-route handling.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 100,
+      "category": "Product completeness",
+      "basis": "practice",
+      "applies_when": "Heavy assets/effects exist",
+      "inspect": "MEASUREMENT: profile affected load/interaction under named conditions before claiming a slowdown.",
+      "source_refs": [
+        "web-vitals"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 101,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "A route has an entry view",
+      "inspect": "DOCUMENT+SCREENSHOT: identify its main task, title, and useful first action.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 102,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "Navigation groups several destinations",
+      "inspect": "DOCUMENT+TASK: compare labels/groups with user tasks and terminology.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 103,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "A route has hierarchical context",
+      "inspect": "TASK+SCREENSHOT: inspect active destination and useful local context.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 104,
+      "category": "Wayfinding",
+      "basis": "product_constraint",
+      "applies_when": "State is placed in shareable URLs",
+      "inspect": "SOURCE+TASK: inspect synthetic URL/referrer content for sensitive fields or credentials.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 105,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "Users move between search/detail views",
+      "inspect": "TASK: use Back/Forward and inspect restored context.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 106,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "Sharing/bookmarking is useful",
+      "inspect": "TASK+DOCUMENT: reopen safe shared view state and confirm authorized access.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 107,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "Search exists",
+      "inspect": "TASK+SCREENSHOT: inspect scope, query retention, and result interpretation.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 108,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "Filters exist",
+      "inspect": "TASK: apply/remove filters and inspect count, active state, and reset behavior.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 109,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "Filters can eliminate results",
+      "inspect": "TASK: distinguish filtered zero results from an unpopulated collection.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 110,
+      "category": "Wayfinding",
+      "basis": "practice",
+      "applies_when": "A choice uses unfamiliar concepts",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect explanatory help beside the decision.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 111,
+      "category": "Interaction reliability",
+      "basis": "practice",
+      "applies_when": "An action is disabled by prerequisites",
+      "inspect": "TASK+SCREENSHOT: inspect clear reason and path to meet the prerequisite.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 112,
+      "category": "Interaction reliability",
+      "basis": "product_constraint",
+      "applies_when": "An operation can be submitted repeatedly",
+      "inspect": "TASK+SOURCE: inspect pending feedback and duplicate operation protection with authorized synthetic data.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 113,
+      "category": "Interaction reliability",
+      "basis": "product_constraint",
+      "applies_when": "Progress percentages are displayed",
+      "inspect": "SOURCE+TASK: compare displayed progress with measured task events.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 114,
+      "category": "Interaction reliability",
+      "basis": "practice",
+      "applies_when": "A task is long-running",
+      "inspect": "DOCUMENT+TASK: inspect safe leave/cancel behavior and its actual limits.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 115,
+      "category": "Interaction reliability",
+      "basis": "practice",
+      "applies_when": "Several async requests can overlap",
+      "inspect": "TASK: issue changed queries/selections and delayed responses; confirm latest-context results.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 116,
+      "category": "Interaction reliability",
+      "basis": "practice",
+      "applies_when": "Optimistic updates are used",
+      "inspect": "TASK: safely simulate rejection and inspect rollback or unsaved/conflict state.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 117,
+      "category": "Interaction reliability",
+      "basis": "practice",
+      "applies_when": "A confirmation affects records/people",
+      "inspect": "SCREENSHOT+DOCUMENT: inspect affected entity/range and consequences before approval.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 118,
+      "category": "Interaction reliability",
+      "basis": "practice",
+      "applies_when": "Success feedback describes lasting changes",
+      "inspect": "TASK: inspect durable visible state after the transient toast disappears.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 119,
+      "category": "Interaction reliability",
+      "basis": "product_constraint",
+      "applies_when": "Undo is offered",
+      "inspect": "DOCUMENT+TASK: reverse an authorized synthetic change and inspect window/restore limitations.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 120,
+      "category": "Interaction reliability",
+      "basis": "product_constraint",
+      "applies_when": "Account or organization switching exists",
+      "inspect": "TASK+SOURCE: switch authorized contexts and inspect isolated data, selections, and loading states.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 121,
+      "category": "Data meaning",
+      "basis": "practice",
+      "applies_when": "A chart displays a measure",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect subject, population, and measure in title/context.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 122,
+      "category": "Data meaning",
+      "basis": "practice",
+      "applies_when": "A chart uses axes",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect units, period, scale, and export meaning.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 123,
+      "category": "Data meaning",
+      "basis": "practice",
+      "applies_when": "A chart compares magnitudes or trends",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect task-appropriate baseline/scale and misleading emphasis.",
+      "source_refs": [
+        "gov-charts"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 124,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "Zero/missing/unavailable states may occur",
+      "inspect": "DOCUMENT+TASK: inspect separate labels and semantic meaning for actual data states.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 125,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "Values have units/currency/magnitude",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect units beside relevant numbers and in exports.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 126,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "Values have limited precision",
+      "inspect": "DOCUMENT: compare displayed decimals/rounding with underlying source precision.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 127,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "Forecast/estimate/observed classes coexist",
+      "inspect": "DOCUMENT+SCREENSHOT: inspect clear class labels and visualization treatment.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 128,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "A KPI shows change",
+      "inspect": "DOCUMENT: verify baseline, denominator, and comparison window.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 129,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "Period or timezone affects interpretation",
+      "inspect": "DOCUMENT+TASK: inspect period/zone and relevant boundary cases.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 130,
+      "category": "Data meaning",
+      "basis": "product_constraint",
+      "applies_when": "Displayed claims link to sources",
+      "inspect": "TASK+DOCUMENT: open exact records/versions and locate supporting evidence.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 131,
+      "category": "Accessibility mechanics",
+      "basis": "practice",
+      "applies_when": "A page contains meaningful structure",
+      "inspect": "DOM: inspect roles, headings, lists, landmarks, and native semantics appropriate to content.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 132,
+      "category": "Accessibility mechanics",
+      "basis": "standard",
+      "applies_when": "Repeated blocks precede the main content",
+      "inspect": "TASK+DOM: operate the bypass mechanism and confirm the focus destination.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 133,
+      "category": "Accessibility mechanics",
+      "basis": "practice",
+      "applies_when": "A modal dialog exists",
+      "inspect": "TASK+DOM: inspect initial focus, contained tab order, close behavior, and logical return focus.",
+      "source_refs": [
+        "apg-dialog"
+      ],
+      "source_relation": "supporting_pattern",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 134,
+      "category": "Accessibility mechanics",
+      "basis": "standard",
+      "applies_when": "Several controls have sequential focus",
+      "inspect": "TASK: inspect keyboard sequence against reading/task order.",
+      "source_refs": [
+        "wcag-core"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 135,
+      "category": "Accessibility mechanics",
+      "basis": "practice",
+      "applies_when": "Client-side route navigation exists",
+      "inspect": "TASK+DOM: inspect updated document title and predictable route focus.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 136,
+      "category": "Accessibility mechanics",
+      "basis": "standard",
+      "applies_when": "Important status messages update dynamically",
+      "inspect": "DOM+TASK: inspect programmatic availability; test actual assistive technology before claiming announcements.",
+      "source_refs": [
+        "wcag-status"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 137,
+      "category": "Accessibility mechanics",
+      "basis": "practice",
+      "applies_when": "Field validation messages exist",
+      "inspect": "DOM+TASK: inspect invalid field identification and error association.",
+      "source_refs": [
+        "wai-design",
+        "govuk-error"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 138,
+      "category": "Accessibility mechanics",
+      "basis": "practice",
+      "applies_when": "Repeated controls affect different records",
+      "inspect": "DOM: inspect accessible names with enough item context to distinguish targets.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 139,
+      "category": "Accessibility mechanics",
+      "basis": "practice",
+      "applies_when": "A table or interactive grid exists",
+      "inspect": "DOM+TASK: inspect header relationships and the chosen table/grid interaction model.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 140,
+      "category": "Accessibility mechanics",
+      "basis": "standard",
+      "applies_when": "Markup supports text-spacing overrides",
+      "inspect": "TASK+MEASUREMENT: apply all 1.4.12 overrides and inspect information/action loss with language exceptions.",
+      "source_refs": [
+        "wcag-spacing"
+      ],
+      "source_relation": "criterion",
+      "wording_review": "replaced",
+      "review_note": "Replaced repetition of resize/reflow checks 73/88 with the distinct WCAG text-spacing override criterion."
+    },
+    {
+      "id": 141,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "Optional scripts compete with initial content",
+      "inspect": "TASK+MEASUREMENT: inspect initial useful content and feedback under delayed optional loading.",
+      "source_refs": [
+        "web-vitals"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 142,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "Web fonts are loaded",
+      "inspect": "TASK+MEASUREMENT: inspect fallback text, font swap, and layout movement.",
+      "source_refs": [
+        "web-vitals"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 143,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "Images load after layout begins",
+      "inspect": "DOM+MEASUREMENT: inspect reserved dimensions and resulting layout shifts.",
+      "source_refs": [
+        "web-vitals"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 144,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "Users may have slower devices/networks",
+      "inspect": "MEASUREMENT+TASK: inspect main journey under stated CPU/network constraints.",
+      "source_refs": [
+        "web-vitals"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 145,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "The main journey performs requests/scripts",
+      "inspect": "TASK: reproduce unexpected errors and their impact; do not count expected denials as defects.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "refined",
+      "review_note": "Refined scope, exception, or overly broad prescription while retaining the original concern."
+    },
+    {
+      "id": 146,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "Third-party widgets/services exist",
+      "inspect": "TASK: safely simulate optional dependency failure and inspect unrelated task usability.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 147,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "Concurrent edits can affect records",
+      "inspect": "TASK+SOURCE: use authorized synthetic edits in two contexts and inspect conflict handling.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 148,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "More than one locale or text direction is supported",
+      "inspect": "DOCUMENT+TASK: inspect supported locale formatting, currency clarity, and direction.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    },
+    {
+      "id": 149,
+      "category": "Release resilience",
+      "basis": "practice",
+      "applies_when": "A recoverable failure interrupts navigation",
+      "inspect": "TASK: inspect safe retry/access-return behavior while retaining useful context.",
+      "source_refs": [
+        "nng-heuristics"
+      ],
+      "source_relation": "derived_guidance",
+      "wording_review": "retained",
+      "review_note": "Reviewed as conditional guidance; evidence method and scope are explicit."
+    },
+    {
+      "id": 150,
+      "category": "Release resilience",
+      "basis": "product_constraint",
+      "applies_when": "Analytics or diagnostics handle user input",
+      "inspect": "SOURCE+TASK: inspect approved synthetic event payloads and secret/private-field redaction.",
+      "source_refs": [],
+      "source_relation": "author_judgment",
+      "wording_review": "replaced",
+      "review_note": "Replaced overlapping addition with a distinct mechanism; earlier related guidance remains in the original 100."
+    }
+  ],
+  "sources": {
+    "nng-heuristics": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "wai-design": "https://www.w3.org/WAI/tips/designing/",
+    "govuk-error": "https://design-system.service.gov.uk/components/error-message/",
+    "web-vitals": "https://web.dev/articles/vitals",
+    "wcag-core": "https://www.w3.org/TR/WCAG22/",
+    "wcag-contrast": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "wcag-resize": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+    "wcag-target": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+    "wcag-motion": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+    "wcag-reflow": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+    "wcag-status": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+    "wcag-spacing": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+    "apg-dialog": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+    "gov-charts": "https://analysisfunction.civilservice.gov.uk/policy-store/data-visualisation-charts/"
+  }
+}

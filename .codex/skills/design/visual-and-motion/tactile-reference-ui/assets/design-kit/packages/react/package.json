@@ -1,0 +1,7 @@
+{
+  "name":"@tactile-ui/react","version":"0.1.0","private":true,"type":"module","license":"UNLICENSED",
+  "files":["dist"],"exports":{".":{"types":"./dist/index.d.ts","import":"./dist/index.js"}},
+  "sideEffects":false,"peerDependencies":{"react":"^19.0.0"},"dependencies":{"@tactile-ui/tokens":"0.1.0"},
+  "scripts":{"build":"tsup","check":"tsc --noEmit"},
+  "devDependencies":{"react":"19.3.0","@types/react":"19.3.0","tsup":"8.5.1"}
+}

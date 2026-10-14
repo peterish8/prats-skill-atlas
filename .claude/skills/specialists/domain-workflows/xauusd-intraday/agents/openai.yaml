@@ -1,0 +1,6 @@
+interface:
+  display_name: "XAUUSD Intraday"
+  short_description: "Gold chart setups, exits, risk and precise markings"
+  default_prompt: "Use $xauusd-intraday to inspect my current gold chart and explain buy, sell, or wait with clear entry, stop, target, and news context."
+policy:
+  allow_implicit_invocation: true

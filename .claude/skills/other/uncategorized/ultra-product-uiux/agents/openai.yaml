@@ -1,0 +1,6 @@
+interface:
+  display_name: "Ultra Product UI/UX"
+  short_description: "Build polished, useful web product UX"
+  default_prompt: "Use $ultra-product-uiux to audit this product flow and implement the highest-impact interface improvements."
+policy:
+  allow_implicit_invocation: true

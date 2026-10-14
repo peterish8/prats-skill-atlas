@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>Measured Performance Plan</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --bg: #09090b;
+    --line: #303038; --ink: #f4f4f5; --muted: #a1a1aa;
+    --soft: #71717a; --green: #b8f36b; --blue: #8ab4ff;
+    --amber: #f5c66e;
+    --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background:
+      radial-gradient(ellipse at 82% 0%, rgba(138,180,255,.10), transparent 33rem),
+      radial-gradient(ellipse at 8% 18%, rgba(184,243,107,.055), transparent 28rem),
+      var(--bg);
+    color: var(--ink); font: 14px/1.55 var(--sans);
+  }
+  body::before {
+    content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .14;
+    background-image: radial-gradient(#707078 0.65px, transparent 0.65px);
+    background-size: 18px 18px; mask-image: linear-gradient(to bottom, black, transparent 72%);
+  }
+  .shell { max-width: 1120px; margin: auto; padding: 26px 30px 72px; position: relative; }
+  header { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+  .brand { display: flex; align-items: center; gap: 11px; font: 600 12px var(--mono); letter-spacing: .09em; color: #d4d4d8; text-transform: uppercase; }
+  .brand-mark { width: 18px; height: 18px; border: 1.5px solid var(--green); transform: rotate(45deg); border-radius: 4px; box-shadow: 0 0 18px #b8f36b35; }
+  .meta { color: var(--muted); font: 11px var(--mono); display: flex; gap: 16px; }
+  .eyebrow { color: var(--green); font: 11px var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+  .hero { padding: 54px 0 30px; max-width: 820px; }
+  h1 { margin: 13px 0 13px; font-size: clamp(34px, 5vw, 58px); line-height: 1.02; letter-spacing: -.055em; font-weight: 620; }
+  .subtitle { color: #b4b4bd; max-width: 700px; font-size: 16px; }
+  .status { display: inline-flex; align-items: center; gap: 8px; padding: 7px 11px; border: 1px solid #74612f; border-radius: 999px; background: #302713; color: var(--amber); font: 11px var(--mono); text-transform: uppercase; letter-spacing: .04em; }
+  .status i { width: 7px; height: 7px; border-radius: 50%; background: var(--amber); box-shadow: 0 0 12px var(--amber); }
+  .section-label { color: var(--soft); font: 10px var(--mono); text-transform: uppercase; letter-spacing: .13em; margin: 0 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 13px; }
+  .card { background: linear-gradient(145deg, #151519, #101013); border: 1px solid var(--line); border-radius: 13px; padding: 19px; min-width: 0; box-shadow: 0 9px 30px #0002; }
+  .metric { grid-column: span 4; min-height: 148px; }
+  .metric .name { color: var(--muted); font: 11px var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+  .metric strong { display: block; margin: 15px 0 4px; font: 500 clamp(27px,4vw,38px)/1 var(--mono); letter-spacing: -.06em; }
+  .metric small { color: var(--soft); font: 11px var(--mono); }
+  .metric.baseline strong { color: var(--blue); }
+  .metric.goal strong { color: var(--green); }
+  .metric.confidence strong { color: var(--amber); font-size: 23px; letter-spacing: -.03em; }
+  .journey { grid-column: span 12; padding: 21px 22px 16px; }
+  .journey-head { display: flex; justify-content: space-between; gap: 20px; align-items: flex-start; }
+  .journey-head h2, .card h2 { margin: 0; font-size: 16px; letter-spacing: -.02em; font-weight: 570; }
+  .journey-head p { margin: 6px 0 0; color: var(--muted); }
+  .flow { display: grid; grid-template-columns: 1fr 70px 1fr 70px 1fr; align-items: center; gap: 4px; margin: 24px 3px 7px; }
+  .node { border: 1px solid #3b3b45; background: #19191e; min-height: 74px; border-radius: 12px; padding: 12px 14px; position: relative; transform: rotate(-.25deg); }
+  .node:nth-of-type(2) { transform: rotate(.35deg); border-color: #53637b; }
+  .node:nth-of-type(3) { transform: rotate(-.4deg); border-color: #566c3b; }
+  .node small { display: block; color: var(--soft); font: 9px var(--mono); letter-spacing: .1em; margin-bottom: 5px; text-transform: uppercase; }
+  .node b { font-size: 13px; font-weight: 550; }
+  .connector { width: 100%; height: 34px; overflow: visible; }
+  .connector path { fill: none; stroke: #777783; stroke-width: 1.5; stroke-linecap: round; stroke-dasharray: 3 3; }
+  .details { grid-column: span 7; }
+  .scope { grid-column: span 5; }
+  .evidence { grid-column: span 6; }
+  .guardrails { grid-column: span 6; }
+  .verify { grid-column: span 12; }
+  .rows { margin-top: 15px; display: grid; gap: 0; }
+  .row { display: grid; grid-template-columns: 145px 1fr; gap: 15px; padding: 10px 0; border-top: 1px solid #25252b; }
+  .row:first-child { border-top: 0; }
+  .row label { color: var(--soft); font: 10px var(--mono); text-transform: uppercase; letter-spacing: .05em; }
+  .row p { margin: 0; color: #d4d4d8; }
+  .tag { display: inline-flex; border: 1px solid #373740; border-radius: 6px; padding: 3px 7px; color: #c9c9d0; font: 10px var(--mono); margin: 2px 4px 2px 0; }
+  .checklist { list-style: none; margin: 14px 0 0; padding: 0; }
+  .checklist li { display: flex; gap: 10px; padding: 7px 0; border-top: 1px solid #25252b; color: #d4d4d8; }
+  .checklist li::before { content: "↳"; color: var(--green); font: 14px var(--mono); }
+  .decision { grid-column: span 12; display: flex; justify-content: space-between; align-items: center; gap: 22px; border-color: #575033; background: linear-gradient(110deg,#211d13,#131317 72%); }
+  .decision p { color: #c4c0b4; margin: 5px 0 0; }
+  .decision-code { color: var(--amber); font: 11px var(--mono); text-align: right; white-space: nowrap; }
+  footer { display: flex; justify-content: space-between; gap: 20px; padding-top: 20px; color: var(--soft); font: 10px var(--mono); }
+  @media (max-width: 760px) {
+    .shell { padding: 18px 16px 44px; }
+    header { align-items: flex-start; flex-direction: column; gap: 9px; }
+    .hero { padding-top: 38px; }
+    .metric { grid-column: span 12; min-height: 110px; }
+    .details,.scope,.evidence,.guardrails { grid-column: span 12; }
+    .flow { grid-template-columns: 1fr; gap: 4px; margin-top: 18px; }
+    .connector { height: 28px; width: 55px; margin: auto; transform: rotate(90deg); }
+    .row { grid-template-columns: 1fr; gap: 3px; }
+    .decision { align-items: flex-start; flex-direction: column; }
+    .decision-code { text-align: left; }
+    footer { flex-direction: column; }
+  }
+  @media print {
+    body { background: #09090b !important; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+    .shell { max-width: none; padding: 12mm; }
+    .card { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<main class="shell">
+  <header>
+    <div class="brand"><span class="brand-mark" aria-hidden="true"></span> Performance / Review Plan</div>
+    <div class="meta"><span>[[project_or_repo]]</span><span>[[date]]</span><span>[[plan_id]]</span></div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow">One journey · one measurable improvement</div>
+    <h1>[[plan_title]]</h1>
+    <p class="subtitle">[[plain_language_problem_and_user_impact]]</p>
+    <div class="status"><i aria-hidden="true"></i> [[approval_state: awaiting approval / measurement needed]]</div>
+  </section>
+
+  <div class="section-label">The measurement</div>
+  <section class="grid" aria-label="Performance measurements">
+    <article class="card metric baseline">
+      <div class="name">Current baseline</div>
+      <strong>[[baseline_value_and_unit]]</strong>
+      <small>[[baseline_statistic_and_sample_count]]</small>
+    </article>
+    <article class="card metric goal">
+      <div class="name">Success target</div>
+      <strong>[[target_value_and_unit]]</strong>
+      <small>[[why_this_target_is_useful]]</small>
+    </article>
+    <article class="card metric confidence">
+      <div class="name">Evidence confidence</div>
+      <strong>[[high / medium / low]]</strong>
+      <small>[[main_limit_or_variation]]</small>
+    </article>
+
+    <article class="card journey">
+      <div class="journey-head">
+        <div>
+          <div class="section-label">User journey / benchmark boundary</div>
+          <h2>[[journey_name]]</h2>
+          <p>[[representative_workload_and_user_context]]</p>
+        </div>
+        <span class="tag">[[platform_or_runtime]]</span>
+      </div>
+      <div class="flow" aria-label="Journey start, observed bottleneck, and intended outcome">
+        <div class="node"><small>Start · [[start_boundary]]</small><b>[[user_action]]</b></div>
+        <svg class="connector" viewBox="0 0 70 34" aria-hidden="true"><path d="M3 17 C19 12, 42 22, 62 16 M55 10 L63 16 L55 22"/></svg>
+        <div class="node"><small>Evidence · [[slow_span]]</small><b>[[measured_bottleneck_or_unknown]]</b></div>
+        <svg class="connector" viewBox="0 0 70 34" aria-hidden="true"><path d="M3 17 C18 23, 41 11, 62 17 M55 11 L63 17 L55 23"/></svg>
+        <div class="node"><small>Finish · [[end_boundary]]</small><b>[[user_visible_result]]</b></div>
+      </div>
+    </article>
+
+    <article class="card details">
+      <div class="section-label">Run conditions</div>
+      <h2>Can we compare the runs fairly?</h2>
+      <div class="rows">
+        <div class="row"><label>Build / commit</label><p>[[commit_or_build]]</p></div>
+        <div class="row"><label>Device / runtime</label><p>[[device_os_browser_runtime]]</p></div>
+        <div class="row"><label>Network / data</label><p>[[network_backend_dataset_cache]]</p></div>
+        <div class="row"><label>Method</label><p>[[repeatable_run_procedure]]</p></div>
+      </div>
+    </article>
+
+    <article class="card scope">
+      <div class="section-label">Proposed slice</div>
+      <h2>Change one measured cost</h2>
+      <div class="rows">
+        <div class="row"><label>Evidence</label><p>[[profile_trace_or_telemetry_finding]]</p></div>
+        <div class="row"><label>Change</label><p>[[smallest_proposed_implementation]]</p></div>
+        <div class="row"><label>Out of scope</label><p>[[explicitly_excluded_work]]</p></div>
+        <div class="row"><label>Trade-off</label><p>[[complexity_or_resource_cost]]</p></div>
+      </div>
+    </article>
+
+    <article class="card evidence">
+      <div class="section-label">What supports this plan?</div>
+      <h2>Evidence, not guesswork</h2>
+      <ul class="checklist">
+        <li>[[source_of_measurement_and_location]]</li>
+        <li>[[how_the_metric_maps_to_user_wait_or_quality]]</li>
+        <li>[[known_caveat_or_alternative_explanation]]</li>
+      </ul>
+    </article>
+
+    <article class="card guardrails">
+      <div class="section-label">Must remain true</div>
+      <h2>Success with guardrails</h2>
+      <ul class="checklist">
+        <li>[[correctness_or_user_experience_guardrail]]</li>
+        <li>[[device_compatibility_or_resource_guardrail]]</li>
+        <li>[[how_to_detect_a_regression]]</li>
+      </ul>
+    </article>
+
+    <article class="card verify">
+      <div class="section-label">After approval</div>
+      <h2>Same journey before and after</h2>
+      <div class="rows">
+        <div class="row"><label>Repeat</label><p>[[same_inputs_environment_statistic_and_run_count]]</p></div>
+        <div class="row"><label>Compare</label><p>[[expected_absolute_and_relative_change_and_noise_rule]]</p></div>
+        <div class="row"><label>Checks</label><p>[[focused_correctness_and_existing_performance_checks]]</p></div>
+      </div>
+    </article>
+
+    <article class="card decision">
+      <div>
+        <div class="section-label">Decision requested</div>
+        <h2>[[approve this measurement plan / approve this implementation slice]]</h2>
+        <p>[[approval_boundary_and_any_data_or_access_needed]]</p>
+      </div>
+      <div class="decision-code">NO IMPLEMENTATION CHANGES<br>BEFORE APPROVAL</div>
+    </article>
+  </section>
+
+  <footer><span>MEASURE → PROFILE → CHANGE → RE-MEASURE</span><span>[[artifact_path_or_revision]] · Standalone review artifact</span></footer>
+</main>
+</body>
+</html>
+

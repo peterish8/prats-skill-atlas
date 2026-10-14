@@ -1,0 +1,6 @@
+{
+  "name": "@tactile-ui/tokens", "version": "0.1.0", "type": "module", "private": true,
+  "license": "UNLICENSED", "files": ["dist", "styles.css", "marketing.css", "cinematic.css", "fonts.css", "assets"],
+  "exports": {".": {"types": "./dist/index.d.ts", "import": "./dist/index.js"}, "./styles.css": "./styles.css"},
+  "sideEffects": ["**/*.css"], "scripts": {"build": "tsc -p tsconfig.json"}
+}

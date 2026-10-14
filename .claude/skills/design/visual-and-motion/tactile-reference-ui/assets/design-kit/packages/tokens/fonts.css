@@ -1,0 +1,8 @@
+/* Vendored, unmodified OFL fonts. Source revisions and licenses accompany the files. */
+@font-face { font-family:'Tactile Manrope'; src:url('./assets/fonts/Manrope-Variable.ttf') format('truetype'); font-style:normal; font-weight:200 800; font-display:swap; }
+@font-face { font-family:'Tactile Instrument Serif'; src:url('./assets/fonts/InstrumentSerif-Regular.ttf') format('truetype'); font-style:normal; font-weight:400; font-display:swap; }
+.tui-theme[data-tui-direction] {
+  --tui-font:'Tactile Manrope',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  --tui-display:'Tactile Instrument Serif',Georgia,'Times New Roman',serif;
+  font-family:var(--tui-font); font-optical-sizing:auto; -webkit-font-smoothing:antialiased;
+}

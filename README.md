@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/516_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="516 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/558_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="558 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.grok"><img src="https://img.shields.io/badge/Grok-ready-c084fc?style=flat-square&labelColor=0b1017" alt="Grok ready"></a>
@@ -40,12 +40,12 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 384 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 285 | Codex-compatible skill packages |
+| [`.claude/skills`](.claude/skills) | 558 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 558 | Codex-compatible skill packages |
 | [`.grok/skills`](.grok/skills) | 6 | Grok-compatible skill packages |
 | [`.antigravity/skills`](.antigravity/skills) | 6 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
-| [`.agents/skills`](.agents/skills) | 340 | Shared agent skill packages |
-| **Unique skill names** | **516** | Deduplicated collection across all trees |
+| [`.agents/skills`](.agents/skills) | 465 | Shared agent skill packages |
+| **Unique skill names** | **558** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
@@ -157,6 +157,29 @@ The identical five-file package is available in all five runtime trees under `ag
 ```
 
 Example request: "Use solo-build to implement this feature. Follow the project rules, preserve unrelated edits, define acceptance checks, and verify the affected behavior. Default to zero subagents; use at most one reviewer when justified. Report evidence and remaining gaps."
+
+## Synchronize local Claude and Codex catalogs
+
+The [sync-agent-skills package](.agents/skills/agent-workflows/coordination/sync-agent-skills/SKILL.md) and [Python helper](scripts/sync-local-skills.py) compare installed Claude skills, Codex's direct/shared Agents catalog, and this checkout. They copy missing complete packages in both directions, preserving existing same-name versions. Existing Atlas packages are also preserved.
+
+The Atlas helper requires Python 3.12 or newer and PowerShell 7 (`pwsh`).
+
+```powershell
+# Inspect the planned additions without changing skill folders.
+python scripts/sync-local-skills.py --dry-run
+
+# Apply the copy-only synchronization; keep the detailed report outside Git.
+python scripts/sync-local-skills.py --report "$env:TEMP/prats-skill-sync.json"
+
+# Refresh and validate the public index after adding packages.
+.\scripts\organize-runtime-trees.ps1
+.\scripts\build-catalog.ps1
+.\scripts\validate.ps1
+```
+
+Codex availability includes `CODEX_HOME/skills` plus `~/.agents/skills`; bundled system skills and plugin caches are outside this user-skill synchronization. The helper respects root overrides, reports preserved instruction variants, verifies copied public files, excludes credentials/dependency caches/generated output, and makes public checkout references portable. Source-only library packages explain how to regenerate their build artifacts. Public sync fills the Claude/Codex trees and missing shared Agents packages; it does not bulk-install skills into Grok or Antigravity.
+
+The helper does not commit or push. Review the additions and publish only within the user's authorized scope. Run its behavioral tests with `python -m unittest discover -s tests -p 'test_skill_sync.py' -v`.
 
 ## Flagship: Looping Engineering Orchestrator
 
