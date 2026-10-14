@@ -38,6 +38,7 @@ function Get-SkillPlacement {
 
     if ($Name -eq 'reverse-skill-router') { return [pscustomobject]@{ Category = 'security'; Subcategory = 'reverse-engineering' } }
     if ($Name -eq 'agent-loop') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'orchestration' } }
+    if ($Name -eq 'solo-build') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'coordination' } }
 
     if ($Name -match '^gsd-') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gsd' } }
     if ($Name -match '^gstack') { return [pscustomobject]@{ Category = 'agent-workflows'; Subcategory = 'gstack' } }

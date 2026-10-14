@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "atlas": "prats-skill-atlas",
+  "profileName": "solo-development-with-bounded-review",
+  "targets": ["Claude", "Codex", "Grok", "Antigravity", "Agents"],
+  "answers": {
+    "projectType": "software implementation and debugging",
+    "goal": "focused changes with behavioral tests and evidence-backed completion",
+    "budget": "zero subagents by default; at most one distinct reviewer per task"
+  },
+  "skills": [
+    {
+      "name": "solo-build",
+      "reason": "A budget-conscious coding workflow with risk-based verification, bounded repairs, and no nested agents",
+      "targets": ["Claude", "Codex", "Grok", "Antigravity", "Agents"]
+    }
+  ]
+}

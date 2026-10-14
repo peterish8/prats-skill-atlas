@@ -1,0 +1,6 @@
+interface:
+  display_name: "Solo Build"
+  short_description: "Evidence-led coding with zero or one reviewer"
+  default_prompt: "Use $solo-build to implement this change with focused tests, at most one reviewer, and an evidence-backed completion report."
+policy:
+  allow_implicit_invocation: true

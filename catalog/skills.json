@@ -7,7 +7,7 @@
     ".antigravity/skills",
     ".agents/skills"
   ],
-  "skillCount": 515,
+  "skillCount": 516,
   "skills": [
     {
       "name": "adaptive-agent-workflow",
@@ -2663,6 +2663,26 @@
       ],
       "paths": {
         "Agents": ".agents/skills/agent-workflows/coordination/routing-agent-tools/SKILL.md"
+      }
+    },
+    {
+      "name": "solo-build",
+      "category": "agent-workflows",
+      "subcategory": "coordination",
+      "description": "Implement or fix software with focused behavioral tests, risk-based verification, and an evidence-backed completion report for a solo developer. Use for coding tasks where review time or agent budget is limited. Defaults to zero subagents and permits at most one independent reviewer for the entire task. Supports production-oriented changes without claiming production readiness from local checks. Not a standalone brainstorming, deployment, or whole-repository audit workflow.",
+      "presentIn": [
+        "Agents",
+        "Antigravity",
+        "Claude",
+        "Codex",
+        "Grok"
+      ],
+      "paths": {
+        "Claude": ".claude/skills/agent-workflows/coordination/solo-build/SKILL.md",
+        "Codex": ".codex/skills/agent-workflows/coordination/solo-build/SKILL.md",
+        "Grok": ".grok/skills/agent-workflows/coordination/solo-build/SKILL.md",
+        "Antigravity": ".antigravity/skills/agent-workflows/coordination/solo-build/SKILL.md",
+        "Agents": ".agents/skills/agent-workflows/coordination/solo-build/SKILL.md"
       }
     },
     {

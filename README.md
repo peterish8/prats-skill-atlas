@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/515_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="515 unique skills"></a>
+  <a href="https://github.com/peterish8/prats-skill-atlas"><img src="https://img.shields.io/badge/516_unique_skills-36d9ff?style=flat-square&labelColor=0b1017" alt="516 unique skills"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.claude"><img src="https://img.shields.io/badge/Claude-ready-f4b860?style=flat-square&labelColor=0b1017" alt="Claude ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.codex"><img src="https://img.shields.io/badge/Codex-ready-36d9ff?style=flat-square&labelColor=0b1017" alt="Codex ready"></a>
   <a href="https://github.com/peterish8/prats-skill-atlas/tree/main/.grok"><img src="https://img.shields.io/badge/Grok-ready-c084fc?style=flat-square&labelColor=0b1017" alt="Grok ready"></a>
@@ -40,12 +40,12 @@ The default is selective setup. Your friend does not need to explain this workfl
 
 | Runtime tree | Packages | Purpose |
 | --- | ---: | --- |
-| [`.claude/skills`](.claude/skills) | 383 | Claude-compatible skill packages |
-| [`.codex/skills`](.codex/skills) | 284 | Codex-compatible skill packages |
-| [`.grok/skills`](.grok/skills) | 5 | Grok-compatible skill packages |
-| [`.antigravity/skills`](.antigravity/skills) | 5 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
-| [`.agents/skills`](.agents/skills) | 339 | Shared agent skill packages |
-| **Unique skill names** | **515** | Deduplicated collection across all trees |
+| [`.claude/skills`](.claude/skills) | 384 | Claude-compatible skill packages |
+| [`.codex/skills`](.codex/skills) | 285 | Codex-compatible skill packages |
+| [`.grok/skills`](.grok/skills) | 6 | Grok-compatible skill packages |
+| [`.antigravity/skills`](.antigravity/skills) | 6 | Antigravity-compatible source packages; installer targets `~/.gemini/config/skills` |
+| [`.agents/skills`](.agents/skills) | 340 | Shared agent skill packages |
+| **Unique skill names** | **516** | Deduplicated collection across all trees |
 
 Every package keeps its own `SKILL.md`, references, scripts, and practical assets where they are safe to redistribute. Categories and subcategories make the collection easy to scan:
 
@@ -143,6 +143,20 @@ A minimal cross-runtime manifest is available at [`examples/product-growth-selec
 [`reverse-skill-router`](.agents/skills/security/reverse-engineering/reverse-skill-router/SKILL.md) adapts the upstream [`zhaoxuya520/reverse-skill`](https://github.com/zhaoxuya520/reverse-skill) router for authorized reverse engineering, CTF, malware analysis, and defensive security work. Its explicit R0–R3 command policy allows passive and bounded local work while requiring a clear yes/no permission immediately before risky commands, network activity, tool installation, dynamic execution, device changes, exploitation, or destructive actions.
 
 The Atlas carries the lightweight guarded adapter and upstream provenance, not three copies of the upstream executable and payload corpus. A pinned shared checkout can serve Claude, Codex, and Agents without silently executing its bootstrap scripts. Use the [`reverse-skill` selection example](examples/reverse-skill-selection.example.json) to install only this adapter.
+
+## Solo development with bounded review
+
+[`solo-build`](.agents/skills/agent-workflows/coordination/solo-build/SKILL.md) is a focused implementation and debugging workflow for a solo developer with limited review time or agent budget. The main coding agent defines observable acceptance checks, implements one coherent change, runs meaningful tests and applicable runtime checks, repairs demonstrated failures, and delivers evidence with explicit verification gaps.
+
+It defaults to zero subagents and permits at most one distinct reviewer across the entire task, including indirect delegation. No nested agents or second model subscription is required. Review and repair are bounded; local checks do not justify unsupported production-readiness claims.
+
+The identical five-file package is available in all five runtime trees under `agent-workflows/coordination`. Its verification and reviewer references load only when relevant. Install only this skill with the [solo development selection](examples/solo-build-selection.example.json):
+
+```powershell
+.\install.ps1 -Manifest .\examples\solo-build-selection.example.json
+```
+
+Example request: "Use solo-build to implement this feature. Follow the project rules, preserve unrelated edits, define acceptance checks, and verify the affected behavior. Default to zero subagents; use at most one reviewer when justified. Report evidence and remaining gaps."
 
 ## Flagship: Looping Engineering Orchestrator
 

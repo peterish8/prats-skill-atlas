@@ -1,6 +1,6 @@
 # agent-workflows/coordination
 
-Skills in this category: 54
+Skills in this category: 55
 
 | Skill | Available in | Description |
 | --- | --- | --- |
@@ -51,6 +51,7 @@ Skills in this category: 54
 | `recovering-agent-failures` | Agents | Use after a verification, tool, research, or implementation attempt fails and you need a diagnosis before retrying or escalating. |
 | `reflect` | Codex | Spawn three parallel review subagents over the active transcript, surface learnings, and route each to a concrete edit on an existing skill. Use when the user says reflect. |
 | `routing-agent-tools` | Agents | Use when more than one tool, API, CLI, browser, simulator, or computer-use interface could perform or verify the task. |
+| `solo-build` | Agents, Antigravity, Claude, Codex, Grok | Implement or fix software with focused behavioral tests, risk-based verification, and an evidence-backed completion report for a solo developer. Use for coding tasks where review time or agent budget is limited. Defaults to zero subagents and permits at most one independent reviewer for the entire task. Supports production-oriented changes without claiming production readiness from local checks. Not a standalone brainstorming, deployment, or whole-repository audit workflow. |
 | `source-command-summarize-context` | Agents | Summarize the entire conversation into a copy-paste context block for a new Codex chat |
 | `summarize-context` | Agents, Claude | Summarizes the entire current conversation into a structured, copy-paste context block for starting a new Claude chat with full continuity. Use when the user runs /summarize-context or asks to "summarize context", "make a context block", or "summarize for new chat". |
 | `swarm` | Codex | Fan out N parallel workers, drain them, and return one report. Use for /swarm, 'swarm this', or parallel coverage, races, gauntlets, and exploration. |
