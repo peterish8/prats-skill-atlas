@@ -197,8 +197,11 @@ def synchronize(args):
         raise RuntimeError("Local effective catalogs do not match the planned union")
     publications = []
     for runtime, sources in [("Claude", claude), ("Codex", effective), ("Agents", agents)]:
-        placement = placement_map(repo, sources)
-        for name in sorted(sources.keys() - atlas[runtime].keys()):
+        missing = sources.keys() - atlas[runtime].keys()
+        if not missing:
+            continue
+        placement = placement_map(repo, {name: sources[name] for name in missing})
+        for name in sorted(missing):
             if getattr(args, "verbose", False):
                 print(f"Preflight Atlas {runtime}: {name}", flush=True)
             source = sources[name]

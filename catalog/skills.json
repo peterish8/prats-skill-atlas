@@ -3071,7 +3071,7 @@
       "name": "sync-agent-skills",
       "category": "agent-workflows",
       "subcategory": "coordination",
-      "description": "Compare and synchronize global Claude Code and Codex skill catalogs. Use when asked to find missing skills between Claude and Codex or make both available across the two agents.",
+      "description": "Quickly synchronize missing user-installed skills between Claude, Codex, shared Agents, and a Prats Skill Atlas checkout using bundled Python scripts. Use for sync skills, fast sync, catalog parity, or skills exclusive to one agent. Preserve existing versions and exclude bundled plugin/system catalogs.",
       "presentIn": [
         "Agents",
         "Claude",

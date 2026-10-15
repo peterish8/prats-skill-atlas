@@ -1,30 +1,46 @@
 ---
 name: sync-agent-skills
-description: Compare and synchronize global Claude Code and Codex skill catalogs. Use when asked to find missing skills between Claude and Codex or make both available across the two agents.
+description: Quickly synchronize missing user-installed skills between Claude, Codex, shared Agents, and a Prats Skill Atlas checkout using bundled Python scripts. Use for sync skills, fast sync, catalog parity, or skills exclusive to one agent. Preserve existing versions and exclude bundled plugin/system catalogs.
 ---
 
-# Sync Claude and Codex skills
+# One-command skill sync
 
-When this skill is invoked for a catalog comparison or sync, run the bundled helper with no arguments. It audits both catalogs and adds packages that are missing. The user does not need to approve this routine sync again.
+On invocation, execute the existing runner immediately. Do not rewrite a script, launch subagents, browse the web, or reinstall the collection. Routine local synchronization is authorized by the user's request.
 
-The helper treats Claude's catalog as the skill folders under the Claude config directory. It treats Codex's effective catalog as the union of CODEX_HOME/skills and the shared .agents/skills folder, with CODEX_HOME taking precedence for duplicate names. It copies into a catalog only when that catalog cannot already load the skill.
+From this skill's directory, run:
 
-The script preserves every existing skill folder and its local version. It never replaces or deletes existing files. It copies full missing skill packages, including scripts, references, and assets; it skips common installed runtime directories such as .venv, node_modules, and browser caches. If the same skill name has different SKILL.md content in both catalogs, it reports the difference and leaves both versions intact.
+```sh
+python scripts/run_sync.py
+```
 
-Run the helper from this skill's directory:
+Use this skill's actual installation path as the command's working directory; it works from Claude, Codex, or shared Agents. Read the Atlas checkout's `AGENTS.md` before the first invocation in a session. This is collection maintenance, not first-time project onboarding.
 
-    python scripts/sync_skills.py
+## What the default command does
 
-Use --dry-run when the user asks for a preview. Use --list with --dry-run when they ask which skill names would be added. The helper accepts --claude-root, --codex-root, and --agents-root for explicit catalog locations.
+1. Locate Atlas using `--atlas-root`, `PRATS_SKILL_ATLAS`, a current-directory ancestor, `~/Documents/Codex/prats-skill-atlas`, or `~/prats-skill-atlas`, in that order. It never searches the whole drive, clones a repository, or contacts GitHub.
+2. Inventory Claude user skills and Codex's effective union of direct Codex plus shared `.agents/skills`. Direct Codex wins for duplicate names. Respect `CLAUDE_CONFIG_DIR` and `CODEX_HOME`.
+3. Preflight the missing packages, including public-export checks, before applying copies. Add Claude-only skills to Codex, Codex-only skills to Claude, Atlas-only names to missing local catalogs, and missing local packages to Atlas's Claude/Codex trees. Also export missing shared Agents packages to the Atlas Agents tree.
+4. Preserve every existing package and same-name variant. Copy supporting scripts, references, assets and licenses; exclude caches, dependencies and generated output. Stop on publication-sensitive content instead of exposing it or weakening the checks.
+5. Rebuild and validate stale Atlas metadata when needed, including its README count fields. Preserve unrelated working-tree edits. Already-synced runs skip category mapping and catalog rebuilds when metadata is current.
+6. Verify final skill-name parity and save a private JSON report. Print before/after counts, additions, preserved variant count, and elapsed time.
 
-After a sync, report the before and after counts, which side received packages, any same-name SKILL.md differences that were preserved, and any runtime directories skipped. Do not describe skill names as synchronized if the final name sets do not match.
+Grok/Antigravity trees and bundled plugin/system skills are outside this Claude/Codex sync. Do not claim that every runtime has the same collection or that preserved versions are byte-identical.
 
-## Include an Atlas checkout when requested
+## Optional modes
 
-When the user also requests synchronization with their Prats Skill Atlas repository, read that checkout's instructions and inspect its dirty state first. Run `python scripts/sync_atlas.py --atlas-root <checkout> --dry-run --report <private-report.json>` to preflight publication. This adds Atlas-only names to the local catalogs and missing local packages to the Atlas Claude/Codex trees, plus missing shared Agents packages. It preserves existing package variants. Preview reports do not change skill folders.
+```sh
+python scripts/run_sync.py --dry-run --list
+python scripts/run_sync.py --atlas-root /path/to/prats-skill-atlas
+python scripts/run_sync.py --local-only
+python scripts/run_sync.py --refresh-catalog
+```
 
-Then run the same command without `--dry-run` within the user's authorized scope. The helper excludes dependency caches, credentials, and generated output from public packages, checks secret-shaped strings, and verifies file hashes. Public documentation substitutes portable project-root placeholders for local paths. The Tactile source kit retains source assets and documents regeneration of excluded library builds.
+Use preview only when requested; a normal invocation performs the sync. `--local-only` explicitly excludes Atlas. A missing or invalid Atlas checkout fails with configuration guidance rather than silently omitting it. The default private report is `LOCALAPPDATA/PratsSkillAtlas/last-sync.json`, or `~/.cache/PratsSkillAtlas/last-sync.json` when that variable is unavailable. Python 3.12+ is required; Atlas category/build steps require PowerShell 7 (`pwsh`).
 
-The default local helper also has a Windows fallback when the host permits creating files but denies moving a staged directory. Neither helper overwrites an existing skill package.
+`--claude-root`, `--codex-root`, `--agents-root`, and `--report` support explicit paths. Keep reports outside the public checkout. Supporting engines are [sync_atlas.py](scripts/sync_atlas.py) and [sync_skills.py](scripts/sync_skills.py); inspect them only for a concrete failure or requested change.
 
-After adding Atlas entries, run its organizer, catalog builder, and validator. Refresh README counts from the generated catalog. Review the task diff and report preserved same-name variants rather than claiming byte-identical catalogs. Publishing a commit or pushing requires the user's session authorization; requesting local sync alone does not authorize a public push. Never copy private reports or runtime payloads into the public repository.
+## Finish
+
+Report sync status, counts added to each side, and the number of preserved variants in a few lines. Zero additions is a successful already-synced result. A nonzero exit means incomplete: diagnose the named failure, retain existing work, and never claim parity from a partial run.
+
+The runner does not commit, push, deploy, modify this skill, or reconcile existing version differences. Perform separately requested Git publication only within the user's authorization and stage only relevant changes. Never include private reports, environment files, or unrelated website work in such a commit.

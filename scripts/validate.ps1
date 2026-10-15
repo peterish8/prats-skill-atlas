@@ -17,6 +17,8 @@ foreach ($relativeRoot in $rootNames) {
     foreach ($entry in $entries) {
         $content = Get-Content -Raw -LiteralPath (Join-Path $entry.Directory.FullName 'SKILL.md')
         if ([string]::IsNullOrWhiteSpace($content)) { throw "Empty SKILL.md: $($entry.Directory.FullName)" }
+        $entrypoint = @(Get-ChildItem -File -LiteralPath $entry.Directory.FullName | Where-Object { $_.Name -ceq 'SKILL.md' })
+        if ($entrypoint.Count -ne 1) { throw "Entrypoint must be named exactly SKILL.md: $($entry.Directory.FullName)" }
     }
     $total += $entries.Count
     Write-Host "$relativeRoot`: $($entries.Count) valid categorized skill packages"
